@@ -1,0 +1,1270 @@
+Jun 17 11:12 : exception: Failed to open '/home/ryan/.config/mpd/state': No such file or directory
+Jun 17 11:12 : update: added /Heaven and Hell (AKA Super Hyper Can Can).mp4
+Jun 17 11:12 : update: added /sus.mp3
+Jun 17 11:12 : update: added /Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm
+Jun 17 11:12 : update: added /Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4
+Jun 17 11:12 : update: added /Tally Hall - All Of My Friends (Electric Demo).mp4
+Jun 17 11:12 : update: added /【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」 【No Vocals, lol】 [irEzFWOitHI].webm
+Jun 17 11:12 : update: added /Hacking To The Gate _ Eurobeat Remix [nLRW7VKCRRw].webm
+Jun 17 11:12 : update: added /東方 Touhou Makina arrange #330 - Sunrise Ice [o4qe4Bu7A5M].webm
+Jun 17 11:12 : update: added /Ryu☆ - Second Heaven (Ryu0316 HardMix) [_QeaAo-2KBQ].webm
+Jun 17 11:12 : update: added /The Mind Electric (Orchestrated).mp3
+Jun 17 11:12 : update: added /Franz Ferdinand - Take Me Out.mp3
+Jun 17 11:12 : update: added /You Give Love A Bad Name _ Eurobeat Remix [vfTGfigzH_E].webm
+Jun 17 11:12 : update: added /Nightcore - Moonlight Shadow [pMPEodx4l90].webm
+Jun 17 11:13 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 17 11:13 : exception: Failed to open audio output
+Jun 17 11:13 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 17 11:15 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 17 11:15 : exception: Failed to open audio output
+Jun 17 11:16 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 17 11:16 : config: option 'device' on line 19 was not recognized
+Jun 17 11:16 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 17 11:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:16 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 17 11:16 : player: played "Hacking To The Gate _ Eurobeat Remix [nLRW7VKCRRw].webm"
+Jun 17 11:16 : config: option 'device' on line 19 was not recognized
+Jun 17 11:16 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 17 11:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:16 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 17 11:18 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 17 11:18 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 17 11:21 : player: played "Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4"
+Jun 17 11:44 : config: option 'device' on line 19 was not recognized
+Jun 17 11:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:44 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 17 11:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 17 11:45 : player: played "Hacking To The Gate _ Eurobeat Remix [nLRW7VKCRRw].webm"
+Jun 17 11:45 : exception: Failed to enable output "PipeWire Sound Server" (pulse); pa_context_connect() has failed: Connection refused
+Jun 17 11:45 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 17 11:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:45 : exception: Failed to enable output "PipeWire Sound Server" (pulse); pa_context_connect() has failed: Connection refused
+Jun 17 11:45 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix) [_QeaAo-2KBQ].webm"
+Jun 17 11:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:46 : player: played "Hacking To The Gate _ Eurobeat Remix [nLRW7VKCRRw].webm"
+Jun 17 11:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:49 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 11:49 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix) [_QeaAo-2KBQ].webm"
+Jun 17 11:49 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 17 11:50 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 17 11:50 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 17 11:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:50 : output: Failed to play on "PipeWire Sound Server" (pipewire): invalid message id:2 op:2 (No space left on device)
+Jun 17 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:51 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:51 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 11:55 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 17 12:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:03 : update: removing Hacking To The Gate _ Eurobeat Remix [nLRW7VKCRRw].webm
+Jun 17 12:03 : update: added /Hacking To The Gate _ Eurobeat Remix.webm
+Jun 17 12:04 : update: removing Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4
+Jun 17 12:04 : update: added /Yakusoku No Paradigm.mp4
+Jun 17 12:06 : update: removing Hacking To The Gate _ Eurobeat Remix.webm
+Jun 17 12:06 : update: added /Hacking To The Gate - Eurobeat Remix.webm
+Jun 17 12:07 : update: removing Hacking To The Gate - Eurobeat Remix.webm
+Jun 17 12:07 : update: added /Hacking To The Gate _ Eurobeat Remix.webm
+Jun 17 12:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:07 : update: removing Nightcore - Moonlight Shadow [pMPEodx4l90].webm
+Jun 17 12:07 : update: added /Nightcore - Moonlight Shadow.webm
+Jun 17 12:07 : player: played "Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4"
+Jun 17 12:07 : update: removing Ryu☆ - Second Heaven (Ryu0316 HardMix) [_QeaAo-2KBQ].webm
+Jun 17 12:07 : update: added /Ryu☆ - Second Heaven (Ryu0316 HardMix).webm
+Jun 17 12:07 : update: removing You Give Love A Bad Name _ Eurobeat Remix [vfTGfigzH_E].webm
+Jun 17 12:08 : update: added /You Give Love A Bad Name _ Eurobeat Remix.webm
+Jun 17 12:08 : update: removing Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm
+Jun 17 12:08 : update: added /Moonlight Shadow _ Eurobeat Remix.webm
+Jun 17 12:08 : update: removing 【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」 【No Vocals, lol】 [irEzFWOitHI].webm
+Jun 17 12:08 : update: added /【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm
+Jun 17 12:09 : update: removing 東方 Touhou Makina arrange #330 - Sunrise Ice [o4qe4Bu7A5M].webm
+Jun 17 12:09 : update: added /東方 Touhou Makina arrange #330 - Sunrise Ice.webm
+Jun 17 12:09 : player: played "sus.mp3"
+Jun 17 12:09 : exception: Not playing
+Jun 17 12:09 : exception: Not playing
+Jun 17 12:09 : exception: Not playing
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4; Failed to open '/home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4': No such file or directory
+Jun 17 12:09 : player: played "Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4; Failed to open '/home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4': No such file or directory
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:09 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:09 : player: played "sus.mp3"
+Jun 17 12:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:11 : update: added /INSTALL GENTOO (DO IT FAGGOT) [tAb7OID5lt8].webm
+Jun 17 12:11 : update: removing INSTALL GENTOO (DO IT FAGGOT) [tAb7OID5lt8].webm
+Jun 17 12:17 : update: added /A Piece of Magicmix.webm
+Jun 17 12:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 12:25 : player: played "A Piece of Magicmix.webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4; Failed to open '/home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4': No such file or directory
+Jun 17 12:58 : player: played "Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4; Failed to open '/home/ryan/music/Makise Kurisu Character Song - Yakusoku No Paradigm - English Subbed.mp4': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : player: played "Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm"
+Jun 17 12:58 : exception: Failed to decode /home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm; Failed to open '/home/ryan/music/Moonlight Shadow _ Eurobeat Remix [wTZwZy_6Dvo].webm': No such file or directory
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 12:58 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 17 12:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:03 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 17 13:04 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 17 13:04 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:10 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 13:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:11 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 17 13:12 : exception: Failed to open audio output
+Jun 17 13:15 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 17 13:19 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:19 : player: played "A Piece of Magicmix.webm"
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:22 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 17 13:22 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : player: played "A Piece of Magicmix.webm"
+Jun 17 13:23 : exception: Not playing
+Jun 17 13:23 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : player: played "A Piece of Magicmix.webm"
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:25 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 17 13:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:25 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 13:25 : exception: Not playing
+Jun 17 13:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:26 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 13:26 : exception: Not playing
+Jun 17 13:26 : exception: Not playing
+Jun 17 13:26 : exception: Not playing
+Jun 17 13:26 : exception: Not playing
+Jun 17 13:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:26 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 17 13:26 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 17 13:33 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 13:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:33 : player: played "A Piece of Magicmix.webm"
+Jun 17 13:35 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 13:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:35 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 13:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 13:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:37 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 13:42 : player: played "A Piece of Magicmix.webm"
+Jun 17 14:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:07 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 14:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:07 : player: played "A Piece of Magicmix.webm"
+Jun 17 14:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 14:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:09 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 14:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 14:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:17 : player: played "A Piece of Magicmix.webm"
+Jun 17 14:19 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 14:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:19 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 14:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 14:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:27 : player: played "A Piece of Magicmix.webm"
+Jun 17 14:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 14:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:29 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 14:53 : player: played "A Piece of Magicmix.webm"
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 14:58 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 17 15:25 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 17 16:47 : update: added /The Killers - Somebody Told Me (HQ).webm
+Jun 17 16:48 : update: added /Di Gi Charat- Party Night.webm
+Jun 17 16:48 : update: removing Di Gi Charat- Party Night.webm
+Jun 17 16:48 : update: added /Di Gi Charat - Party Night.webm
+Jun 17 16:49 : update: removing Di Gi Charat - Party Night.webm
+Jun 17 16:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 16:50 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 17 23:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 23:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 23:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 23:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 23:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 23:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 23:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 17 23:14 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 17 23:16 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 17 23:16 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 17 23:19 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 17 23:19 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 18 10:56 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 18 10:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 10:58 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 18 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:06 : player: played "A Piece of Magicmix.webm"
+Jun 18 11:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:13 : player: played "A Piece of Magicmix.webm"
+Jun 18 11:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:17 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 18 11:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:22 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 18 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:24 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 18 11:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:28 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jun 18 11:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:32 : player: played "Nightcore - Moonlight Shadow.webm"
+Jun 18 11:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:34 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 18 11:37 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 18 11:41 : player: played "The Mind Electric (Orchestrated).mp3"
+Jun 18 11:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:45 : player: played "Yakusoku No Paradigm.mp4"
+Jun 18 11:49 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:49 : player: played "You Give Love A Bad Name _ Eurobeat Remix.webm"
+Jun 18 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:51 : player: played "sus.mp3"
+Jun 18 11:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 11:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 11:55 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 18 11:59 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 18 14:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:40 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 18 14:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:41 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:41 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:41 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:42 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:42 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:42 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:42 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:42 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:43 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 18 14:44 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:45 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 18 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:46 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 18 14:47 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 18 14:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 18 14:50 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 18 14:52 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+'builder->data == ((void *)0) || builder->state.offset < sizeof(struct spa_pod) || builder->state.offset == (sizeof(struct spa_pod) + (((struct spa_pod*)(pod))->size))' failed at ../pipewire-0.3.52/src/modules/module-protocol-native.c:1353 assert_single_pod()
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : output: Failed to play on "PipeWire Sound Server" (pipewire): invalid message id:2 op:2 (No space left on device)
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 19 19:54 : exception: Not playing
+Jun 19 19:54 : exception: Not playing
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 19 19:54 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 19 19:54 : exception: Not playing
+Jun 19 19:54 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 19 19:54 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 19 19:54 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 21 16:23 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 21 16:23 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 21 16:23 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 21 20:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 21 20:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 21 20:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 21 20:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 21 20:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 21 20:29 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 23 16:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 16:52 : exception: Failed to open "PipeWire Sound Server" (pipewire); Failed to connect stream: Host is down
+Jun 23 16:53 : player: played "A Piece of Magicmix.webm"
+Jun 23 20:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:43 : player: played "A Piece of Magicmix.webm"
+Jun 23 20:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:43 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 23 20:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : player: played "A Piece of Magicmix.webm"
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : player: played "Nightcore - Moonlight Shadow.webm"
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : player: played "Nightcore - Moonlight Shadow.webm"
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : player: played "Nightcore - Moonlight Shadow.webm"
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 20:48 : player: played "A Piece of Magicmix.webm"
+Jun 23 23:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 23 23:18 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 23 23:19 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 23 23:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 23 23:22 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 23 23:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 23 23:26 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 23 23:29 : player: played "The Mind Electric (Orchestrated).mp3"
+Jun 23 23:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:34 : player: played "Yakusoku No Paradigm.mp4"
+Jun 23 23:34 : output: Failed to play on "PipeWire Sound Server" (pipewire): invalid message id:2 op:2 (No space left on device)
+Jun 23 23:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:34 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 23 23:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:34 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 23 23:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:35 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 23 23:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:35 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 23 23:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:37 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 23 23:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 23 23:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 23 23:43 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 23 23:47 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 23 23:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 00:22 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 24 00:31 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 24 00:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 00:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 00:32 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 24 00:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 00:38 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 24 01:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 01:13 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 24 01:14 : player: played "A Piece of Magicmix.webm"
+Jun 24 01:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 01:29 : player: played "A Piece of Magicmix.webm"
+Jun 24 01:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 01:33 : player: played "A Piece of Magicmix.webm"
+Jun 24 01:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 01:52 : player: played "A Piece of Magicmix.webm"
+Jun 24 15:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 16:25 : player: played "A Piece of Magicmix.webm"
+Jun 24 16:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 16:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 17:00 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 24 17:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 17:02 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 24 22:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:13 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 24 22:13 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 24 22:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:14 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 24 22:19 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 22:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:19 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jun 24 22:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 22:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:22 : player: played "Nightcore - Moonlight Shadow.webm"
+Jun 24 22:24 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 22:24 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 24 22:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:28 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 24 22:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 22:31 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 24 22:34 : player: played "The Mind Electric (Orchestrated).mp3"
+Jun 24 22:36 : player: played "Yakusoku No Paradigm.mp4"
+Jun 24 22:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:39 : player: played "Yakusoku No Paradigm.mp4"
+Jun 24 22:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 22:42 : player: played "You Give Love A Bad Name _ Eurobeat Remix.webm"
+Jun 24 22:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:44 : player: played "sus.mp3"
+Jun 24 22:45 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 24 22:45 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 24 22:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 22:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 24 22:48 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 24 22:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 24 22:55 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 25 16:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 25 16:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 25 16:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 25 16:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 25 16:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 25 16:56 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 27 21:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 27 21:47 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 27 21:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:50 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 27 21:50 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 27 21:50 : exception: Not playing
+Jun 27 21:51 : exception: Not playing
+Jun 27 21:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:51 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 27 21:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:51 : output: Failed to play on "PipeWire Sound Server" (pipewire): invalid message id:2 op:2 (No space left on device)
+Jun 27 21:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:52 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 27 21:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 27 21:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:57 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jun 27 21:57 : player: played "Nightcore - Moonlight Shadow.webm"
+Jun 27 21:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:58 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 27 21:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:58 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 27 21:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 21:59 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 27 21:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 22:00 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 27 22:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 27 22:00 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 27 22:01 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 28 21:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 28 21:47 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 28 21:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 28 21:47 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 28 21:47 : exception: Not playing
+Jun 28 21:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 28 21:47 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 28 21:51 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:17 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 30 00:17 : player: played "A Piece of Magicmix.webm"
+Jun 30 00:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:23 : player: played "A Piece of Magicmix.webm"
+Jun 30 00:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:38 : output: Failed to play on "PipeWire Sound Server" (pipewire): connection error
+Jun 30 00:38 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 30 00:38 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jun 30 00:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 00:47 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 30 00:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 00:50 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 30 00:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 00:54 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 30 00:57 : player: played "The Mind Electric (Orchestrated).mp3"
+Jun 30 00:57 : player: played "Yakusoku No Paradigm.mp4"
+Jun 30 17:58 : player: played "Yakusoku No Paradigm.mp4"
+Jun 30 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:14 : player: played "A Piece of Magicmix.webm"
+Jun 30 19:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:18 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 30 19:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:23 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 30 19:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:25 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jun 30 19:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:30 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jun 30 19:33 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:33 : player: played "Nightcore - Moonlight Shadow.webm"
+Jun 30 19:35 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:35 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jun 30 19:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:38 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jun 30 19:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:42 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jun 30 19:45 : player: played "The Mind Electric (Orchestrated).mp3"
+Jun 30 19:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:50 : player: played "Yakusoku No Paradigm.mp4"
+Jun 30 19:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:53 : player: played "You Give Love A Bad Name _ Eurobeat Remix.webm"
+Jun 30 19:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:58 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 19:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 19:58 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jun 30 20:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 20:05 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jun 30 20:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 21:17 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:21 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 30 21:21 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jun 30 21:21 : exception: Not playing
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+'builder->data == ((void *)0) || builder->state.offset < sizeof(struct spa_pod) || builder->state.offset == (sizeof(struct spa_pod) + (((struct spa_pod*)(pod))->size))' failed at ../pipewire-0.3.52/src/modules/module-protocol-native.c:1353 assert_single_pod()
+'builder->data == ((void *)0) || builder->state.offset < sizeof(struct spa_pod) || builder->state.offset == (sizeof(struct spa_pod) + (((struct spa_pod*)(pod))->size))' failed at ../pipewire-0.3.52/src/modules/module-protocol-native.c:1353 assert_single_pod()
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:21 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:21 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:21 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:21 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:22 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:22 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jun 30 21:32 : player: played "A Piece of Magicmix.webm"
+Jun 30 21:34 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jun 30 21:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jun 30 21:34 : player: played "A Piece of Magicmix.webm"
+Jul 01 13:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:40 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 01 13:40 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:45 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jul 01 13:48 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jul 01 13:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:49 : player: played "A Piece of Magicmix.webm"
+Jul 01 13:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : player: played "A Piece of Magicmix.webm"
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 01 13:55 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jul 01 13:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 13:59 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jul 01 14:01 : output: Failed to play on "PipeWire Sound Server" (pulse): disconnected
+Jul 01 14:02 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 01 14:02 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jul 01 14:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 14:05 : player: played "The Mind Electric (Orchestrated).mp3"
+Jul 01 14:05 : player: played "Yakusoku No Paradigm.mp4"
+Jul 01 14:05 : exception: Not playing
+Jul 01 14:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 14:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 14:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 14:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 14:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 14:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 14:06 : player: played "A Piece of Magicmix.webm"
+Jul 01 15:58 : exception: Not playing
+Jul 01 15:58 : exception: Not playing
+Jul 01 16:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 16:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 16:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 16:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 01 16:06 : player: played "A Piece of Magicmix.webm"
+Jul 02 15:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:14 : player: played "A Piece of Magicmix.webm"
+Jul 02 15:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:16 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jul 02 15:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:20 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jul 02 15:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 15:25 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jul 02 15:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:27 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jul 02 15:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 15:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:31 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jul 02 15:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 15:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 15:35 : player: played "Nightcore - Moonlight Shadow.webm"
+Jul 02 15:36 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jul 02 16:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 16:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 16:21 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jul 02 19:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 19:16 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jul 02 19:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 19:17 : output: Failed to play on "PipeWire Sound Server" (pulse): disconnected
+Jul 02 19:17 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jul 02 20:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 20:24 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jul 02 20:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 20:30 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 20:30 : player: played "Ryu☆ - Second Heaven (Ryu0316 HardMix).webm"
+Jul 02 20:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 20:33 : player: played "Tally Hall - All Of My Friends (Electric Demo).mp4"
+Jul 02 20:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 20:36 : player: played "The Killers - Somebody Told Me (HQ).webm"
+Jul 02 20:40 : player: played "The Mind Electric (Orchestrated).mp3"
+Jul 02 20:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 20:44 : player: played "Yakusoku No Paradigm.mp4"
+Jul 02 20:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 20:48 : player: played "You Give Love A Bad Name _ Eurobeat Remix.webm"
+Jul 02 20:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 20:50 : player: played "sus.mp3"
+Jul 02 20:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 20:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 20:53 : player: played "【東方Eurobeat】 Beloved Tomboyish Girl 「TurboAutism」.webm"
+Jul 02 21:00 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 21:00 : player: played "東方 Touhou Makina arrange #330 - Sunrise Ice.webm"
+Jul 02 21:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 21:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 21:46 : player: played "Franz Ferdinand - Take Me Out.mp3"
+Jul 02 21:50 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 21:51 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jul 02 21:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 21:52 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jul 02 21:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 21:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 21:57 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jul 02 21:57 : player: played "Nightcore - Moonlight Shadow.webm"
+Jul 02 22:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:26 : player: played "Nightcore - Moonlight Shadow.webm"
+Jul 02 22:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:26 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jul 02 22:26 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jul 02 22:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 22:35 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jul 02 23:31 : exception: Failed to access /home/ryan/music/soundfonts/GeneralUser GS v1.471.sf2: Permission denied
+Jul 02 23:31 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 02 23:31 : update: added /Franz Ferdinand - Take Me Out (Video) [Ijk4j-r7qPA].webm
+Jul 02 23:31 : update: removing Franz Ferdinand - Take Me Out.mp3
+Jul 02 23:31 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 02 23:32 : update: removing Franz Ferdinand - Take Me Out (Video) [Ijk4j-r7qPA].webm
+Jul 02 23:32 : update: added /Franz Ferdinand - Take Me Out.webm
+Jul 02 23:32 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jul 02 23:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:36 : player: played "Franz Ferdinand - Take Me Out.webm"
+Jul 02 23:36 : player: played "Hacking To The Gate _ Eurobeat Remix.webm"
+Jul 02 23:51 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 02 23:51 : update: added /[IIDX SIRIUS] bloomin' feeling _ Ryu☆ [qM5N2ad6tXs].webm
+Jul 02 23:51 : update: removing [IIDX SIRIUS] bloomin' feeling _ Ryu☆ [qM5N2ad6tXs].webm
+Jul 02 23:51 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 02 23:51 : update: added /Ryu☆ - Bloomin' Feeling.webm
+Jul 02 23:53 : exception: Not playing
+Jul 02 23:53 : exception: Not playing
+Jul 02 23:53 : exception: Not playing
+Jul 02 23:53 : exception: Not playing
+Jul 02 23:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 02 23:53 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jul 03 09:59 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 03 09:59 : exception: Failed to access /home/ryan/music/soundfonts/GeneralUser GS v1.471.sf2: Permission denied
+Jul 03 10:40 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 03 10:40 : exception: Failed to access /home/ryan/music/soundfonts/GeneralUser GS v1.471.sf2: Permission denied
+Jul 03 11:51 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 03 11:51 : exception: Failed to access /home/ryan/music/soundfonts/GeneralUser GS v1.471.sf2: Permission denied
+Jul 03 12:10 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 03 12:10 : exception: Failed to access /home/ryan/music/soundfonts/GeneralUser GS v1.471.sf2: Permission denied
+Jul 03 12:46 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 03 12:46 : exception: Failed to access /home/ryan/music/soundfonts/GeneralUser GS v1.471.sf2: Permission denied
+Jul 03 14:43 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jul 03 14:44 : output: Failed to play on "PipeWire Sound Server" (pulse): disconnected
+Jul 03 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jul 03 14:45 : player: played "Heaven and Hell (AKA Super Hyper Can Can).mp4"
+Jul 03 14:46 : output: Failed to pause "PipeWire Sound Server" (pulse): failed to connect the stream: Connection terminated
+Jul 03 14:48 : player: played "Moonlight Shadow _ Eurobeat Remix.webm"
+Jul 03 14:53 : exception: Failed to open '/home/ryan/music/soundfonts/.mpdignore': Permission denied
+Jul 03 14:53 : exception: Failed to access /home/ryan/music/soundfonts/GeneralUser GS v1.471.sf2: Permission denied
