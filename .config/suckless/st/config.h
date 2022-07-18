@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:size=16:antialias=true:autohint=true";
-static char *font2[] = { "Liberation Mono:size=16:antialias=true:autohint=true", "JoyPixels:size=16:antialias=true:autohint=true", "NotoColorEmoji:size=16:antialias=true:autohint=true", "fontawesome:size=16:antialias=true:autohint=true" };
-static int borderpx = 4;
+static char *font = "Literation Mono Nerd Font:size=16:antialias=true:autohint=true";
+static char *font2[] = { "Literation Mono Nerd Font:size=16:antialias=true:autohint=true", "JoyPixels:size=16:antialias=true:autohint=true", "NotoColorEmoji:size=16:antialias=true:autohint=true", "fontawesome:size=16:antialias=true:autohint=true" }
+static int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
