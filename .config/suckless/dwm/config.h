@@ -180,7 +180,7 @@ static Key keys[] = {
 	{ MODKEY,			                XK_e,	    	    spawn,		    SHCMD(TERMINAL " -e neomutt ; pkill -RTMIN+12 dwmblocks; rmdir ~/.abook") },
 	{ MODKEY|ShiftMask,		            XK_e,	    	    spawn,		    SHCMD(TERMINAL " -e abook -C ~/.config/abook/abookrc --datafile ~/.config/abook/addressbook") },
 	{ MODKEY,			                XK_r,	    	    spawn,		    SHCMD(TERMINAL " -e lfub") },
-	{ MODKEY|ShiftMask,		            XK_r,	    	    spawn,		    SHCMD(TERMINAL " -e bpytop") },
+	{ MODKEY|ShiftMask,		            XK_r,	    	    spawn,		    SHCMD(TERMINAL " -e btop") },
 	{ MODKEY,			                XK_t,		        setlayout,	    {.v = &layouts[0]} }, /* tile */
 	{ MODKEY|ShiftMask,		            XK_t,		        setlayout,	    {.v = &layouts[1]} }, /* bstack */
 	{ MODKEY,			                XK_y,		        setlayout,	    {.v = &layouts[2]} }, /* spiral */
@@ -289,7 +289,7 @@ static Key keys[] = {
 	{ 0, XF86XK_WWW,		                                spawn,		    SHCMD("$BROWSER") },
 	{ 0, XF86XK_DOS,		                                spawn,		    SHCMD(TERMINAL) },
 	{ 0, XF86XK_ScreenSaver,	                            spawn,		    SHCMD("slock & xset dpms force off; mpc pause; pauseallmpv") },
-	{ 0, XF86XK_TaskPane,		                            spawn,		    SHCMD(TERMINAL " -e bpytop") },
+	{ 0, XF86XK_TaskPane,		                            spawn,		    SHCMD(TERMINAL " -e btop") },
 	{ 0, XF86XK_Mail,		                                spawn,		    SHCMD(TERMINAL " -e neomutt ; pkill -RTMIN+12 dwmblocks") },
 	{ 0, XF86XK_MyComputer,		                            spawn,		    SHCMD(TERMINAL " -e lfub /") },
 	/* { 0, XF86XK_Battery,		                            spawn,		    SHCMD("") }, */

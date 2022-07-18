@@ -19,13 +19,12 @@ export PATH="/usr/lib/ccache/bin:$HOME/.local/bin:$HOME/.local/bin/statusbar:${P
 # Define aliases
 alias ani-cli="ani-cli -q best"
 alias brave="/usr/bin/brave-bin"
-alias feh="feh --scale-down --auto-zoom"
-alias htop="bpytop"
 alias kernelupdate="cd /usr/src/linux && doas make clean -j17 && doas make modules_prepare -j17 && time doas make -j17 && doas make modules_install -j17 && \
     doas make install && doas emerge @module-rebuild && doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias lf="lfub"
-alias steam="steam -noverifyfiles"
-alias top="bpytop"
+alias ls="lsd"
+alias links="links -g"
+alias top="btop"
 alias vimake="doas vi /etc/portage/make.conf"
 alias visudo="doas visudo"
 alias vivim="vi ~/.vimrc"
