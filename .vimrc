@@ -27,7 +27,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'ap/vim-css-color', { 'for': [ 'css', 'htm', 'html', 'scss', 'txt' ] }
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'joshdick/onedark.vim'
 Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'

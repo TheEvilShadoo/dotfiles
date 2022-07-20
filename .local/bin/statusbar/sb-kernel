@@ -1,0 +1,14 @@
+#!/bin/sh
+# Displays the currently running kernel version
+
+case $BLOCK_BUTTON in
+    1) setsid -f "$TERMINAL" -e mpv '/home/ryan/videos/Install Gentoo.webm' ;;
+    2) notify-send "`eselect kernel list`" ;;
+    3) notify-send -- "🐧 Kernel module" "- Shows kernel version.
+- Left click to view the installation wizard.
+- Middle click to show available kernel versions." ;;
+    6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+kern="$(uname -r)"
+echo -e "🐧 $kern "

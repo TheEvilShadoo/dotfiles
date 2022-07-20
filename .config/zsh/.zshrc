@@ -62,6 +62,6 @@ fi
 
 # THE FUN STUFF...
 clear
-~/.local/share/Color-Scripts/color-scripts/mouseface
+~/.local/share/color-scripts/mouseface
 neofetch
 echo "let's all love lain\n" | lolcat
