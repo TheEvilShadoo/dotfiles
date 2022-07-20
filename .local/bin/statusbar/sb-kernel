@@ -11,4 +11,4 @@ case $BLOCK_BUTTON in
 esac
 
 kern="$(uname -r)"
-echo -e "🐧 $kern "
+echo -e "🐧 $kern"
