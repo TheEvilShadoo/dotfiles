@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Literation Mono Nerd Font:size=16:antialias=true:autohint=true";
-static char *font2[] = { "Literation Mono Nerd Font:size=16:antialias=true:autohint=true", "JoyPixels:size=16:antialias=true:autohint=true", "NotoColorEmoji:size=16:antialias=true:autohint=true", "fontawesome:size=16:antialias=true:autohint=true" };
+static char *font2[] = { "Literation Mono Nerd Font:size=16:antialias=true:autohint=true", "JoyPixels:size=16:antialias=true:autohint=true", "NotoColorEmoji:size=16:antialias=true:autohint=true", "fontawesome:size=16:antialias=true:autohint=true", "DejaVu Sans Mono"};
 static int borderpx = 2;
 
 /*
