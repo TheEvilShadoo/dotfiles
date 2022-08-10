@@ -1,6 +1,7 @@
 LICENSE
-README.md
+README\.md
 issue
 make.conf
-.git
-.zcompdump*
+\.git
+\.zcompdump*
+mpd
