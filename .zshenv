@@ -9,8 +9,8 @@ export PATH="/usr/lib/ccache/bin:$HOME/.local/bin:$HOME/.local/bin/statusbar:${P
 export SAVEHIST=10000000
 export SDL_SOUNDFONTS="$HOME/music/soundfonts/GeneralUser GS v1.471.sf2"
 export ZDOTDIR="$HOME/.config/zsh"
-export ZSH="$HOME/.oh-my-zsh"
 export ZSH_COMPDUMP="$HOME/.cache/zsh/.zcompdump-$HOST"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Default programs:
 export BROWSER="brave-bin"
