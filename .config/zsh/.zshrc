@@ -1,6 +1,6 @@
 # Zsh settings
 autoload -U compinit
-compinit
+compinit -d "~/.cache/zsh/zcompdump-$HOST"
 
 # Oh My Zsh settings
 ZSH_THEME="dracula"
