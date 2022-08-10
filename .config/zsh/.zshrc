@@ -19,7 +19,7 @@ export PATH="/usr/lib/ccache/bin:$HOME/.local/bin:$HOME/.local/bin/statusbar:${P
 # Define aliases
 alias ani-cli="ani-cli -q best"
 alias brave="/usr/bin/brave-bin"
-alias doas="nocorrect doas "
+alias doas=$'nocorrect doas\t'
 alias du="du -h"
 alias kernelupdate="cd /usr/src/linux && doas make clean -j16 && doas make modules_prepare -j16 && time doas make -j16 && doas make modules_install -j16 && \
     doas make install && doas emerge @module-rebuild && doas grub-mkconfig -o /boot/grub/grub.cfg"
