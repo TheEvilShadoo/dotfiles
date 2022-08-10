@@ -1,5 +1,5 @@
 " TheEvilShadoo's vimrc
-syntax on
+syntax enable
 set expandtab
 set incsearch
 set laststatus=2
