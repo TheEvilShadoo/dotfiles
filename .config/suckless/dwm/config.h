@@ -178,7 +178,7 @@ static Key keys[] = {
     { MODKEY,                           XK_q,               killclient,     {0} },
     { MODKEY|ShiftMask,                 XK_q,               spawn,          SHCMD("sysact") },
     { MODKEY,                           XK_w,               spawn,          SHCMD("$BROWSER") },
-    { MODKEY|ShiftMask,                 XK_w,               spawn,          SHCMD(TERMINAL " -e sudo nmtui") },
+    /* { MODKEY|ShiftMask,              XK_w,               spawn,          SHCMD(TERMINAL " -e doas nmtui") }, */
     { MODKEY,                           XK_e,               spawn,          SHCMD(TERMINAL " -e neomutt ; pkill -RTMIN+12 dwmblocks; rmdir ~/.abook") },
     { MODKEY|ShiftMask,                 XK_e,               spawn,          SHCMD(TERMINAL " -e abook -C ~/.config/abook/abookrc --datafile ~/.config/abook/addressbook") },
     { MODKEY,                           XK_r,               spawn,          SHCMD(TERMINAL " -e lfub") },
@@ -231,8 +231,8 @@ static Key keys[] = {
     /* V is automatically bound above in STACKKEYS */
     { MODKEY,                           XK_b,               togglebar,      {0} },
     { MODKEY|ShiftMask,                 XK_b,               toggleextrabar, {0} },
-    { MODKEY,                           XK_n,               spawn,          SHCMD(TERMINAL " -e nvim -c VimwikiIndex") },
-    { MODKEY|ShiftMask,                 XK_n,               spawn,          SHCMD(TERMINAL " -e newsboat; pkill -RTMIN+6 dwmblocks") },
+    /* { MODKEY,                           XK_n,               spawn,          SHCMD(TERMINAL " -e vim -c VimwikiIndex") }, */
+    /* { MODKEY|ShiftMask,                 XK_n,               spawn,          SHCMD(TERMINAL " -e newsboat; pkill -RTMIN+6 dwmblocks") }, */
     { MODKEY,                           XK_m,               spawn,          SHCMD(TERMINAL " -e ncmpcpp") },
     { MODKEY|ShiftMask,                 XK_m,               spawn,          SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
     { MODKEY,                           XK_comma,           spawn,          SHCMD("mpc prev") },
@@ -287,7 +287,7 @@ static Key keys[] = {
     { 0, XF86XK_AudioMicMute,                               spawn,          SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle") },
     { 0, XF86XK_PowerOff,                                   spawn,          SHCMD("sysact") },
     { 0, XF86XK_Calculator,                                 spawn,          SHCMD(TERMINAL " -e bc -l") },
-    { 0, XF86XK_Sleep,                                      spawn,          SHCMD("sudo -A zzz") },
+    /* { 0, XF86XK_Sleep,                                   spawn,          SHCMD("sudo -A zzz") }, */
     { 0, XF86XK_WWW,                                        spawn,          SHCMD("$BROWSER") },
     { 0, XF86XK_DOS,                                        spawn,          SHCMD(TERMINAL) },
     { 0, XF86XK_ScreenSaver,                                spawn,          SHCMD("slock & xset dpms force off; mpc pause; pauseallmpv") },
