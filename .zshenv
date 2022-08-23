@@ -13,7 +13,7 @@ export ZSH_COMPDUMP="$HOME/.cache/zsh/.zcompdump-$HOST"
 export ZSH="$HOME/.oh-my-zsh"
 
 # Default programs:
-export BROWSER="brave-bin"
+export BROWSER="librewolf"
 export EDITOR="vim"
 export FILE="pcmanfm"
 export TERMINAL="st"
