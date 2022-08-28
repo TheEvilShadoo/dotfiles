@@ -13,5 +13,5 @@ ckb-next --background &
 discord --start-minimized &
 xscreensaver --no-splash &
 activate-linux -wd -c .756-.588-.996-1 &
-# redshift &
+redshift &
 exec dwm
