@@ -25,7 +25,6 @@ alias kernelupdate="cd /usr/src/linux && doas make clean -j16 && doas make modul
 alias lf="lfub"
 alias ls="lsd"
 alias links="links -g"
-alias pip="pip --user ryan"
 alias top="btop"
 alias vimake="doas vim /etc/portage/make.conf"
 alias vivim="vim ~/.vimrc"
