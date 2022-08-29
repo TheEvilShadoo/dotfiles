@@ -37,7 +37,8 @@ alias ytfzf="ytfzf -t"
 
 # Define Dracula TTY colorscheme and TTY-specific aliases
 if [ "$TERM" = "linux" ]; then
-    2>/dev/null 1>&2 dbus-launch gentoo-pipewire-launcher &
+    #2>/dev/null 1>&2 dbus-launch gentoo-pipewire-launcher &
+    #dbus-launch gentoo-pipewire-launcher > /dev/null 2>&1 &
 	printf %b '\e[40m' '\e[8]' # set default background to color 0 'dracula-bg'
 	printf %b '\e[37m' '\e[8]' # set default foreground to color 7 'dracula-fg'
 	printf %b '\e]P0282a36'    # redefine 'black'          as 'dracula-bg'
