@@ -2,10 +2,7 @@
 
 # A dmenu wrapper script for system functions.
 export WM="dwm"
-case "$(readlink -f /sbin/init)" in
-	*systemd*) ctl='systemctl' ;;
-	*) ctl='loginctl' ;;
-esac
+export ctl="loginctl"
 
 wmpid(){ # This function is needed if there are multiple instances of the window manager.
 	tree="$(pstree -ps $$)"
@@ -17,8 +14,8 @@ case "$(printf "🔒 lock\n🚪 leave $WM\n♻️ renew $WM\n🔃 reboot\n🖥�
 	'🔒 lock') xscreensaver-command -lock ;;
 	"🚪 leave $WM") kill -TERM "$(wmpid)"; killall pipewire; 2>/dev/null 1>&2 dbus-launch gentoo-pipewire-launcher & ;;
 	"♻️ renew $WM") killall steam; kill -HUP "$(wmpid)" ;;
-	'🔃 reboot') $ctl reboot -i ;;
-	'🖥️shutdown') $ctl poweroff -i ;;
+	'🔃 reboot') $ctl reboot ;;
+	'🖥️shutdown') $ctl poweroff ;;
 	'📺 display off') xset dpms force off ;;
 	*) exit 1 ;;
 esac

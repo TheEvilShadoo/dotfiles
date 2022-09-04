@@ -21,6 +21,8 @@ nnoremap <F3> :UndotreeToggle<CR>
 nnoremap <F4> :TlistToggle<CR>
 nnoremap <F5> :.w !sh<CR>
 nnoremap <F6> :PymodeRun<CR>
+nnoremap <F11> :N<CR>
+nnoremap <F12> :n<CR>
 
 " Vim-Plug plugins
 call plug#begin('~/.vim/plugged')
