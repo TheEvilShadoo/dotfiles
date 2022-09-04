@@ -14,8 +14,8 @@ case "$(printf "🔒 lock\n🚪 leave $WM\n♻️ renew $WM\n🔃 reboot\n🖥�
 	'🔒 lock') xscreensaver-command -lock ;;
 	"🚪 leave $WM") kill -TERM "$(wmpid)"; killall pipewire; 2>/dev/null 1>&2 dbus-launch gentoo-pipewire-launcher & ;;
 	"♻️ renew $WM") killall steam; kill -HUP "$(wmpid)" ;;
-	'🔃 reboot') $ctl reboot ;;
-	'🖥️shutdown') $ctl poweroff ;;
+	'🔃 reboot') $ctl reboot -i ;;
+	'🖥️shutdown') $ctl poweroff -i ;;
 	'📺 display off') xset dpms force off ;;
 	*) exit 1 ;;
 esac
