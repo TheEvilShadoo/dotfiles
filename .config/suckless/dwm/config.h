@@ -179,8 +179,8 @@ static Key keys[] = {
     { MODKEY|ShiftMask,                 XK_q,               spawn,          SHCMD("sysact") },
     { MODKEY,                           XK_w,               spawn,          SHCMD("$BROWSER") },
     /* { MODKEY|ShiftMask,              XK_w,               spawn,          SHCMD(TERMINAL " -e doas nmtui") }, */
-    { MODKEY,                           XK_e,               spawn,          SHCMD(TERMINAL " -e thunderbird; pkill -RTMIN+12 dwmblocks") },
-    /* { MODKEY|ShiftMask,                 XK_e,               spawn,          SHCMD("") }, */
+    { MODKEY,                           XK_e,               spawn,          SHCMD("thunderbird; pkill -RTMIN+12 dwmblocks") },
+    /* { MODKEY|ShiftMask,              XK_e,               spawn,          SHCMD("") }, */
     { MODKEY,                           XK_r,               spawn,          SHCMD(TERMINAL " -e lfub") },
     { MODKEY|ShiftMask,                 XK_r,               spawn,          SHCMD(TERMINAL " -e btop") },
     { MODKEY,                           XK_t,               setlayout,      {.v = &layouts[0]} }, /* tile */
@@ -231,8 +231,8 @@ static Key keys[] = {
     /* V is automatically bound above in STACKKEYS */
     { MODKEY,                           XK_b,               togglebar,      {0} },
     { MODKEY|ShiftMask,                 XK_b,               toggleextrabar, {0} },
-    /* { MODKEY,                           XK_n,               spawn,          SHCMD(TERMINAL " -e vim -c VimwikiIndex") }, */
-    /* { MODKEY|ShiftMask,                 XK_n,               spawn,          SHCMD(TERMINAL " -e newsboat; pkill -RTMIN+6 dwmblocks") }, */
+    /* { MODKEY,                        XK_n,               spawn,          SHCMD(TERMINAL " -e vim -c VimwikiIndex") }, */
+    /* { MODKEY|ShiftMask,              XK_n,               spawn,          SHCMD(TERMINAL " -e newsboat; pkill -RTMIN+6 dwmblocks") }, */
     { MODKEY,                           XK_m,               spawn,          SHCMD(TERMINAL " -e ncmpcpp") },
     { MODKEY|ShiftMask,                 XK_m,               spawn,          SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
     { MODKEY,                           XK_comma,           spawn,          SHCMD("mpc prev") },
