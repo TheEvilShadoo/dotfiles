@@ -33,7 +33,7 @@ Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'yegappan/taglist'
-" Plug 'dense-analysis/ale'
+Plug 'vim-syntastic/syntastic'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'ycm-core/YouCompleteMe'
 " Plug 'vimsence/vimsence'
@@ -56,6 +56,16 @@ let g:pymode_syntax_all = 1
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
+
+" Syntastic plugin config
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_ebuild_checkers = ['pkgcheck']
 
 " Set TTY colorscheme when running on a TTY
 if $TERM != "linux"
