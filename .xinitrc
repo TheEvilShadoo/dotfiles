@@ -15,4 +15,4 @@ discord --start-minimized &
 xscreensaver --no-splash &
 activate-linux -wd -c .756-.588-.996-1 &
 redshift &
-exec dwm
+exec dbus-launch --sh-syntax --exit-with-session dwm
