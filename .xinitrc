@@ -13,6 +13,6 @@ steam -silent -noverifyfiles &
 ckb-next --background &
 discord --start-minimized &
 xscreensaver --no-splash &
-activate-linux -wd -c .756-.588-.996-1 &
+activate-linux -wd -c .756-.588-.996-1 -H "-75" &
 redshift &
 exec dbus-launch --sh-syntax --exit-with-session dwm
