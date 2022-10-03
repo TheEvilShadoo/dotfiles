@@ -6,6 +6,7 @@
 
 case $BLOCK_BUTTON in
 	1) setsid -f "$TERMINAL" -e bmon ;;
+    2) setsid -f "$TERMINAL" -e btop ;;
 	3) notify-send "🌐 Network traffic module" "🔻: Traffic received
 🔺: Traffic transmitted" ;;
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
