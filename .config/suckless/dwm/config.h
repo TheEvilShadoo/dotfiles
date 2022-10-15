@@ -66,18 +66,18 @@ static const Rule rules[] = {
      *  WM_CLASS(STRING) = instance, class
      *  WM_NAME(STRING) = title
      */
-    /* class            instance    title           tags mask   switchtotag isfloating  isterminal  noswallow   monitor */
-    { NULL,             NULL,       "Event Tester", 0,          0,          0,          0,          1,          -1 },
-    { TERMCLASS,        NULL,       NULL,           0,          0,          0,          1,          0,          -1 },
-    { TERMCLASS,        "spterm",   NULL,           SPTAG(0),   0,          1,          1,          0,          -1 },
-    { TERMCLASS,        "spcalc",   NULL,           SPTAG(1),   0,          1,          1,          0,          -1 },
-    { "Gimp",           NULL,       NULL,           1 << 0,     1,          0,          0,          0,          -1 },
-    { "librewolf",      NULL,       NULL,           1 << 2,     1,          0,          0,          0,          -1 },
-    { "Steam",          NULL,       NULL,           1 << 3,     1,          0,          0,          0,          -1 },
-    { "discord",        NULL,       NULL,           1 << 4,     1,          0,          0,          0,          -1 },
-    { "Pcmanfm",        NULL,       NULL,           1 << 5,     1,          0,          0,          0,          -1 },
-    { "thunderbird",    NULL,       NULL,           1 << 6,     1,          0,          0,          0,          -1 },
-    { TERMCLASS,        "ncmpcpp",  NULL,           1 << 7,     1,          0,          1,          0,          -1 },
+    /* class            instance            title           tags mask   switchtotag isfloating  isterminal  noswallow   monitor */
+    { NULL,             NULL,               "Event Tester", 0,          0,          0,          0,          1,          -1 },
+    { TERMCLASS,        NULL,               NULL,           0,          0,          0,          1,          0,          -1 },
+    { TERMCLASS,        "spterm",           NULL,           SPTAG(0),   0,          1,          1,          0,          -1 },
+    { TERMCLASS,        "spcalc",           NULL,           SPTAG(1),   0,          1,          1,          0,          -1 },
+    { "Gimp",           NULL,               NULL,           1 << 0,     1,          0,          0,          0,          -1 },
+    { "librewolf",      NULL,               NULL,           1 << 2,     1,          0,          0,          0,          -1 },
+    { "Steam",          NULL,               NULL,           1 << 3,     1,          0,          0,          0,          -1 },
+    { "discord",        NULL,               NULL,           1 << 4,     1,          0,          0,          0,          -1 },
+    { "Pcmanfm",        NULL,               NULL,           1 << 5,     1,          0,          0,          0,          -1 },
+    { "thunderbird",    NULL,               NULL,           1 << 6,     1,          0,          0,          0,          -1 },
+    { TERMCLASS,        "ncmpcpp",          NULL,           1 << 7,     1,          0,          1,          0,          -1 },
 };
 
 /* layout(s) */
