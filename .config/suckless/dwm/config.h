@@ -5,7 +5,7 @@
 #define TERMCLASS "St"
 
 /* appearance */
-static unsigned int borderpx  = 2;        /* border pixel of windows */
+static unsigned int borderpx  = 3;        /* border pixel of windows */
 static unsigned int snap      = 12;       /* snap pixel */
 static unsigned int gappih    = 20;       /* horiz inner gap between windows */
 static unsigned int gappiv    = 10;       /* vert inner gap between windows */
@@ -46,6 +46,9 @@ static const unsigned int systrayiconsize = 100; /* systray icon size in px */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;        /* 0 means no systray */
 
+/* startup programs */
+static const char **startup_programs[] = { "qbittorrent", };
+
 typedef struct {
     const char *name;
     const void *cmd;
@@ -65,19 +68,19 @@ static const Rule rules[] = {
     /* xprop(1):
      *  WM_CLASS(STRING) = instance, class
      *  WM_NAME(STRING) = title
-    */
-    /* class            instance    title           tags mask   isfloating  isterminal  noswallow   monitor */
-    { NULL,             NULL,       "Event Tester", 0,          0,          0,          1,          -1 },
-    { TERMCLASS,        NULL,       NULL,           0,          0,          1,          0,          -1 },
-    { TERMCLASS,        "spterm",   NULL,           SPTAG(0),   1,          1,          0,          -1 },
-    { TERMCLASS,        "spcalc",   NULL,           SPTAG(1),   1,          1,          0,          -1 },
-    { TERMCLASS,        "lfub",     NULL,           1 << 5,     0,          1,          0,          -1 },
-    { "Gimp",           NULL,       NULL,           1 << 0,     0,          0,          0,          -1 },
-    { "discord",        NULL,       NULL,           1 << 4,     0,          0,          0,          -1 },
-    { "librewolf",      NULL,       NULL,           1 << 2,     0,          0,          0,          -1 },
-    { "Steam",          NULL,       NULL,           1 << 3,     0,          0,          0,          -1 },
-    { "thunderbird",    NULL,       NULL,           1 << 6,     0,          0,          0,          -1 },
-    { "pcmanfm",        NULL,       NULL,           0,          1,          0,          0,          -1 },
+     */
+    /* class            instance    title           tags mask   switchtotag isfloating  isterminal  noswallow   monitor */
+    { NULL,             NULL,       "Event Tester", 0,          0,          0,          0,          1,          -1 },
+    { TERMCLASS,        NULL,       NULL,           0,          0,          0,          1,          0,          -1 },
+    { TERMCLASS,        "spterm",   NULL,           SPTAG(0),   0,          1,          1,          0,          -1 },
+    { TERMCLASS,        "spcalc",   NULL,           SPTAG(1),   0,          1,          1,          0,          -1 },
+    { TERMCLASS,        "lfub",     NULL,           1 << 5,     1,          0,          1,          0,          -1 },
+    { "Gimp",           NULL,       NULL,           1 << 0,     1,          0,          0,          0,          -1 },
+    { "discord",        NULL,       NULL,           1 << 4,     1,          0,          0,          0,          -1 },
+    { "librewolf",      NULL,       NULL,           1 << 2,     1,          0,          0,          0,          -1 },
+    { "Steam",          NULL,       NULL,           1 << 3,     1,          0,          0,          0,          -1 },
+    { "thunderbird",    NULL,       NULL,           1 << 6,     1,          0,          0,          0,          -1 },
+    { "pcmanfm",        NULL,       NULL,           0,          0,          1,          0,          0,          -1 },
 };
 
 /* layout(s) */
