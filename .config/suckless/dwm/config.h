@@ -59,7 +59,7 @@ static Sp scratchpads[] = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
     /* xprop(1):
@@ -77,6 +77,7 @@ static const Rule rules[] = {
     { "discord",        NULL,       NULL,           1 << 4,     1,          0,          0,          0,          -1 },
     { "Pcmanfm",        NULL,       NULL,           1 << 5,     1,          0,          0,          0,          -1 },
     { "thunderbird",    NULL,       NULL,           1 << 6,     1,          0,          0,          0,          -1 },
+    { TERMCLASS,        "ncpmcpp",  NULL,           1 << 7,     1,          0,          1,          0,          -1 },
 };
 
 /* layout(s) */
