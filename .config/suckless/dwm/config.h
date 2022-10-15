@@ -46,9 +46,6 @@ static const unsigned int systrayiconsize = 100; /* systray icon size in px */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;        /* 0 means no systray */
 
-/* startup programs */
-static const char **startup_programs[] = { "qbittorrent", };
-
 typedef struct {
     const char *name;
     const void *cmd;

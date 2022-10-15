@@ -12,7 +12,7 @@ wmpid(){ # This function is needed if there are multiple instances of the window
 
 case "$(printf "🔒 lock\n🚪 leave $WM\n♻️ renew $WM\n🔃 reboot\n🖥️shutdown\n📺 display off" | dmenu -i -p 'Action: ')" in
 	'🔒 lock') xscreensaver-command -lock ;;
-	"🚪 leave $WM") killall dwmblocks & kill -TERM "$(wmpid)" ;;
+	"🚪 leave $WM") kill -TERM "$(wmpid)" ;;
 	"♻️ renew $WM") killall steam; kill -HUP "$(wmpid)" ;;
 	'🔃 reboot') $ctl reboot -i ;;
 	'🖥️shutdown') $ctl poweroff -i ;;
