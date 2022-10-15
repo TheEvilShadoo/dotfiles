@@ -72,8 +72,8 @@ static const Rule rules[] = {
     { TERMCLASS,    "spterm",   NULL,           SPTAG(0),   1,          1,          0,          -1 },
     { TERMCLASS,    "spcalc",   NULL,           SPTAG(1),   1,          1,          0,          -1 },
     { "Gimp",       NULL,       NULL,           1 << 8,     0,          0,          0,          -1 },
-    { "Discord",    NULL,       NULL,           1 << 4,     0,          0,          0,          -1 },
-    { "Librewolf",  NULL,       NULL,           1 << 2,     0,          0,          0,          -1 },
+    { "discord",    NULL,       NULL,           1 << 4,     0,          0,          0,          -1 },
+    { "librewolf",  NULL,       NULL,           1 << 2,     0,          0,          0,          -1 },
     { "Steam",      NULL,       NULL,           1 << 3,     0,          0,          0,          -1 },
 };
 
