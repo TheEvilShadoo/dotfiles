@@ -74,7 +74,7 @@ static const Rule rules[] = {
     { "Gimp",           NULL,               NULL,           1 << 0,     1,          0,          0,          0,          -1 },
     { "steam_app",      NULL,               NULL,           1 << 0,     1,          0,          0,          0,          -1 },
     { "librewolf",      NULL,               NULL,           1 << 2,     1,          0,          0,          0,          -1 },
-    { "Steam",          "Steam",            "Steam",        1 << 3,     1,          0,          0,          0,          -1 },
+    { "Steam",          NULL,               NULL,           1 << 3,     0,          0,          0,          0,          -1 },
     { "discord",        NULL,               NULL,           1 << 4,     1,          0,          0,          0,          -1 },
     { "Pcmanfm",        NULL,               NULL,           1 << 5,     1,          0,          0,          0,          -1 },
     { "thunderbird",    NULL,               NULL,           1 << 6,     1,          0,          0,          0,          -1 },
