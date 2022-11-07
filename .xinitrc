@@ -8,10 +8,11 @@ feh --bg-scale ~/images/wallpapers/gentoo/dracula.png &
 mpd &
 ~/.local/bin/statusbar/sb-mpdup &
 xrdb ~/.Xdefaults &
-picom --daemon &
+picom --daemon --experimental-backends &
 steam -silent -noverifyfiles &
 ckb-next --background &
 discord --start-minimized &
+keepassxc &
 xscreensaver --no-splash &
 activate-linux -wd -c .756-.588-.996-1 -H "-75" &
 redshift &
