@@ -8,7 +8,7 @@ feh --bg-scale ~/images/wallpapers/gentoo/dracula.png &
 otd &
 mpd &
 ~/.local/bin/statusbar/sb-mpdup &
-xrdb ~/.Xdefaults &
+xrdb ~/.Xresources &
 picom --daemon --experimental-backends &
 steam -silent -noverifyfiles &
 ckb-next --background &
