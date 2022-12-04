@@ -13,13 +13,11 @@ plugins=(dirhistory git)
 # Source scripts
 source $ZSH/oh-my-zsh.sh
 
-# Export environment variables
-export PATH="/usr/lib/ccache/bin:$HOME/.local/bin:$HOME/.local/bin/statusbar:${PATH}"
-
 # Define aliases
 alias ani-cli="ani-cli -q best"
 alias doas=$'nocorrect doas\t'
 alias du="du -h"
+#alias genup="doas emerge --sync; MAKEOPTS='-j8 -l8' doas emerge -u1 -j 8 -l 8 sys-apps/portage; MAKEOPTS='-j8 -l8' doas emerge -uND -j 8 -l 8 @world; doas emerge -c; cowsay Update Complete! | lolcat"
 alias kernelupdate="cd /usr/src/linux && doas make clean -j16 && doas make modules_prepare -j16 && time doas make -j16 && doas make modules_install -j16 && \
     doas make install && doas emerge @module-rebuild && doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias lf="lfub"
@@ -36,6 +34,44 @@ alias vrms="vrms-gentoo"
 alias wallpaper="feh --bg-scale"
 alias world="cat /var/lib/portage/world"
 alias ytfzf="ytfzf -t"
+
+# Define custom shell functions
+function genup() {
+
+    if [ $# -gt 0 ]
+    then
+        case $1 in
+            -b|--background)
+                NCPU=8 ;;
+            -f|--foreground)
+                NCPU=16 ;;
+            -h|--help)
+                printf "Usage: genup -b | -f | -h\n\nOptions:\n  -b, --background    allocate 8 CPU cores to Portage (background update)\n  -f, --foreground    allocate all 16 CPU cores to portage (foreground update)\n  -h, --help          display this help text and exit\n"
+                return 0 ;;
+            *)
+                printf "illegal option -- $1\n"
+                printf "\nUsage: genup -b | -f | -h\n\nOptions:\n  -b, --background    allocate 8 CPU cores to Portage (background update)\n  -f, --foreground    allocate all 16 CPU cores to portage (foreground update)\n  -h, --help          display this help text and exit\n"
+                return 0 ;;
+        esac
+    else
+        printf "Usage: genup -b | -f | -h\n\nOptions:\n  -b, --background    allocate 8 CPU cores to Portage (background update)\n  -f, --foreground    allocate all 16 CPU cores to portage (foreground update)\n  -h, --help          display this help text and exit\n"
+        return 0
+    fi
+
+    doas emerge --sync
+    MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -u1 -j ${NCPU} -l ${NCPU} sys-apps/portage
+
+    if `eix -q --upgrade sys-kernel/gentoo-sources`
+    then
+        MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -uND -j ${NCPU} -l ${NCPU} @world
+        MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -j ${NCPU} -l ${NCPU} x11-drivers/nvidia-drivers
+    else
+        MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -uND -j ${NCPU} -l ${NCPU} @world
+    fi
+
+    doas emerge -c
+    cowsay Update Complete! | lolcat
+}
 
 # Define Dracula TTY colorscheme and TTY-specific aliases
 if [ "$TERM" = "linux" ]; then
