@@ -2,7 +2,7 @@
 # TheEvilShadoo's xinitrc
 source ~/.zshenv
 gentoo-pipewire-launcher &
-(sleep .1 && pcmanfm --desktop) &
+pcmanfm --desktop &
 nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=1" -a "[gpu:0]/GPUGraphicsClockOffsetAllPerformanceLevels=120" -a "[gpu:0]/GPUMemoryTransferRateOffsetAllPerformanceLevels=1175"
 feh --bg-scale ~/images/wallpapers/gentoo/dracula.png &
 otd &

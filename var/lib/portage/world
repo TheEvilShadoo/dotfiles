@@ -30,6 +30,7 @@ app-pda/usbmuxd
 app-portage/emlop
 app-portage/fetchcommandwrapper
 app-portage/gentoolkit
+app-portage/portage-lostfiles
 app-portage/portpeek
 app-portage/smart-live-rebuild
 app-shells/fzf
