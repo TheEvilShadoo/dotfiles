@@ -1,7 +1,6 @@
+\.git
 LICENSE
 README\.md
-issue
-make.conf
-\.git
-\.zcompdump*
 mpd
+/etc/*
+/var/*
