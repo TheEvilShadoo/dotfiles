@@ -11,7 +11,6 @@ app-arch/p7zip
 app-arch/xarchiver
 app-editors/vim
 app-emulation/wine-staging
-app-emulation/wine-staging:7.19
 app-emulation/winetricks
 app-eselect/eselect-python
 app-eselect/eselect-repository
@@ -30,7 +29,6 @@ app-pda/usbmuxd
 app-portage/emlop
 app-portage/fetchcommandwrapper
 app-portage/gentoolkit
-app-portage/portage-lostfiles
 app-portage/portpeek
 app-portage/smart-live-rebuild
 app-shells/fzf
@@ -75,7 +73,6 @@ games-misc/wtf
 games-misc/wumpus
 games-misc/xcruiser
 games-puzzle/freesweep
-games-server/among-sus
 games-util/esteam
 games-util/gamemode
 games-util/parsec
