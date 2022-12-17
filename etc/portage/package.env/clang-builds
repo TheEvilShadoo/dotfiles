@@ -1,0 +1,4 @@
+sys-libs/compiler-rt-sanitizers clang.conf
+sys-libs/compiler-rt clang.conf
+mail-client/thunderbird clanf.conf
+www-client/librewolf clang.conf
