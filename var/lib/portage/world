@@ -26,6 +26,7 @@ app-pda/ideviceinstaller
 app-pda/ifuse
 app-pda/libimobiledevice
 app-pda/usbmuxd
+app-portage/eix
 app-portage/emlop
 app-portage/fetchcommandwrapper
 app-portage/gentoolkit
@@ -39,7 +40,6 @@ app-text/zathura-pdf-poppler
 app-vim/gentoo-syntax
 app-vim/rust-vim
 dev-libs/cxxopts
-dev-libs/gobject-introspection
 dev-libs/libconfig
 dev-libs/libdbusmenu-qt
 dev-libs/quazip
@@ -113,7 +113,6 @@ media-video/ffmpegthumbnailer
 media-video/libva-utils
 media-video/mediainfo
 media-video/mpv
-media-video/nvidia-video-codec
 media-video/pipewire
 net-analyzer/bmon
 net-analyzer/netcat
@@ -142,6 +141,7 @@ sys-auth/rtkit
 sys-boot/grub
 sys-boot/os-prober
 sys-config/ltoize
+sys-devel/distcc
 sys-devel/gettext
 sys-devel/mold
 sys-firmware/intel-microcode
@@ -149,6 +149,8 @@ sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
+sys-libs/zlib
+sys-power/iasl
 sys-process/btop
 sys-process/cronie
 virtual/wine
