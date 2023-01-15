@@ -8,6 +8,7 @@ app-admin/sysklogd
 app-arch/atool
 app-arch/lz4
 app-arch/p7zip
+app-arch/pigz
 app-arch/xarchiver
 app-editors/vim
 app-emulation/wine-staging
@@ -103,6 +104,7 @@ media-libs/imlib2
 media-libs/mutagen
 media-libs/noise-suppression-for-voice
 media-plugins/gst-plugins-pulse
+media-plugins/nvidia-vaapi-driver
 media-sound/alsa-utils
 media-sound/mpc
 media-sound/mpd
@@ -141,7 +143,6 @@ sys-auth/rtkit
 sys-boot/grub
 sys-boot/os-prober
 sys-config/ltoize
-sys-devel/distcc
 sys-devel/gettext
 sys-devel/mold
 sys-firmware/intel-microcode
@@ -154,6 +155,7 @@ sys-power/iasl
 sys-process/btop
 sys-process/cronie
 virtual/wine
+www-client/firefox-bin
 www-client/librewolf
 www-client/links
 x11-apps/xdpyinfo
