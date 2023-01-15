@@ -4,13 +4,13 @@
  <device>
   <type>opencl</type>
   <name>NVIDIA GeForce RTX 2080 SUPER</name>
-  <driver>515.48.07</driver>
-  <time>13791</time>
+  <driver>525.60.13</driver>
+  <time>10848</time>
   <errors>false</errors>
  </device>
  <device>
   <type>native</type>
-  <time>2509824</time>
+  <time>2029056</time>
   <errors>false</errors>
  </device>
 </profile>
