@@ -20,58 +20,23 @@ alias du="du -h"
 #alias genup="doas emerge --sync; MAKEOPTS='-j8 -l8' doas emerge -u1 -j 8 -l 8 sys-apps/portage; MAKEOPTS='-j8 -l8' doas emerge -uND -j 8 -l 8 @world; doas emerge -c; cowsay Update Complete! | lolcat"
 alias kernelupdate="cd /usr/src/linux && doas make clean -j16 && doas make modules_prepare -j16 && time doas make -j16 && doas make modules_install -j16 && \
     doas make install && doas emerge @module-rebuild && doas grub-mkconfig -o /boot/grub/grub.cfg"
-alias lf="lfub"
+alias lf="lf-sixel"
+alias librewolf="librewolf-bin"
 alias ls="lsd"
 alias links="links -g"
 alias sudo=$'nocorrect doas\t'
 alias top="btop"
 alias tree="lsd --tree"
+alias vi="lvim"
+alias vim="lvim"
 alias vimake="doas vim /etc/portage/make.conf"
 alias vivim="vim ~/.vimrc"
 alias vixinit="vim ~/.xinitrc"
 alias vizsh="vim ~/.config/zsh/.zshrc"
 alias vrms="vrms-gentoo"
-alias wallpaper="feh --bg-scale"
+alias wallpaper="swaybg -i"
 alias world="cat /var/lib/portage/world"
-alias ytfzf="ytfzf -t"
-
-# Define custom shell functions
-function genup() {
-
-    if [ $# -gt 0 ]
-    then
-        case $1 in
-            -b|--background)
-                NCPU=8 ;;
-            -f|--foreground)
-                NCPU=16 ;;
-            -h|--help)
-                printf "Usage: genup -b | -f | -h\n\nOptions:\n  -b, --background    allocate 8 CPU cores to Portage (background update)\n  -f, --foreground    allocate all 16 CPU cores to portage (foreground update)\n  -h, --help          display this help text and exit\n"
-                return 0 ;;
-            *)
-                printf "illegal option -- $1\n"
-                printf "\nUsage: genup -b | -f | -h\n\nOptions:\n  -b, --background    allocate 8 CPU cores to Portage (background update)\n  -f, --foreground    allocate all 16 CPU cores to portage (foreground update)\n  -h, --help          display this help text and exit\n"
-                return 0 ;;
-        esac
-    else
-        printf "Usage: genup -b | -f | -h\n\nOptions:\n  -b, --background    allocate 8 CPU cores to Portage (background update)\n  -f, --foreground    allocate all 16 CPU cores to portage (foreground update)\n  -h, --help          display this help text and exit\n"
-        return 0
-    fi
-
-    doas emerge --sync
-    MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -u1 -j ${NCPU} -l ${NCPU} sys-apps/portage
-
-    if `eix -q --upgrade sys-kernel/gentoo-sources`
-    then
-        MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -uND -j ${NCPU} -l ${NCPU} @world
-        MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -j ${NCPU} -l ${NCPU} x11-drivers/nvidia-drivers
-    else
-        MAKEOPTS="-j${NCPU} -l${NCPU}" doas emerge -uND -j ${NCPU} -l ${NCPU} @world
-    fi
-
-    doas emerge -c
-    cowsay Update Complete! | lolcat
-}
+alias ytfzf="ytfzf -t -T sixel --async-thumbnails"
 
 # Define Dracula TTY colorscheme and TTY-specific aliases
 if [ "$TERM" = "linux" ]; then
@@ -98,7 +63,7 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # THE FUN STUFF...
-clear
-~/.local/share/color-scripts/mouseface
-neofetch
-echo "let's all love lain\n" | lolcat
+#clear
+#~/.local/share/color-scripts/mouseface
+neofetch --chafa pictures/misc/gentoo_logo.png --size 300
+#echo "let's all love lain\n" | lolcat

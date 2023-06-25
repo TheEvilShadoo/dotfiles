@@ -1,12 +1,11 @@
 Graphics Backend used: svp
 Passed Tests: 66
-Quirky Tests: 35
-Failed Tests: 2
+Quirky Tests: 36
+Failed Tests: 1
 Skipped Tests: 6
 
 ---Name of the tests that failed---
 testDrawInvertN50WithRectangle
-testTextDrawing
 
 ---Name of the tests that were Quirky---
 testDrawRectWithLine
@@ -26,6 +25,7 @@ testHalfEllipseAAWithPolyLine
 testHalfEllipseAAWithPolyLineB2D
 testHalfEllipseWithPolygon
 testHalfEllipseAAWithPolygon
+testTextDrawing
 testDrawRectangleOnSize1028WithPixel
 testDrawRectangleOnSize4096WithPixel
 testDrawRectangleOnSize1028WithLine
