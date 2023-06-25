@@ -15,6 +15,9 @@ set smartcase
 set smartindent
 set tabstop=4 softtabstop=4
 
+filetype plugin on
+filetype indent on
+
 " Remaps (nonrecursive)
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :UndotreeToggle<CR>

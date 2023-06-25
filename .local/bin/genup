@@ -1,0 +1,22 @@
+#!/bin/sh
+# Sync up and check for portage updates
+doas emerge --sync
+doas emerge -u1 sys-apps/portage
+
+# Check if kernel or golang updates are available
+eix -qu "sys-kernel/*-sources" && export KERN_UP=1 
+eix -qu dev-lang/go && export GO_UP=1
+
+doas emerge -uND @world
+
+if [ $KERN_UP ]; then
+    doas emerge x11-drivers/nvidia-drivers
+fi
+
+if [ $GO_UP ]; then
+    doas emerge @golang-rebuild
+fi
+
+doas emerge @smart-live-rebuild
+doas emerge -c
+cowsay Update Complete! | lolcat

@@ -1,8 +1,7 @@
 -- this script periodically deactivates xscreensaver
 -- when video playback is active
 
-if os.getenv("TERM") == "linux" then
-else
+if os.getenv("TERM") == "st" then
     local function heartbeat()
         if mp.get_property_native("pause") or
            mp.get_property_native("idle")  or
