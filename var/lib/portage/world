@@ -44,9 +44,12 @@ dev-libs/quazip
 dev-libs/uthash
 dev-libs/wayland
 dev-libs/yajl
+dev-python/colorama
 dev-python/httplib2
+dev-python/json5
 dev-python/pip
 dev-python/pynvim
+dev-python/pytz
 dev-qt/qtmultimedia
 dev-util/ctags
 dev-util/desktop-file-utils
@@ -90,9 +93,10 @@ gui-apps/swayidle
 gui-apps/swaylock-effects
 gui-apps/swaync
 gui-apps/waybar
+gui-apps/wayvnc
 gui-apps/wev
 gui-libs/wlroots
-gui-libs/xdg-desktop-portal-hyprland::useless-overlay
+gui-libs/xdg-desktop-portal-hyprland::guru
 gui-wm/hyprland
 gui-wm/hyprland::thegreatmcpain
 mail-client/thunderbird-bin
@@ -149,6 +153,7 @@ net-analyzer/netcat
 net-firewall/ufw
 net-fs/sshfs
 net-ftp/filezilla
+net-im/discord
 net-irc/weechat
 net-libs/nodejs
 net-misc/aria2
