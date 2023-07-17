@@ -37,6 +37,7 @@ app-portage/smart-live-rebuild
 app-shells/fzf
 app-shells/gentoo-zsh-completions
 app-shells/zsh
+app-shells/zsh-completions
 app-text/evince
 app-text/zathura
 app-text/zathura-pdf-poppler

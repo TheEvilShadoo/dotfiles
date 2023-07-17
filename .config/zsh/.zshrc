@@ -17,7 +17,6 @@ source $ZSH/oh-my-zsh.sh
 alias ani-cli="ani-cli -q best"
 alias doas=$'nocorrect doas\t'
 alias du="du -h"
-#alias genup="doas emerge --sync; MAKEOPTS='-j8 -l8' doas emerge -u1 -j 8 -l 8 sys-apps/portage; MAKEOPTS='-j8 -l8' doas emerge -uND -j 8 -l 8 @world; doas emerge -c; cowsay Update Complete! | lolcat"
 alias kernelupdate="cd /usr/src/linux && doas make clean -j16 && doas make modules_prepare -j16 && time doas make -j16 && doas make modules_install -j16 && \
     doas make install && doas emerge @module-rebuild && doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias lf="lf-sixel"
