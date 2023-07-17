@@ -1,6 +1,7 @@
 # Zsh settings
 autoload -U compinit
-compinit -d "~/.cache/zsh/zcompdump-$HOST"
+compinit
+zstyle ':completion::complete:*' use-cache 1
 
 # Oh My Zsh settings
 ZSH_THEME="dracula"
