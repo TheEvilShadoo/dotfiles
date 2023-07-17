@@ -21,11 +21,13 @@ app-misc/cmatrix
 app-misc/lf
 app-misc/neofetch
 app-misc/openrgb
+app-misc/resolve-march-native
 app-misc/termdown
 app-misc/tmux
 app-misc/vrms-gentoo
 app-office/calcurse
 app-office/libreoffice
+app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/emlop
 app-portage/fetchcommandwrapper
@@ -78,7 +80,6 @@ games-misc/wtf
 games-misc/wumpus
 games-puzzle/freesweep
 games-util/esteam
-games-util/parsec
 games-util/steam-launcher
 games-util/steam-meta
 games-util/wiimms-iso-tools
@@ -170,6 +171,8 @@ net-wireless/bluez
 net-wireless/bluez-tools
 sys-apps/bat
 sys-apps/cpu-x
+sys-apps/dmidecode
+sys-apps/flashrom
 sys-apps/lm-sensors
 sys-apps/lsd
 sys-apps/lshw
@@ -179,6 +182,7 @@ sys-apps/usbutils
 sys-auth/elogind
 sys-auth/rtkit
 sys-auth/seatd
+sys-block/io-scheduler-udev-rules
 sys-boot/grub
 sys-boot/os-prober
 sys-config/ltoize
@@ -195,10 +199,12 @@ sys-libs/zlib
 sys-power/iasl
 sys-process/btop
 sys-process/cronie
+sys-process/lsof
 virtual/wine
 www-client/firefox-bin
 www-client/librewolf-bin
 www-client/links
+www-servers/lighttpd
 x11-apps/mesa-progs
 x11-apps/xdpyinfo
 x11-apps/xinput

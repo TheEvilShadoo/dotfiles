@@ -38,6 +38,10 @@ alias wallpaper="swaybg -i"
 alias world="cat /var/lib/portage/world"
 alias ytfzf="ytfzf -t -T sixel --async-thumbnails"
 
+# Fix foot ssh rendering
+if [[ $TERM = "foot" ]]; then
+  alias ssh='TERM=linux ssh'
+fi
 # Define Dracula TTY colorscheme and TTY-specific aliases
 if [ "$TERM" = "linux" ]; then
 	printf %b '\e[40m' '\e[8]' # set default background to color 0 'dracula-bg'
@@ -65,5 +69,5 @@ fi
 # THE FUN STUFF...
 #clear
 #~/.local/share/color-scripts/mouseface
-neofetch --chafa pictures/misc/gentoo_logo.png --size 300
+neofetch --chafa pictures/misc/gentoo_logo.png --size 219 #300
 #echo "let's all love lain\n" | lolcat
