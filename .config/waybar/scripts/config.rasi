@@ -1,0 +1,22 @@
+configuration {
+    modi: "run,drun";
+    icon-theme: "Dracula";
+    show-icons: true;
+    terminal: "st";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: " 﩯  Window";
+    display-Network: "  Network";
+    sidebar-mode: true;
+}
+
+@theme "catppuccin-mocha"
+
+window {
+    width: 220px;
+    height: 250px;
+}
