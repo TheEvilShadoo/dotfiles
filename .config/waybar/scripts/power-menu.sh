@@ -2,7 +2,7 @@
 
 entries=" Logout\n Lock\n Reboot\n⏻ Shutdown"
 
-selected=$(echo -e $entries|rofi -config ~/.config/waybar/scripts/config.rasi -dmenu --cache-file /dev/null | awk '{print tolower($2)}')
+selected=$(echo -e $entries|rofi -theme-str "window {width: 220px; height: 250px;}" -dmenu --cache-file /dev/null | awk '{print tolower($2)}')
 
 case $selected in
   logout)
