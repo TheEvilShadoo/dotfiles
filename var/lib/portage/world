@@ -12,7 +12,11 @@ app-arch/pigz
 app-arch/xarchiver
 app-editors/neovim
 app-emulation/proton-ge-custom-bin
+app-emulation/qemu
+app-emulation/virt-manager
+app-emulation/virt-viewer
 app-emulation/wine-staging
+app-emulation/wine-wayland
 app-emulation/winetricks
 app-eselect/eselect-python
 app-eselect/eselect-repository
@@ -27,6 +31,7 @@ app-misc/tmux
 app-misc/vrms-gentoo
 app-office/calcurse
 app-office/libreoffice
+app-pda/libplist
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/emlop
@@ -41,7 +46,6 @@ app-shells/zsh-completions
 app-text/evince
 app-text/zathura
 app-text/zathura-pdf-poppler
-dev-libs/cxxopts
 dev-libs/libconfig
 dev-libs/quazip
 dev-libs/uthash
@@ -54,6 +58,7 @@ dev-python/pip
 dev-python/pynvim
 dev-python/pytz
 dev-qt/qtmultimedia
+dev-ruby/plist
 dev-util/ctags
 dev-util/desktop-file-utils
 dev-util/gtk-update-icon-cache
@@ -121,7 +126,6 @@ media-gfx/graphviz
 media-gfx/imagemagick
 media-gfx/lsix
 media-gfx/scrot
-media-gfx/svgcleaner
 media-gfx/sxiv
 media-libs/imlib2
 media-libs/libsixel
@@ -149,7 +153,6 @@ media-video/mpv
 media-video/pipewire
 media-video/wireplumber
 net-analyzer/bmon
-net-analyzer/netcat
 net-firewall/ufw
 net-fs/sshfs
 net-ftp/filezilla
@@ -188,7 +191,6 @@ sys-devel/gettext
 sys-devel/mold
 sys-firmware/intel-microcode
 sys-fs/dosfstools
-sys-fs/eudev
 sys-fs/exfatprogs
 sys-fs/ntfs3g
 sys-kernel/dkms
