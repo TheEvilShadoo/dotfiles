@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+selection=$(rofi -i -dmenu $@ < /usr/local/share/kaomoji.txt)
+kaomoji=$(echo $selection | awk -F"﻿" '{print $1}')
+echo -n "$kaomoji" | wl-copy
+wl-paste
