@@ -65,6 +65,7 @@ dev-util/gtk-update-icon-cache
 dev-util/pkgcheck
 dev-util/vulkan-tools
 dev-vcs/git
+dev-vcs/git-filter-repo
 dev-vcs/lazygit
 games-action/multimc-bin
 games-action/supertuxkart
