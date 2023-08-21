@@ -28,7 +28,7 @@
              "urgent": "",
              "focused": "",
              "default": ""
-         }
+         } 
     },
     "keyboard-state": {
         "numlock": true,
@@ -150,7 +150,10 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "footclient -e pulsemixer"
+        "on-click": "footclient -e pulsemixer",
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ]
     },
     "custom/media": {
         "format": "{icon} {}",

@@ -5,7 +5,7 @@ if pidof "Discord"; then
         dbus-send --dest=$val --type=method_call /StatusNotifierItem org.kde.StatusNotifierItem.Activate
     done
 else
-    discord --enable-features=UseOzonePlatform --ozone-platform=wayland --start-minimized &
+    discord --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-blink-features=MiddleClickAutoscroll --start-minimized &
 fi
 
 hyprctl dispatch workspace 5

@@ -181,6 +181,8 @@ label:focus {
 }
 
 #wireplumber.muted {
+    color: @fg-inactive;
+    background: @bg-inactive;
 }
 
 #custom-media {
