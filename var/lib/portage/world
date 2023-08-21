@@ -140,6 +140,7 @@ media-plugins/gst-plugins-pulse
 media-plugins/nvidia-vaapi-driver
 media-sound/alsa-utils
 media-sound/bluez-alsa
+media-sound/easyeffects
 media-sound/mpc
 media-sound/mpd
 media-sound/ncmpcpp
@@ -214,4 +215,5 @@ x11-misc/tinynotify-send
 x11-misc/unclutter-xfixes
 x11-misc/xdg-user-dirs
 x11-misc/xdg-utils
+x11-misc/xwaylandvideobridge
 x11-themes/gentoo-xcursors
