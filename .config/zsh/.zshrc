@@ -27,6 +27,7 @@ alias lf="lf-sixel"
 alias librewolf="librewolf-bin"
 alias ls="lsd"
 alias links="links -g"
+alias neofetch="neofetch --chafa pictures/misc/gentoo_logo.png --size 219"
 alias sudo=$'nocorrect doas\t'
 alias top="btop"
 alias tree="lsd --tree"
@@ -72,5 +73,5 @@ fi
 # THE FUN STUFF...
 #clear
 #~/.local/share/color-scripts/mouseface
-neofetch --chafa pictures/misc/gentoo_logo.png --size 219 #300
+neofetch --chafa pictures/misc/gentoo_logo.png --size 219
 #echo "let's all love lain\n" | lolcat
