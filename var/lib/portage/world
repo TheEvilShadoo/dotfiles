@@ -95,7 +95,7 @@ gui-apps/rofi-wayland
 gui-apps/slurp
 gui-apps/swaybg
 gui-apps/swayidle
-gui-apps/swaylock-effects
+gui-apps/swaylock
 gui-apps/swaync
 gui-apps/waybar
 gui-apps/wayvnc
@@ -199,7 +199,6 @@ sys-process/cronie
 sys-process/lsof
 virtual/libudev::without-systemd
 virtual/udev
-virtual/wine
 www-client/firefox-bin
 www-client/librewolf-bin
 www-client/links
