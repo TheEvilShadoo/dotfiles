@@ -1,1 +1,1 @@
-app-office/libreoffice gtk
+app-office/libreoffice -clang custom-cflags gtk
