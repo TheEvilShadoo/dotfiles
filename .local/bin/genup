@@ -1,16 +1,17 @@
 #!/bin/sh
 # Sync up and check for portage updates
-doas emerge --sync
+doas emerge --sync --jobs=`nproc`
 doas emerge -u1 sys-apps/portage
 
 # Check if kernel or golang updates are available
 eix -qu "sys-kernel/*-sources" && export KERN_UP=1 
 eix -qu dev-lang/go && export GO_UP=1
+eix -qu dev-lang/perl && export PERL_UP=1
 
 doas emerge -uND @world
 
 if [ $KERN_UP ]; then
-    doas emerge x11-drivers/nvidia-drivers
+    doas emerge @module-rebuild
 fi
 
 if [ $GO_UP ]; then
@@ -19,4 +20,9 @@ fi
 
 doas emerge @smart-live-rebuild
 doas emerge -c
+
+if [ $PERL_UP ]; then
+    doas perl-cleaner --all
+fi
+
 cowsay Update Complete! | lolcat

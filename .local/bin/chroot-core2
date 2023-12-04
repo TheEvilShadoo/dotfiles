@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+if [[ $UID != 0 ]]; then
+    echo "This must be run as root."
+    exit 1
+fi
+
+chroot=/mnt/core2-root
+
+mount --rbind /dev "$chroot"/dev
+mount --make-rslave "$chroot"/dev
+mount -t proc /proc "$chroot"/proc
+mount --rbind /sys "$chroot"/sys
+mount --make-rslave "$chroot"/sys
+mount --rbind /tmp "$chroot"/tmp
+
+cp /etc/resolv.conf $chroot/etc
+chroot $chroot /bin/bash

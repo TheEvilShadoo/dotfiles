@@ -1469,3 +1469,8 @@
 # required by @selected
 # required by @world (argument)
 >=dev-libs/wayland-1.22.0 abi_x86_32
+# required by sci-geosciences/geopy-2.3.0-r2::gentoo
+# required by gui-apps/nwg-shell-config-0.5.28::guru
+# required by gui-apps/nwg-0::guru
+# required by nwg (argument)
+>=sci-geosciences/GeographicLib-1.52-r2 python

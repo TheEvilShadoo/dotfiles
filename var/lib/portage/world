@@ -1,3 +1,4 @@
+app-admin/ananicy-cpp
 app-admin/doas
 app-admin/eclean-kernel
 app-admin/keepassxc
@@ -16,6 +17,7 @@ app-emulation/qemu
 app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/wine-staging
+app-emulation/wine-staging:8.19
 app-emulation/winetricks
 app-eselect/eselect-python
 app-eselect/eselect-repository
@@ -55,7 +57,6 @@ dev-python/pip
 dev-python/pynvim
 dev-python/pytz
 dev-qt/qtmultimedia
-dev-ruby/plist
 dev-util/ctags
 dev-util/desktop-file-utils
 dev-util/gtk-update-icon-cache
@@ -84,7 +85,6 @@ games-misc/wtf
 games-misc/wumpus
 games-puzzle/freesweep
 games-util/esteam
-games-util/steam-launcher
 games-util/steam-meta
 games-util/wiimms-iso-tools
 gnome-base/gvfs
@@ -126,6 +126,7 @@ media-gfx/scrot
 media-gfx/sxiv
 media-libs/imlib2
 media-libs/libsixel
+media-libs/libtheora
 media-libs/libva
 media-libs/mesa
 media-libs/mutagen
@@ -159,6 +160,7 @@ net-libs/nodejs
 net-misc/aria2
 net-misc/axel
 net-misc/chrony
+net-misc/dhcpcd
 net-misc/netifrc
 net-misc/socat
 net-misc/telnet-bsd
@@ -197,13 +199,13 @@ sys-power/iasl
 sys-process/btop
 sys-process/cronie
 sys-process/lsof
+sys-process/uksmd
 virtual/libudev::without-systemd
 virtual/udev
 www-client/firefox-bin
 www-client/librewolf-bin
 www-client/links
 www-servers/lighttpd
-x11-base/xwayland
 x11-drivers/OpenTabletDriver-bin
 x11-drivers/nvidia-drivers
 x11-misc/gammastep
@@ -211,5 +213,4 @@ x11-misc/pcmanfm
 x11-misc/tinynotify-send
 x11-misc/unclutter-xfixes
 x11-misc/xdg-user-dirs
-x11-misc/xwaylandvideobridge
 x11-themes/gentoo-xcursors

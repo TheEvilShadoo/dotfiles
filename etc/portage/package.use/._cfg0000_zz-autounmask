@@ -1469,3 +1469,8 @@
 # required by @selected
 # required by @world (argument)
 >=dev-libs/wayland-1.22.0 abi_x86_32
+# required by media-sound/mpg123-1.32.3-r1::gentoo
+# required by @esteam
+# required by @selected
+# required by @world (argument)
+>=media-libs/libmpg123-1.32.3-r1 abi_x86_32
