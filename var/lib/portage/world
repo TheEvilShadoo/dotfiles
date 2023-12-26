@@ -16,8 +16,7 @@ app-emulation/proton-ge-custom-bin
 app-emulation/qemu
 app-emulation/virt-manager
 app-emulation/virt-viewer
-app-emulation/wine-staging
-app-emulation/wine-staging:8.19
+app-emulation/wine-vanilla
 app-emulation/winetricks
 app-eselect/eselect-python
 app-eselect/eselect-repository
@@ -69,6 +68,7 @@ games-action/multimc-bin
 games-action/supertuxkart
 games-arcade/supertux
 games-emulation/dolphin
+games-fps/duke3d-data
 games-fps/eduke32
 games-misc/cowsay
 games-misc/doge
@@ -85,17 +85,17 @@ games-misc/wtf
 games-misc/wumpus
 games-puzzle/freesweep
 games-util/esteam
+games-util/steam-client-meta
 games-util/steam-meta
 games-util/wiimms-iso-tools
 gnome-base/gvfs
 gui-apps/foot
 gui-apps/grim
 gui-apps/hyprland-addons
+gui-apps/hyprpaper
 gui-apps/rofi-wayland
 gui-apps/slurp
 gui-apps/swaybg
-gui-apps/swayidle
-gui-apps/swaylock
 gui-apps/swaync
 gui-apps/waybar
 gui-apps/wayvnc
@@ -135,7 +135,6 @@ media-plugins/gst-plugins-libav
 media-plugins/gst-plugins-libde265
 media-plugins/gst-plugins-meta::gentoo
 media-plugins/gst-plugins-pulse
-media-plugins/nvidia-vaapi-driver
 media-sound/alsa-utils
 media-sound/easyeffects
 media-sound/mpc
@@ -194,6 +193,7 @@ sys-fs/ntfs3g
 sys-kernel/cachyos-settings
 sys-kernel/cachyos-sources
 sys-kernel/dkms
+sys-kernel/linux-firmware
 sys-libs/zlib
 sys-power/iasl
 sys-process/btop
@@ -207,7 +207,6 @@ www-client/librewolf-bin
 www-client/links
 www-servers/lighttpd
 x11-drivers/OpenTabletDriver-bin
-x11-drivers/nvidia-drivers
 x11-misc/gammastep
 x11-misc/pcmanfm
 x11-misc/tinynotify-send

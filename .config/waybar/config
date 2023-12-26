@@ -1,5 +1,6 @@
 {
     "layer": "top", // Waybar at top layer
+    "output": "DP-1",
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 35, // Waybar height (to be removed for auto height)
     // "width": 90%, // Waybar width
