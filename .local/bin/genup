@@ -1,6 +1,6 @@
 #!/bin/sh
 # Sync up and check for portage updates
-doas emerge --sync --jobs=`nproc`
+doas emerge --sync --jobs `nproc`
 doas emerge -u1 sys-apps/portage
 
 # Check if kernel or golang updates are available
@@ -18,11 +18,11 @@ if [ $GO_UP ]; then
     doas emerge @golang-rebuild
 fi
 
-doas emerge @smart-live-rebuild
-doas emerge -c
-
 if [ $PERL_UP ]; then
     doas perl-cleaner --all
 fi
+
+doas emerge @smart-live-rebuild
+doas emerge -c
 
 cowsay Update Complete! | lolcat

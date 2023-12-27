@@ -67,6 +67,7 @@ dev-vcs/lazygit
 games-action/multimc-bin
 games-action/supertuxkart
 games-arcade/supertux
+games-arcade/taisei
 games-emulation/dolphin
 games-fps/duke3d-data
 games-fps/eduke32
