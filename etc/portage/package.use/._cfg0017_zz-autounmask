@@ -1468,3 +1468,6 @@
 # required by @selected
 # required by @world (argument)
 >=dev-libs/wayland-1.22.0 abi_x86_32
+# required by app-emulation/protontricks-1.10.3::gentoo[gui]
+# required by protontricks (argument)
+>=app-emulation/winetricks-20230212 gtk

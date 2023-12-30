@@ -17,6 +17,7 @@ app-emulation/qemu
 app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/wine-vanilla
+app-emulation/wine-vanilla:8.0.2
 app-emulation/winetricks
 app-eselect/eselect-python
 app-eselect/eselect-repository
@@ -96,7 +97,6 @@ gui-apps/hyprland-addons
 gui-apps/hyprpaper
 gui-apps/rofi-wayland
 gui-apps/slurp
-gui-apps/swaybg
 gui-apps/swaync
 gui-apps/waybar
 gui-apps/wayvnc
