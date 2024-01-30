@@ -1468,5 +1468,6 @@
 # required by @selected
 # required by @world (argument)
 >=dev-libs/wayland-1.22.0 abi_x86_32
-# required by media-sound/mpg123-base
->=media-sound/mpg123-base-1.32.3 abi_x86_32
+# required by gui-apps/xwaylandvideobridge-0.3.0-r2::gentoo
+# required by gui-apps/xwaylandvideobridge (argument)
+>=kde-frameworks/kwindowsystem-5.113.0 X

@@ -1468,5 +1468,10 @@
 # required by @selected
 # required by @world (argument)
 >=dev-libs/wayland-1.22.0 abi_x86_32
-# required by media-sound/mpg123-base
+# required by media-libs/libsndfile-1.2.2-r2::gentoo[-minimal]
+# required by media-sound/fluidsynth-2.3.4::gentoo[sndfile]
+# required by media-libs/sdl2-mixer-2.6.3-r1::gentoo
+# required by games-fps/eduke32-20231007.10494::gentoo
+# required by @selected
+# required by @world (argument)
 >=media-sound/mpg123-base-1.32.3 abi_x86_32

@@ -25,4 +25,4 @@ fi
 doas emerge @smart-live-rebuild
 doas emerge -c
 
-cowsay Update Complete! | lolcat
+cowsay Update Complete! | lolcat -a

@@ -26,6 +26,7 @@ app-misc/cmatrix
 app-misc/lf
 app-misc/neofetch
 app-misc/openrgb
+app-misc/radeontop
 app-misc/resolve-march-native
 app-misc/termdown
 app-misc/tmux
@@ -210,7 +211,6 @@ www-servers/lighttpd
 x11-drivers/OpenTabletDriver-bin
 x11-misc/gammastep
 x11-misc/pcmanfm
-x11-misc/tinynotify-send
 x11-misc/unclutter-xfixes
 x11-misc/xdg-user-dirs
 x11-themes/gentoo-xcursors
