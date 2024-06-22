@@ -13,9 +13,7 @@
     "terminal",
     "cpu",
     "gpu",
-    "memory",
     "disk",
-    "localip",
     "break",
     "colors"
   ]
