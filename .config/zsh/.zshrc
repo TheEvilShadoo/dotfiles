@@ -14,9 +14,6 @@ plugins=(dirhistory git)
 # Source scripts
 source $ZSH/oh-my-zsh.sh
 
-# Load nvm
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
 # Define aliases
 alias ani-cli="ani-cli -q best"
 alias doas=$'nocorrect doas\t'

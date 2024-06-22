@@ -22,7 +22,7 @@ if [ $PERL_UP ]; then
     doas perl-cleaner --all
 fi
 
-doas emerge @smart-live-rebuild
+#doas emerge @smart-live-rebuild
 doas emerge -c
 
 cowsay Update Complete! | lolcat -a

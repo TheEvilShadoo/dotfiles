@@ -23,6 +23,7 @@ app-eselect/eselect-python
 app-eselect/eselect-repository
 app-misc/ckb
 app-misc/cmatrix
+app-misc/fastfetch
 app-misc/lf
 app-misc/neofetch
 app-misc/openrgb
