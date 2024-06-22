@@ -1,0 +1,123 @@
+    OpenRGB v0.71
+    Commit: dbad6ce90d8ff80d6fcc05a0d8d0458e0cc591f5 from 2022-10-15 09:10:26 +1100
+    Launched: 20221016_173044
+====================================================================================================
+
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    |               Start device detection               |
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    Initializing HID interfaces: Success
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    |             Detecting I2C interfaces               |
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+1004  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+1004  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+1004  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+1004  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+1004  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+1004  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    |               Detecting I2C devices                |
+1004  |Info:    ------------------------------------------------------
+1028  |Info:    [PluginManager] Scanning plugin directory: /home/ryan/.config/OpenRGB/plugins
+1029  |Info:    [PluginManager] Scanning plugin directory: /usr/lib64/OpenRGB/plugins
+1238  |Info:    ------------------------------------------------------
+1238  |Info:    |               Detecting I2C PCI devices            |
+1238  |Info:    ------------------------------------------------------
+1238  |Info:    ------------------------------------------------------
+1238  |Info:    |               Detecting HID devices                |
+1238  |Info:    ------------------------------------------------------
+1238  |Info:    ------------------------------------------------------
+1238  |Info:    |              Detecting other devices               |
+1238  |Info:    ------------------------------------------------------
+1240  |Info:    ------------------------------------------------------
+1240  |Info:    |                Detection completed                 |
+1240  |Info:    ------------------------------------------------------
+2118  |Info:    ------------------------------------------------------
+2118  |Info:    |               Start device detection               |
+2118  |Info:    ------------------------------------------------------
+2118  |Info:    Initializing HID interfaces: Success
+2118  |Info:    ------------------------------------------------------
+2118  |Info:    |             Detecting I2C interfaces               |
+2118  |Info:    ------------------------------------------------------
+2118  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+2118  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+2118  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+2118  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+2118  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+2118  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+2118  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+2118  |Info:    ------------------------------------------------------
+2118  |Info:    |               Detecting I2C devices                |
+2118  |Info:    ------------------------------------------------------
+2348  |Info:    ------------------------------------------------------
+2348  |Info:    |               Detecting I2C PCI devices            |
+2348  |Info:    ------------------------------------------------------
+2348  |Info:    ------------------------------------------------------
+2348  |Info:    |               Detecting HID devices                |
+2348  |Info:    ------------------------------------------------------
+2348  |Info:    ------------------------------------------------------
+2348  |Info:    |              Detecting other devices               |
+2348  |Info:    ------------------------------------------------------
+2349  |Info:    ------------------------------------------------------
+2349  |Info:    |                Detection completed                 |
+2349  |Info:    ------------------------------------------------------
+5205  |Info:    ------------------------------------------------------
+5205  |Info:    |               Start device detection               |
+5205  |Info:    ------------------------------------------------------
+5205  |Info:    Initializing HID interfaces: Success
+5205  |Info:    ------------------------------------------------------
+5205  |Info:    |             Detecting I2C interfaces               |
+5205  |Info:    ------------------------------------------------------
+5205  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+5205  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+5205  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+5205  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+5205  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+5205  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+5205  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+5205  |Info:    ------------------------------------------------------
+5205  |Info:    |               Detecting I2C devices                |
+5205  |Info:    ------------------------------------------------------
+5439  |Info:    ------------------------------------------------------
+5439  |Info:    |               Detecting I2C PCI devices            |
+5439  |Info:    ------------------------------------------------------
+5440  |Info:    ------------------------------------------------------
+5440  |Info:    |               Detecting HID devices                |
+5440  |Info:    ------------------------------------------------------
+5440  |Info:    ------------------------------------------------------
+5440  |Info:    |              Detecting other devices               |
+5440  |Info:    ------------------------------------------------------
+5440  |Info:    ------------------------------------------------------
+5440  |Info:    |                Detection completed                 |
+5440  |Info:    ------------------------------------------------------
+5840  |Info:    ------------------------------------------------------
+5840  |Info:    |               Start device detection               |
+5840  |Info:    ------------------------------------------------------
+5840  |Info:    Initializing HID interfaces: Success
+5840  |Info:    ------------------------------------------------------
+5840  |Info:    |             Detecting I2C interfaces               |
+5840  |Info:    ------------------------------------------------------
+5840  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+5840  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+5840  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+5840  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+5840  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+5841  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+5841  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+5841  |Info:    ------------------------------------------------------
+5841  |Info:    |               Detecting I2C devices                |
+5841  |Info:    ------------------------------------------------------
+6075  |Info:    ------------------------------------------------------
+6075  |Info:    |               Detecting I2C PCI devices            |
+6075  |Info:    ------------------------------------------------------
+6075  |Info:    ------------------------------------------------------
+6075  |Info:    |               Detecting HID devices                |
+6075  |Info:    ------------------------------------------------------
+6075  |Info:    ------------------------------------------------------
+6075  |Info:    |              Detecting other devices               |
+6075  |Info:    ------------------------------------------------------
+6075  |Info:    ------------------------------------------------------
+6075  |Info:    |                Detection completed                 |
+6075  |Info:    ------------------------------------------------------

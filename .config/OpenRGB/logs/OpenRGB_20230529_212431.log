@@ -1,0 +1,47 @@
+    OpenRGB v0.81
+    Commit: a67cf011d585de78bcf24508ec819f9f44dc9439 from 2023-05-28 10:47:32 +1000
+    Launched: 20230529_212431
+====================================================================================================
+
+0     |Info:    Found file: Dracula.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Dracula
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Start device detection               |
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    Initializing HID interfaces: Success
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |             Detecting I2C interfaces               |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+1011  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+1011  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+1011  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+1011  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+1011  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+1011  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Detecting I2C devices                |
+1011  |Info:    ------------------------------------------------------
+1327  |Info:    ------------------------------------------------------
+1327  |Info:    |               Detecting I2C PCI devices            |
+1327  |Info:    ------------------------------------------------------
+1328  |Info:    ------------------------------------------------------
+1328  |Info:    |               Detecting HID devices                |
+1328  |Info:    ------------------------------------------------------
+1380  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+1476  |Info:    [Corsair Commander Core] Registering RGB controller
+1478  |Info:    [Glorious Model D / D-] Registering RGB controller
+1750  |Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+1750  |Info:    ------------------------------------------------------
+1750  |Info:    |            Detecting libusb HID devices            |
+1750  |Info:    ------------------------------------------------------
+1774  |Info:    ------------------------------------------------------
+1774  |Info:    |              Detecting other devices               |
+1774  |Info:    ------------------------------------------------------
+1776  |Info:    ------------------------------------------------------
+1776  |Info:    |                Detection completed                 |
+1776  |Info:    ------------------------------------------------------
+1776  |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw12
+1776  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+1776  |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+1776  |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw10

@@ -1,0 +1,38 @@
+    OpenRGB v0.81
+    Commit: 2cc0c7aad8ef1bf01d2d70abd07d57b44949c65d from 2023-04-07 21:42:15 +1000
+    Launched: 20230409_205036
+====================================================================================================
+
+7     |Info:    Found file: Dracula.orp attempting to validate header
+7     |Info:    Valid v3 profile found for Dracula
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Start device detection               |
+1008  |Info:    ------------------------------------------------------
+1009  |Info:    Initializing HID interfaces: Success
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |             Detecting I2C interfaces               |
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+1010  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+1010  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+1010  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+1010  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Detecting I2C devices                |
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Detecting I2C PCI devices            |
+1010  |Info:    ------------------------------------------------------
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Detecting HID devices                |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |            Detecting libusb HID devices            |
+1011  |Info:    ------------------------------------------------------
+1031  |Info:    ------------------------------------------------------
+1031  |Info:    |              Detecting other devices               |
+1031  |Info:    ------------------------------------------------------
+1032  |Info:    ------------------------------------------------------
+1032  |Info:    |                Detection completed                 |
+1032  |Info:    ------------------------------------------------------
+1032  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>

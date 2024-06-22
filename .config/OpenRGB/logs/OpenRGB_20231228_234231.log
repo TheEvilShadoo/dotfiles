@@ -1,0 +1,107 @@
+    OpenRGB v0.91
+    Commit: acf12dfd5e73d77fd384c52abfab31ccf91ce946 from 2023-12-26 17:17:15 -0600
+    Launched: 20231228_234231
+====================================================================================================
+
+7     |Info:    Found file: Dracula.orp attempting to validate header
+7     |Info:    Valid v4 profile found for Dracula
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Start device detection               |
+1008  |Info:    ------------------------------------------------------
+1009  |Info:    Initializing HID interfaces: Success
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |             Detecting I2C interfaces               |
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:744C Subsystem: 1DA2:E471
+1009  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:744C Subsystem: 1DA2:E471
+1010  |Info:    Registering I2C interface: /dev/i2c-8 Device 8086:A323 Subsystem: 1462:7B17
+1010  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1010  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1010  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:744C Subsystem: 1DA2:E471
+1010  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:744C Subsystem: 1DA2:E471
+1010  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:744C Subsystem: 1DA2:E471
+1010  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1010  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1010  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:744C Subsystem: 1DA2:E471
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Detecting I2C devices                |
+1010  |Info:    ------------------------------------------------------
+1358  |Info:    ------------------------------------------------------
+1358  |Info:    |               Detecting I2C PCI devices            |
+1358  |Info:    ------------------------------------------------------
+1380  |Info:    ------------------------------------------------------
+1380  |Info:    |               Detecting HID devices                |
+1380  |Info:    ------------------------------------------------------
+1382  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+1448  |Info:    [Corsair Commander Core] Registering RGB controller
+1450  |Info:    [Glorious Model D / D-] Registering RGB controller
+1690  |Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+1690  |Info:    ------------------------------------------------------
+1690  |Info:    |            Detecting libusb HID devices            |
+1690  |Info:    ------------------------------------------------------
+1704  |Info:    ------------------------------------------------------
+1704  |Info:    |              Detecting other devices               |
+1704  |Info:    ------------------------------------------------------
+1706  |Info:    ------------------------------------------------------
+1706  |Info:    |                Detection completed                 |
+1706  |Info:    ------------------------------------------------------
+8066  |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+8066  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+8066  |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+8066  |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+8401  |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+8401  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+8401  |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+8401  |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+23451 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+23451 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+23451 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+23451 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+23853 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+23853 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+23853 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+23853 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+24109 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+24109 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+24109 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+24109 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+24349 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+24349 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+24349 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+24349 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+24566 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+24566 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+24566 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+24566 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+25056 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+25056 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+25056 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+25056 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+25437 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+25437 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+25437 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+25437 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+25832 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+25832 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+25832 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+25832 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+30719 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+30719 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+30719 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+30719 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+31045 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+31045 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+31045 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+31045 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+31486 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+31486 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+31486 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+31486 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+77419 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+77419 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+77419 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+77419 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+77800 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+77800 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+77800 |Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw8
+77800 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9

@@ -1,0 +1,408 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20221204_170843
+====================================================================================================
+
+0     |Info:    Found file: Off.orp attempting to validate header
+0     |Info:    Valid v3 profile found for Off
+0     |Info:    Found file: Dracula.orp attempting to validate header
+0     |Info:    Valid v3 profile found for Dracula
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |             Detecting I2C interfaces               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+1001  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+1001  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+1002  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Detecting I2C devices                |
+1002  |Info:    ------------------------------------------------------
+1024  |Info:    Loading plugins
+1248  |Info:    ------------------------------------------------------
+1248  |Info:    |               Detecting HID devices                |
+1248  |Info:    ------------------------------------------------------
+1301  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+1398  |Info:    [Corsair Commander Core] Registering RGB controller
+1398  |Info:    [Glorious Model D / D-] Registering RGB controller
+1660  |Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+1660  |Info:    ------------------------------------------------------
+1660  |Info:    |              Detecting other devices               |
+1660  |Info:    ------------------------------------------------------
+1662  |Info:    ------------------------------------------------------
+1662  |Info:    |                Detection completed                 |
+1662  |Info:    ------------------------------------------------------
+85081 |Info:    Found file: Off.orp attempting to validate header
+85081 |Info:    Valid v3 profile found for Off
+85081 |Info:    Found file: Dracula.orp attempting to validate header
+85081 |Info:    Valid v3 profile found for Dracula
+190390|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+190391|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+190391|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+190391|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+190803|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+190803|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+190803|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+190803|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+190995|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+190995|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+190995|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+190995|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+191198|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+191199|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+191199|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+191199|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+191530|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+191530|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+191530|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+191530|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+191722|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+191722|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+191722|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+191722|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+191875|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+191875|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+191875|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+191875|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+192207|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+192207|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+192207|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+192207|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+192367|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+192367|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+192367|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+192367|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+192514|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+192514|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+192514|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+192514|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+192730|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+192730|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+192730|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+192730|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2
+208774|Info:    Found file: Off.orp attempting to validate header
+208774|Info:    Valid v3 profile found for Off
+208774|Info:    Found file: Dracula.orp attempting to validate header
+208774|Info:    Valid v3 profile found for Dracula
+231420|Info:    ------------------------------------------------------
+231420|Info:    |               Start device detection               |
+231420|Info:    ------------------------------------------------------
+231420|Info:    Initializing HID interfaces: Success
+231421|Info:    ------------------------------------------------------
+231421|Info:    |             Detecting I2C interfaces               |
+231421|Info:    ------------------------------------------------------
+231421|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+231421|Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+231421|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+231421|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+231421|Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+231421|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+231421|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+231421|Info:    ------------------------------------------------------
+231421|Info:    |               Detecting I2C devices                |
+231421|Info:    ------------------------------------------------------
+231668|Info:    ------------------------------------------------------
+231668|Info:    |               Detecting HID devices                |
+231668|Info:    ------------------------------------------------------
+231721|Info:    [Corsair Lighting Node Core] Registering RGB controller
+231818|Info:    [Corsair Commander Core] Registering RGB controller
+231818|Info:    [Glorious Model D / D-] Registering RGB controller
+232124|Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+232124|Info:    ------------------------------------------------------
+232124|Info:    |              Detecting other devices               |
+232124|Info:    ------------------------------------------------------
+232125|Info:    ------------------------------------------------------
+232125|Info:    |                Detection completed                 |
+232125|Info:    ------------------------------------------------------
+246727|Info:    Found file: Off.orp attempting to validate header
+246727|Info:    Valid v3 profile found for Off
+246727|Info:    Found file: Dracula.orp attempting to validate header
+246727|Info:    Valid v3 profile found for Dracula
+254822|Info:    ------------------------------------------------------
+254822|Info:    |               Start device detection               |
+254822|Info:    ------------------------------------------------------
+254822|Info:    Initializing HID interfaces: Success
+254823|Info:    ------------------------------------------------------
+254823|Info:    |             Detecting I2C interfaces               |
+254823|Info:    ------------------------------------------------------
+254823|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+254823|Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+254823|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+254823|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+254823|Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+254823|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+254823|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+254823|Info:    ------------------------------------------------------
+254823|Info:    |               Detecting I2C devices                |
+254823|Info:    ------------------------------------------------------
+255071|Info:    ------------------------------------------------------
+255071|Info:    |               Detecting HID devices                |
+255071|Info:    ------------------------------------------------------
+255123|Info:    [Corsair Lighting Node Core] Registering RGB controller
+255220|Info:    [Corsair Commander Core] Registering RGB controller
+255220|Info:    [Glorious Model D / D-] Registering RGB controller
+255484|Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+255484|Info:    ------------------------------------------------------
+255484|Info:    |              Detecting other devices               |
+255484|Info:    ------------------------------------------------------
+255485|Info:    ------------------------------------------------------
+255485|Info:    |                Detection completed                 |
+255485|Info:    ------------------------------------------------------
+277296|Info:    Found file: Off.orp attempting to validate header
+277297|Info:    Valid v3 profile found for Off
+277297|Info:    Found file: Dracula.orp attempting to validate header
+277297|Info:    Valid v3 profile found for Dracula
+313953|Info:    Found file: Off.orp attempting to validate header
+313954|Info:    Valid v3 profile found for Off
+313954|Info:    Found file: Dracula.orp attempting to validate header
+313954|Info:    Valid v3 profile found for Dracula
+321965|Info:    Found file: Off.orp attempting to validate header
+321965|Info:    Valid v3 profile found for Off
+321965|Info:    Found file: Dracula.orp attempting to validate header
+321965|Info:    Valid v3 profile found for Dracula
+326063|Info:    Found file: Off.orp attempting to validate header
+326063|Info:    Valid v3 profile found for Off
+326063|Info:    Found file: Dracula.orp attempting to validate header
+326063|Info:    Valid v3 profile found for Dracula
+355444|Info:    Found file: Off.orp attempting to validate header
+355444|Info:    Valid v3 profile found for Off
+355444|Info:    Found file: Dracula.orp attempting to validate header
+355444|Info:    Valid v3 profile found for Dracula
+387511|Info:    Found file: Off.orp attempting to validate header
+387511|Info:    Valid v3 profile found for Off
+387511|Info:    Found file: Dracula.orp attempting to validate header
+387511|Info:    Valid v3 profile found for Dracula
+402632|Info:    Found file: Off.orp attempting to validate header
+402632|Info:    Valid v3 profile found for Off
+402632|Info:    Found file: Dracula.orp attempting to validate header
+402632|Info:    Valid v3 profile found for Dracula
+411607|Info:    Found file: Off.orp attempting to validate header
+411607|Info:    Valid v3 profile found for Off
+411607|Info:    Found file: Dracula.orp attempting to validate header
+411607|Info:    Valid v3 profile found for Dracula
+420652|Info:    Found file: Off.orp attempting to validate header
+420652|Info:    Valid v3 profile found for Off
+420652|Info:    Found file: Dracula.orp attempting to validate header
+420652|Info:    Valid v3 profile found for Dracula
+448564|Info:    Found file: Off.orp attempting to validate header
+448564|Info:    Valid v3 profile found for Off
+448564|Info:    Found file: Dracula.orp attempting to validate header
+448564|Info:    Valid v3 profile found for Dracula
+468180|Info:    Found file: Off.orp attempting to validate header
+468180|Info:    Valid v3 profile found for Off
+468180|Info:    Found file: Dracula.orp attempting to validate header
+468180|Info:    Valid v3 profile found for Dracula
+488793|Info:    Found file: Off.orp attempting to validate header
+488793|Info:    Valid v3 profile found for Off
+488793|Info:    Found file: Dracula.orp attempting to validate header
+488793|Info:    Valid v3 profile found for Dracula
+497364|Info:    Found file: Off.orp attempting to validate header
+497364|Info:    Valid v3 profile found for Off
+497364|Info:    Found file: Dracula.orp attempting to validate header
+497364|Info:    Valid v3 profile found for Dracula
+518886|Info:    Found file: Off.orp attempting to validate header
+518886|Info:    Valid v3 profile found for Off
+518886|Info:    Found file: Dracula.orp attempting to validate header
+518886|Info:    Valid v3 profile found for Dracula
+529966|Info:    Found file: Off.orp attempting to validate header
+529966|Info:    Valid v3 profile found for Off
+529966|Info:    Found file: Dracula.orp attempting to validate header
+529966|Info:    Valid v3 profile found for Dracula
+542898|Info:    Found file: Off.orp attempting to validate header
+542898|Info:    Valid v3 profile found for Off
+542898|Info:    Found file: Dracula.orp attempting to validate header
+542898|Info:    Valid v3 profile found for Dracula
+549190|Info:    Found file: Off.orp attempting to validate header
+549190|Info:    Valid v3 profile found for Off
+549190|Info:    Found file: Dracula.orp attempting to validate header
+549190|Info:    Valid v3 profile found for Dracula
+567794|Info:    Found file: Off.orp attempting to validate header
+567794|Info:    Valid v3 profile found for Off
+567794|Info:    Found file: Dracula.orp attempting to validate header
+567794|Info:    Valid v3 profile found for Dracula
+580506|Info:    Found file: Off.orp attempting to validate header
+580506|Info:    Valid v3 profile found for Off
+580506|Info:    Found file: Dracula.orp attempting to validate header
+580506|Info:    Valid v3 profile found for Dracula
+591246|Info:    Found file: Off.orp attempting to validate header
+591246|Info:    Valid v3 profile found for Off
+591246|Info:    Found file: Dracula.orp attempting to validate header
+591246|Info:    Valid v3 profile found for Dracula
+601066|Info:    Found file: Off.orp attempting to validate header
+601066|Info:    Valid v3 profile found for Off
+601066|Info:    Found file: Dracula.orp attempting to validate header
+601066|Info:    Valid v3 profile found for Dracula
+631742|Info:    Found file: Off.orp attempting to validate header
+631742|Info:    Valid v3 profile found for Off
+631742|Info:    Found file: Dracula.orp attempting to validate header
+631743|Info:    Valid v3 profile found for Dracula
+642003|Info:    Found file: Off.orp attempting to validate header
+642003|Info:    Valid v3 profile found for Off
+642003|Info:    Found file: Dracula.orp attempting to validate header
+642003|Info:    Valid v3 profile found for Dracula
+649274|Info:    Found file: Off.orp attempting to validate header
+649274|Info:    Valid v3 profile found for Off
+649274|Info:    Found file: Dracula.orp attempting to validate header
+649274|Info:    Valid v3 profile found for Dracula
+654055|Info:    Found file: Off.orp attempting to validate header
+654055|Info:    Valid v3 profile found for Off
+654055|Info:    Found file: Dracula.orp attempting to validate header
+654055|Info:    Valid v3 profile found for Dracula
+660024|Info:    Found file: Off.orp attempting to validate header
+660024|Info:    Valid v3 profile found for Off
+660024|Info:    Found file: Dracula.orp attempting to validate header
+660024|Info:    Valid v3 profile found for Dracula
+670940|Info:    Found file: Off.orp attempting to validate header
+670940|Info:    Valid v3 profile found for Off
+670940|Info:    Found file: Dracula.orp attempting to validate header
+670940|Info:    Valid v3 profile found for Dracula
+682211|Info:    Found file: Off.orp attempting to validate header
+682211|Info:    Valid v3 profile found for Off
+682211|Info:    Found file: Dracula.orp attempting to validate header
+682211|Info:    Valid v3 profile found for Dracula
+691269|Info:    Found file: Off.orp attempting to validate header
+691270|Info:    Valid v3 profile found for Off
+691270|Info:    Found file: Dracula.orp attempting to validate header
+691270|Info:    Valid v3 profile found for Dracula
+700955|Info:    Found file: Off.orp attempting to validate header
+700955|Info:    Valid v3 profile found for Off
+700955|Info:    Found file: Dracula.orp attempting to validate header
+700955|Info:    Valid v3 profile found for Dracula
+712888|Info:    Found file: Off.orp attempting to validate header
+712888|Info:    Valid v3 profile found for Off
+712888|Info:    Found file: Dracula.orp attempting to validate header
+712888|Info:    Valid v3 profile found for Dracula
+719788|Info:    Found file: Off.orp attempting to validate header
+719788|Info:    Valid v3 profile found for Off
+719788|Info:    Found file: Dracula.orp attempting to validate header
+719788|Info:    Valid v3 profile found for Dracula
+728772|Info:    Found file: Off.orp attempting to validate header
+728772|Info:    Valid v3 profile found for Off
+728772|Info:    Found file: Dracula.orp attempting to validate header
+728772|Info:    Valid v3 profile found for Dracula
+736247|Info:    Found file: Off.orp attempting to validate header
+736247|Info:    Valid v3 profile found for Off
+736247|Info:    Found file: Dracula.orp attempting to validate header
+736247|Info:    Valid v3 profile found for Dracula
+747747|Info:    Found file: Off.orp attempting to validate header
+747747|Info:    Valid v3 profile found for Off
+747747|Info:    Found file: Dracula.orp attempting to validate header
+747747|Info:    Valid v3 profile found for Dracula
+776690|Info:    Found file: Off.orp attempting to validate header
+776690|Info:    Valid v3 profile found for Off
+776690|Info:    Found file: Dracula.orp attempting to validate header
+776690|Info:    Valid v3 profile found for Dracula
+785371|Info:    Found file: Off.orp attempting to validate header
+785371|Info:    Valid v3 profile found for Off
+785371|Info:    Found file: Dracula.orp attempting to validate header
+785371|Info:    Valid v3 profile found for Dracula
+790653|Info:    Found file: Off.orp attempting to validate header
+790653|Info:    Valid v3 profile found for Off
+790653|Info:    Found file: Dracula.orp attempting to validate header
+790653|Info:    Valid v3 profile found for Dracula
+794046|Info:    Found file: Off.orp attempting to validate header
+794046|Info:    Valid v3 profile found for Off
+794046|Info:    Found file: Dracula.orp attempting to validate header
+794046|Info:    Valid v3 profile found for Dracula
+797191|Info:    Found file: Off.orp attempting to validate header
+797191|Info:    Valid v3 profile found for Off
+797191|Info:    Found file: Dracula.orp attempting to validate header
+797191|Info:    Valid v3 profile found for Dracula
+801406|Info:    Found file: Off.orp attempting to validate header
+801406|Info:    Valid v3 profile found for Off
+801406|Info:    Found file: Dracula.orp attempting to validate header
+801406|Info:    Valid v3 profile found for Dracula
+808763|Info:    Found file: Off.orp attempting to validate header
+808763|Info:    Valid v3 profile found for Off
+808763|Info:    Found file: Dracula.orp attempting to validate header
+808763|Info:    Valid v3 profile found for Dracula
+815670|Info:    Found file: Off.orp attempting to validate header
+815670|Info:    Valid v3 profile found for Off
+815670|Info:    Found file: Dracula.orp attempting to validate header
+815670|Info:    Valid v3 profile found for Dracula
+822317|Info:    Found file: Off.orp attempting to validate header
+822317|Info:    Valid v3 profile found for Off
+822317|Info:    Found file: Dracula.orp attempting to validate header
+822317|Info:    Valid v3 profile found for Dracula
+830861|Info:    Found file: Off.orp attempting to validate header
+830861|Info:    Valid v3 profile found for Off
+830861|Info:    Found file: Dracula.orp attempting to validate header
+830861|Info:    Valid v3 profile found for Dracula
+837858|Info:    Found file: Off.orp attempting to validate header
+837859|Info:    Valid v3 profile found for Off
+837859|Info:    Found file: Dracula.orp attempting to validate header
+837859|Info:    Valid v3 profile found for Dracula
+843867|Info:    Found file: Off.orp attempting to validate header
+843867|Info:    Valid v3 profile found for Off
+843867|Info:    Found file: Dracula.orp attempting to validate header
+843867|Info:    Valid v3 profile found for Dracula
+857663|Info:    Found file: Off.orp attempting to validate header
+857663|Info:    Valid v3 profile found for Off
+857663|Info:    Found file: Dracula.orp attempting to validate header
+857663|Info:    Valid v3 profile found for Dracula
+858390|Info:    Found file: Off.orp attempting to validate header
+858390|Info:    Valid v3 profile found for Off
+858391|Info:    Found file: Dracula.orp attempting to validate header
+858391|Info:    Valid v3 profile found for Dracula
+858906|Info:    Found file: Off.orp attempting to validate header
+858906|Info:    Valid v3 profile found for Off
+858906|Info:    Found file: Dracula.orp attempting to validate header
+858906|Info:    Valid v3 profile found for Dracula
+859639|Info:    Found file: Off.orp attempting to validate header
+859639|Info:    Valid v3 profile found for Off
+859639|Info:    Found file: Dracula.orp attempting to validate header
+859639|Info:    Valid v3 profile found for Dracula
+875427|Info:    Found file: Off.orp attempting to validate header
+875427|Info:    Valid v3 profile found for Off
+875427|Info:    Found file: Dracula.orp attempting to validate header
+875427|Info:    Valid v3 profile found for Dracula
+885313|Info:    Found file: Off.orp attempting to validate header
+885313|Info:    Valid v3 profile found for Off
+885313|Info:    Found file: Dracula.orp attempting to validate header
+885313|Info:    Valid v3 profile found for Dracula
+892850|Info:    Found file: Off.orp attempting to validate header
+892850|Info:    Valid v3 profile found for Off
+892850|Info:    Found file: Dracula.orp attempting to validate header
+892850|Info:    Valid v3 profile found for Dracula
+901338|Info:    Found file: Off.orp attempting to validate header
+901338|Info:    Valid v3 profile found for Off
+901338|Info:    Found file: Dracula.orp attempting to validate header
+901338|Info:    Valid v3 profile found for Dracula
+910598|Info:    Found file: Off.orp attempting to validate header
+910598|Info:    Valid v3 profile found for Off
+910598|Info:    Found file: Dracula.orp attempting to validate header
+910598|Info:    Valid v3 profile found for Dracula
+915922|Info:    Found file: Off.orp attempting to validate header
+915922|Info:    Valid v3 profile found for Off
+915922|Info:    Found file: Dracula.orp attempting to validate header
+915922|Info:    Valid v3 profile found for Dracula
+923710|Info:    Found file: Off.orp attempting to validate header
+923710|Info:    Valid v3 profile found for Off
+923710|Info:    Found file: Dracula.orp attempting to validate header
+923710|Info:    Valid v3 profile found for Dracula
+931870|Info:    Found file: Off.orp attempting to validate header
+931870|Info:    Valid v3 profile found for Off
+931870|Info:    Found file: Dracula.orp attempting to validate header
+931870|Info:    Valid v3 profile found for Dracula
+937518|Info:    Found file: Off.orp attempting to validate header
+937518|Info:    Valid v3 profile found for Off
+937518|Info:    Found file: Dracula.orp attempting to validate header
+937518|Info:    Valid v3 profile found for Dracula
+944731|Info:    Found file: Off.orp attempting to validate header
+944731|Info:    Valid v3 profile found for Off
+944731|Info:    Found file: Dracula.orp attempting to validate header
+944731|Info:    Valid v3 profile found for Dracula
+945454|Info:    Found file: Off.orp attempting to validate header
+945454|Info:    Valid v3 profile found for Off
+945454|Info:    Found file: Dracula.orp attempting to validate header
+945454|Info:    Valid v3 profile found for Dracula
+946699|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw3
+946699|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw7
+946699|Info:    Profile loading: Succeeded for Glorious Model D / D- @ HID: /dev/hidraw1
+946699|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw2

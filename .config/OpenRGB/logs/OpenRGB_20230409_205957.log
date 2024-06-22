@@ -1,0 +1,121 @@
+    OpenRGB v0.81
+    Commit: 2cc0c7aad8ef1bf01d2d70abd07d57b44949c65d from 2023-04-07 21:42:15 +1000
+    Launched: 20230409_205957
+====================================================================================================
+
+0     |Info:    Found file: Dracula.orp attempting to validate header
+0     |Info:    Valid v3 profile found for Dracula
+1012  |Info:    ------------------------------------------------------
+1012  |Info:    |               Start device detection               |
+1012  |Info:    ------------------------------------------------------
+1012  |Info:    Initializing HID interfaces: Success
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    |             Detecting I2C interfaces               |
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+1013  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+1013  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+1013  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+1013  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+1013  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+1013  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    |               Detecting I2C devices                |
+1013  |Info:    ------------------------------------------------------
+1334  |Info:    ------------------------------------------------------
+1334  |Info:    |               Detecting I2C PCI devices            |
+1334  |Info:    ------------------------------------------------------
+1334  |Info:    ------------------------------------------------------
+1334  |Info:    |               Detecting HID devices                |
+1334  |Info:    ------------------------------------------------------
+1390  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+1486  |Info:    [Corsair Commander Core] Registering RGB controller
+1789  |Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+1789  |Info:    ------------------------------------------------------
+1789  |Info:    |            Detecting libusb HID devices            |
+1789  |Info:    ------------------------------------------------------
+1810  |Info:    ------------------------------------------------------
+1810  |Info:    |              Detecting other devices               |
+1810  |Info:    ------------------------------------------------------
+1812  |Info:    ------------------------------------------------------
+1812  |Info:    |                Detection completed                 |
+1812  |Info:    ------------------------------------------------------
+1812  |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw11
+1812  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+1812  |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+102531|Info:    ------------------------------------------------------
+102531|Info:    |               Start device detection               |
+102531|Info:    ------------------------------------------------------
+102532|Info:    Initializing HID interfaces: Success
+102532|Info:    ------------------------------------------------------
+102532|Info:    |             Detecting I2C interfaces               |
+102532|Info:    ------------------------------------------------------
+102532|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+102532|Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+102532|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+102532|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+102532|Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+102532|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+102533|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+102533|Info:    ------------------------------------------------------
+102533|Info:    |               Detecting I2C devices                |
+102533|Info:    ------------------------------------------------------
+102855|Info:    ------------------------------------------------------
+102855|Info:    |               Detecting I2C PCI devices            |
+102855|Info:    ------------------------------------------------------
+102855|Info:    ------------------------------------------------------
+102855|Info:    |               Detecting HID devices                |
+102855|Info:    ------------------------------------------------------
+102908|Info:    [Corsair Lighting Node Core] Registering RGB controller
+103003|Info:    [Corsair Commander Core] Registering RGB controller
+103293|Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+103293|Info:    ------------------------------------------------------
+103293|Info:    |            Detecting libusb HID devices            |
+103293|Info:    ------------------------------------------------------
+103306|Info:    ------------------------------------------------------
+103306|Info:    |              Detecting other devices               |
+103306|Info:    ------------------------------------------------------
+103307|Info:    ------------------------------------------------------
+103307|Info:    |                Detection completed                 |
+103307|Info:    ------------------------------------------------------
+107336|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw11
+107336|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+107336|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+114025|Info:    ------------------------------------------------------
+114025|Info:    |               Start device detection               |
+114025|Info:    ------------------------------------------------------
+114026|Info:    Initializing HID interfaces: Success
+114026|Info:    ------------------------------------------------------
+114026|Info:    |             Detecting I2C interfaces               |
+114026|Info:    ------------------------------------------------------
+114026|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+114026|Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+114026|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+114026|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+114026|Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+114027|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+114027|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+114027|Info:    ------------------------------------------------------
+114027|Info:    |               Detecting I2C devices                |
+114027|Info:    ------------------------------------------------------
+114350|Info:    ------------------------------------------------------
+114350|Info:    |               Detecting I2C PCI devices            |
+114350|Info:    ------------------------------------------------------
+114351|Info:    ------------------------------------------------------
+114351|Info:    |               Detecting HID devices                |
+114351|Info:    ------------------------------------------------------
+114404|Info:    [Corsair Lighting Node Core] Registering RGB controller
+114500|Info:    [Corsair Commander Core] Registering RGB controller
+114749|Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+114749|Info:    ------------------------------------------------------
+114749|Info:    |            Detecting libusb HID devices            |
+114749|Info:    ------------------------------------------------------
+114762|Info:    ------------------------------------------------------
+114762|Info:    |              Detecting other devices               |
+114762|Info:    ------------------------------------------------------
+114763|Info:    ------------------------------------------------------
+114763|Info:    |                Detection completed                 |
+114763|Info:    ------------------------------------------------------
+118145|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw11
+118145|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+118145|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9

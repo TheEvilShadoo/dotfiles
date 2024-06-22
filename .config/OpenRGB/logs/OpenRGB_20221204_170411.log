@@ -1,0 +1,9 @@
+    OpenRGB v0.81
+    Commit: c2c9b3aa995b3c7660708e07acc85576593cf37c from 2022-12-04 00:46:56 +0100
+    Launched: 20221204_170411
+====================================================================================================
+
+0     |Info:    Found file: Off.orp attempting to validate header
+0     |Info:    Valid v3 profile found for Off
+0     |Info:    Found file: Dracula.orp attempting to validate header
+0     |Info:    Valid v3 profile found for Dracula

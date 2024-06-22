@@ -1,0 +1,179 @@
+    OpenRGB v0.8
+    Commit:  from 
+    Launched: 20230107_144703
+====================================================================================================
+
+0     |Info:    Found file: Dracula.orp attempting to validate header
+0     |Info:    Valid v3 profile found for Dracula
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |             Detecting I2C interfaces               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+1002  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Detecting I2C devices                |
+1002  |Info:    ------------------------------------------------------
+1228  |Info:    ------------------------------------------------------
+1228  |Info:    |               Detecting I2C PCI devices            |
+1228  |Info:    ------------------------------------------------------
+1228  |Info:    ------------------------------------------------------
+1228  |Info:    |               Detecting HID devices                |
+1228  |Info:    ------------------------------------------------------
+1281  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+1377  |Info:    [Corsair Commander Core] Registering RGB controller
+1638  |Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+1638  |Info:    ------------------------------------------------------
+1638  |Info:    |              Detecting other devices               |
+1638  |Info:    ------------------------------------------------------
+1640  |Info:    ------------------------------------------------------
+1640  |Info:    |                Detection completed                 |
+1640  |Info:    ------------------------------------------------------
+20960 |Info:    Found file: Dracula.orp attempting to validate header
+20960 |Info:    Valid v3 profile found for Dracula
+23024 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+23024 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+23024 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+23589 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+23589 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+23589 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+34788 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+34794 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+34794 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+35313 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+35313 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+35313 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+35498 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+35498 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+35498 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+35658 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+35658 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+35658 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+35828 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+35828 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+35828 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+35998 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+35998 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+35998 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+36273 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+36273 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+36273 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+36588 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+36588 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+36588 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+36973 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+36973 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+36973 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+37188 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+37188 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+37188 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+37388 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+37388 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+37388 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+42823 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+42823 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+42823 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+43333 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+43333 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+43333 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+43708 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+43708 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+43708 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+43913 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+43913 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+43913 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+44258 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+44258 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+44258 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+44728 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+44729 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+44729 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+44903 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+44903 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+44903 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+45088 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+45088 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+45088 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+79444 |Info:    ------------------------------------------------------
+79444 |Info:    |               Start device detection               |
+79444 |Info:    ------------------------------------------------------
+79444 |Info:    Initializing HID interfaces: Success
+79445 |Info:    ------------------------------------------------------
+79445 |Info:    |             Detecting I2C interfaces               |
+79445 |Info:    ------------------------------------------------------
+79445 |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1E81 Subsystem: 1028:C722
+79445 |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1E81 Subsystem: 1028:C722
+79445 |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1E81 Subsystem: 1028:C722
+79445 |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1E81 Subsystem: 1028:C722
+79445 |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1E81 Subsystem: 1028:C722
+79445 |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1462:7B17
+79445 |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:1E81 Subsystem: 1028:C722
+79445 |Info:    ------------------------------------------------------
+79445 |Info:    |               Detecting I2C devices                |
+79445 |Info:    ------------------------------------------------------
+79673 |Info:    ------------------------------------------------------
+79673 |Info:    |               Detecting I2C PCI devices            |
+79673 |Info:    ------------------------------------------------------
+79673 |Info:    ------------------------------------------------------
+79673 |Info:    |               Detecting HID devices                |
+79673 |Info:    ------------------------------------------------------
+79726 |Info:    [Corsair Lighting Node Core] Registering RGB controller
+79822 |Info:    [Corsair Commander Core] Registering RGB controller
+80102 |Info:    [MSI MPG Z390 GAMING EDGE AC (MS-7B17)] Registering RGB controller
+80102 |Info:    ------------------------------------------------------
+80102 |Info:    |              Detecting other devices               |
+80102 |Info:    ------------------------------------------------------
+80103 |Info:    ------------------------------------------------------
+80103 |Info:    |                Detection completed                 |
+80103 |Info:    ------------------------------------------------------
+89117 |Info:    Found file: Dracula.orp attempting to validate header
+89117 |Info:    Valid v3 profile found for Dracula
+90172 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+90172 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+90172 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+90732 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+90732 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+90732 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+90918 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+90918 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+90918 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+91082 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+91082 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+91082 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+91257 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+91257 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+91257 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+91897 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+91897 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+91897 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+92152 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+92152 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+92152 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+92442 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+92442 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+92442 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+92622 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+92622 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+92622 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+92957 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+92957 |Info:    Profile loading: FAILED! for Corsair Commander Core @ HID: /dev/hidraw5
+92957 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+268941|Info:    Found file: Dracula.orp attempting to validate header
+268941|Info:    Valid v3 profile found for Dracula
+270051|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+270051|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+270051|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+270436|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+270436|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+270436|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
+275272|Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw10
+275272|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw5
+275272|Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING EDGE AC (MS-7B17) @ HID: /dev/hidraw9
