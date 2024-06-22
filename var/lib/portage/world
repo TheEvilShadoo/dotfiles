@@ -114,6 +114,7 @@ gui-apps/swaync
 gui-apps/waybar
 gui-apps/wayvnc
 gui-apps/wev
+gui-libs/display-manager-init
 gui-libs/greetd
 gui-libs/wlroots
 gui-libs/xdg-desktop-portal-hyprland::guru
