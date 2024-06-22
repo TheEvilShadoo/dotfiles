@@ -1,0 +1,2 @@
+virtual/wine ABI_X86: 64 32
+app-emulation/wine-vanilla X ABI_X86: 64 32

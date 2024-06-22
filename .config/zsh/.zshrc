@@ -21,24 +21,15 @@ source $ZSH/oh-my-zsh.sh
 alias ani-cli="ani-cli -q best"
 alias doas=$'nocorrect doas\t'
 alias du="du -h"
-alias kernelupdate="cd /usr/src/linux && doas make clean -j16 && doas make modules_prepare -j16 && time doas make -j16 && doas make modules_install -j16 && \
-    doas make install && doas emerge @module-rebuild && doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias lf="lf-sixel"
 alias librewolf="librewolf-bin"
 alias ls="lsd"
-alias links="links -g"
 alias neofetch="neofetch --chafa pictures/misc/gentoo_logo.png --size 219"
 alias sudo=$'nocorrect doas\t'
 alias top="btop"
 alias tree="lsd --tree"
-alias vi="lvim"
-alias vim="lvim"
 alias vimake="doas nvim /etc/portage/make.conf"
-alias vivim="lvim ~/.vimrc"
-alias vixinit="lvim ~/.xinitrc"
-alias vizsh="lvim ~/.config/zsh/.zshrc"
-alias vrms="vrms-gentoo"
-alias wallpaper="swaybg -i"
+alias vizsh="vim ~/.config/zsh/.zshrc"
 alias world="cat /var/lib/portage/world"
 alias ytfzf="ytfzf -t -T sixel --async-thumbnails"
 
@@ -71,7 +62,4 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # THE FUN STUFF...
-#clear
-#~/.local/share/color-scripts/mouseface
 neofetch --chafa pictures/misc/gentoo_logo.png --size 219
-#echo "let's all love lain\n" | lolcat

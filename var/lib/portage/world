@@ -208,7 +208,7 @@ www-client/firefox-bin
 www-client/librewolf-bin
 www-client/links
 www-servers/lighttpd
-x11-drivers/OpenTabletDriver-bin
+x11-drivers/OpenTabletDriver
 x11-misc/gammastep
 x11-misc/pcmanfm
 x11-misc/unclutter-xfixes

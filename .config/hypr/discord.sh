@@ -5,7 +5,5 @@ if pidof "Discord"; then
         dbus-send --dest=$val --type=method_call /StatusNotifierItem org.kde.StatusNotifierItem.Activate
     done
 else
-    discord --enable-blink-features=MiddleClickAutoscroll --start-minimized &
+    /usr/local/bin/Vesktop.AppImage --enable-blink-features=MiddleClickAutoscroll --start-minimized &
 fi
-
-hyprctl dispatch workspace 5
