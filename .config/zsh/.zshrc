@@ -26,6 +26,7 @@ alias sudo=$'nocorrect doas\t'
 alias top="btop"
 alias tree="lsd --tree"
 alias vimake="doas nvim /etc/portage/make.conf"
+alias vivim="vim .config/lvim/config.lua"
 alias vizsh="vim ~/.config/zsh/.zshrc"
 alias world="cat /var/lib/portage/world"
 alias ytfzf="ytfzf -t -T sixel --async-thumbnails"

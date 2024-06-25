@@ -193,6 +193,7 @@ net-p2p/qbittorrent
 net-print/cups-filters
 net-print/gutenprint
 sys-apps/bat
+sys-apps/cpu-x
 sys-apps/dmidecode
 sys-apps/flashrom
 sys-apps/flatpak
