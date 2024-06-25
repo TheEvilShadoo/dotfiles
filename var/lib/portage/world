@@ -241,4 +241,5 @@ x11-misc/pcmanfm
 x11-misc/qt5ct
 x11-misc/unclutter-xfixes
 x11-misc/xdg-user-dirs
+x11-themes/dracula-gtk-theme
 x11-themes/gentoo-xcursors
