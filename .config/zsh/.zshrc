@@ -25,6 +25,7 @@ alias neofetch="neofetch --chafa pictures/misc/gentoo_logo.png --size 219"
 alias sudo=$'nocorrect doas\t'
 alias top="btop"
 alias tree="lsd --tree"
+alias vihypr="vim .config/hypr/hyprland.conf"
 alias vimake="doas nvim /etc/portage/make.conf"
 alias vivim="vim .config/lvim/config.lua"
 alias vizsh="vim ~/.config/zsh/.zshrc"
