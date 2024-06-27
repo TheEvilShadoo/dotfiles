@@ -142,6 +142,7 @@ net-firewall/ufw
 net-fs/davfs2
 net-fs/sshfs
 net-ftp/filezilla
+net-im/vesktop
 net-irc/quassel
 net-libs/nodejs
 net-misc/aria2
