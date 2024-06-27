@@ -1018,11 +1018,6 @@
 # required by net-im/discord-wayland-0.0.22::thegreatmcpain
 # required by discord-wayland (argument)
 >=net-libs/nodejs-18.15.0 inspector
-# required by dev-util/librnp-0.17.0::gentoo
-# required by mail-client/thunderbird-102.10.1::gentoo[system-librnp]
-# required by @selected
-# required by @world (argument)
->=dev-libs/sexp-0.8.3 static-libs
 # required by app-emulation/proton-ge-custom-bin-8.2::kzd
 # required by proton-ge-custom-bin (argument)
 # required by app-emulation/proton-ge-custom-bin-8.3::kzd
