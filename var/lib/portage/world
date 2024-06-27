@@ -33,6 +33,7 @@ app-portage/eix
 app-portage/emlop
 app-portage/fetchcommandwrapper
 app-portage/gentoolkit
+app-portage/portage-bashrc-mv
 app-portage/portpeek
 app-portage/smart-live-rebuild
 app-shells/fzf
@@ -174,7 +175,6 @@ sys-auth/seatd
 sys-block/io-scheduler-udev-rules
 sys-boot/grub
 sys-boot/os-prober
-sys-devel/gettext
 sys-devel/mold
 sys-firmware/intel-microcode
 sys-fs/dosfstools
@@ -194,7 +194,6 @@ virtual/libudev::without-systemd
 virtual/udev
 www-client/firefox-bin
 www-client/librewolf-bin
-www-client/links
 www-servers/lighttpd
 x11-apps/xrandr
 x11-drivers/OpenTabletDriver
