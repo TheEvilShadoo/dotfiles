@@ -1,1 +1,1 @@
-app-emulation/qemu gtk sdl spice
+app-emulation/qemu gtk sdl spice usbredir

@@ -1,1 +1,3 @@
 **/cache
+.config/OpenRGB/logs/
+.config/zsh/.zcompdump

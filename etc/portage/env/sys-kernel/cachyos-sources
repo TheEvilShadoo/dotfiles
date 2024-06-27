@@ -1,18 +1,18 @@
 post_pkg_postinst() {
-		CURRENT_KR=$(uname -r)
-		NEW_KR=$(eselect --brief kernel show | grep -o "[0-9]*\.[0-9].*")
-		unset ARCH
-		if [[ -f "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" ]] ; then
-				cp "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" "/home/ryan/backups/kernelconfigs/kernelconfig-${CURRENT_KR}" && \
-                cp "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" "${EROOT:-/}usr/src/linux/.config" && \
-                cd "${EROOT:-/}usr/src/linux/" && \
-                make olddefconfig && \
-				cp "${EROOT:-/}usr/src/linux/.config" "/home/ryan/backups/kernelconfigs/kernelconfig-${NEW_KR}" && \
-                make -j16 && make modules_install -j16 && make install && \
-				cd "${EROOT:-/}usr/src/nvidia-`ls -la | grep nvidia | tail -n 1 | grep -o 'nvidia-.*'`"
-                make -j16 && make modules_install -j16 && \
-                grub-mkconfig -o /boot/grub/grub.cfg
-                eclean-kernel -n 2
-				find "/home/ryan/backups/kernelconfigs/" -type f -not -name "kernelconfig-${CURRENT_KR}" -not -name "kernelconfig-${NEW_KR}" -delete
-        fi
+	CURRENT_KR=$(uname -r)
+	NEW_KR=$(eselect --brief kernel show | grep -o "[0-9]*\.[0-9].*")
+	unset ARCH
+	if [[ -f "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" ]] ; then
+		cp "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" "/home/ryan/backups/kernelconfigs/kernelconfig-${CURRENT_KR}" && \
+		cp "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" "${EROOT:-/}usr/src/linux/.config" && \
+		cd "${EROOT:-/}usr/src/linux/" && \
+		make olddefconfig && \
+		cp "${EROOT:-/}usr/src/linux/.config" "/home/ryan/backups/kernelconfigs/kernelconfig-${NEW_KR}" && \
+		make -j16 && make modules_install -j16 && make install && \
+		cd "${EROOT:-/}usr/src/nvidia-`ls -la | grep nvidia | tail -n 1 | grep -o 'nvidia-.*'`"
+		make -j16 && make modules_install -j16 && \
+		grub-mkconfig -o /boot/grub/grub.cfg
+		eclean-kernel -n 2
+		find "/home/ryan/backups/kernelconfigs/" -type f -not -name "kernelconfig-${CURRENT_KR}" -not -name "kernelconfig-${NEW_KR}" -delete
+	fi
 }

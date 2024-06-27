@@ -1,18 +1,27 @@
 #!/bin/sh
-# Sync up and check for portage updates
-doas emerge --sync --jobs `nproc`
-doas emerge -u1 sys-apps/portage
 
-# Check if kernel or golang updates are available
-eix -qu "sys-kernel/*-sources" && export KERN_UP=1 
+# Exit on ctrl + c
+trap exit SIGINT SIGTERM
+
+# Sync up
+doas emerge --sync --jobs `nproc`
+
+# Check for updates requiring additional steps
+eix -qu sys-apps/portage && export PORTAGE_UP=1
+eix -qu sys-kernel/\*-sources && export KERN_UP=1 
 eix -qu dev-lang/go && export GO_UP=1
 eix -qu dev-lang/perl && export PERL_UP=1
 
+if [ $PORTAGE_UP ]; then
+    doas emerge -u1 sys-apps/portage
+fi
+
+# Update the world set
 doas emerge -uND @world
 
-if [ $KERN_UP ]; then
-    doas emerge @module-rebuild
-fi
+#if [ $KERN_UP ]; then
+#    doas emerge @module-rebuild
+#fi
 
 if [ $GO_UP ]; then
     doas emerge @golang-rebuild
@@ -22,7 +31,11 @@ if [ $PERL_UP ]; then
     doas perl-cleaner --all
 fi
 
+# Update live packages
 #doas emerge @smart-live-rebuild
+
+# Clean orphaned dependencies
 doas emerge -c
 
+# Completion message
 cowsay Update Complete! | lolcat -a

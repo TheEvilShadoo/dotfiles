@@ -1,2 +1,2 @@
-virtual/wine ABI_X86: 64 32
-app-emulation/wine-vanilla -mingw vkd3d X ABI_X86: 64 32
+virtual/wine ABI_X86: 64 32 staging
+app-emulation/wine-staging X ABI_X86: 64 32

@@ -39,6 +39,7 @@ net-ftp/filezilla no-mold.conf
 net-irc/quassel no-mold.conf
 net-irc/weechat no-mold.conf
 net-libs/gnutls no-mold.conf
+net-libs/nodejs no-mold.conf
 net-mail/notmuch no-mold.conf
 sys-apps/hwinfo no-mold.conf
 sys-apps/iproute2 no-mold.conf
