@@ -4,5 +4,6 @@ cd ~
 
 export _JAVA_AWT_WM_NONREPARENTING=1
 export XCURSOR_SIZE=24
+export XCURSOR_THEME="gentoo"
 
 exec dbus-run-session Hyprland

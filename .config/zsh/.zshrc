@@ -16,6 +16,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Define aliases
 alias ani-cli="ani-cli -q best"
+alias cat="bat"
 alias doas=$'nocorrect doas\t'
 alias du="du -h"
 alias lf="lf-sixel"
@@ -30,7 +31,7 @@ alias vihypr="vim .config/hypr/hyprland.conf"
 alias vimake="doas nvim /etc/portage/make.conf"
 alias vivim="vim .config/lvim/config.lua"
 alias vizsh="vim ~/.config/zsh/.zshrc"
-alias world="cat /var/lib/portage/world"
+alias world="bat /var/lib/portage/world"
 alias ytfzf="ytfzf -t -T sixel --async-thumbnails"
 
 # Fix foot ssh rendering
