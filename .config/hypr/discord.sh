@@ -5,5 +5,5 @@ if pidof "vesktop"; then
         dbus-send --dest=$val --type=method_call /StatusNotifierItem org.kde.StatusNotifierItem.Activate
     done
 else
-    vesktop --enable-blink-features=MiddleClickAutoscroll --start-minimized &
+    /opt/vesktop/vesktop --enable-blink-features=MiddleClickAutoscroll --start-minimized &
 fi
