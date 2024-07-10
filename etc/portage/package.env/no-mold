@@ -52,6 +52,7 @@ sys-devel/gettext no-mold.conf
 sys-devel/llvm no-mold.conf
 sys-libs/binutils-libs no-mold.conf
 sys-libs/efivar no-mold.conf
+sys-libs/glibc no-mold.conf
 sys-libs/libomp no-mold.conf
 virtual/wine no-mold.conf
 x11-libs/gdk-pixbuf no-mold.conf
