@@ -63,4 +63,4 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # THE FUN STUFF...
-neofetch --chafa pictures/misc/gentoo_logo.png --size 300
+neofetch --chafa ~/pictures/misc/gentoo_logo.png --size 300
