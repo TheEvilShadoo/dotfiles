@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# Exit on ctrl + c
-trap exit SIGINT SIGTERM
-
 # Sync up
 doas emerge --sync --jobs `nproc`
+
+# Exit on ctrl + c
+trap exit SIGINT SIGTERM
 
 # Check for updates requiring additional steps
 eix -qu sys-apps/portage && export PORTAGE_UP=1

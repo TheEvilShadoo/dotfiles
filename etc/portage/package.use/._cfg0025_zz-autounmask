@@ -1480,3 +1480,7 @@
 # required by @selected
 # required by @world (argument)
 >=media-libs/tiff-4.6.0-r1 abi_x86_32
+# required by dev-qt/qtmultimedia-6.7.2-r1::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.7.2-r1 -X
