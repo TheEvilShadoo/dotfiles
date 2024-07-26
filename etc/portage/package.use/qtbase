@@ -1,1 +1,1 @@
-dev-qt/qtbase X
+dev-qt/qtbase X -journald -syslog

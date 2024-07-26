@@ -54,10 +54,6 @@ dev-vcs/git-filter-repo
 dev-vcs/lazygit
 games-action/multimc-bin
 games-arcade/osu-lazer
-games-arcade/taisei
-games-emulation/dolphin
-games-fps/duke3d-data
-games-fps/eduke32
 games-misc/cowsay
 games-misc/fortune-mod
 games-misc/fortune-mod-chucknorris
@@ -65,7 +61,6 @@ games-misc/fortune-mod-kernelcookies
 games-misc/fortune-mod-osfortune
 games-misc/lolcat
 games-misc/nyancat
-games-misc/wtf
 games-util/esteam
 games-util/game-device-udev-rules
 games-util/steam-launcher
@@ -91,10 +86,12 @@ gui-libs/xdg-desktop-portal-hyprland::guru
 gui-wm/hyprland
 gui-wm/sway
 mail-client/thunderbird-bin
+media-fonts/dejavu
 media-fonts/fontawesome
 media-fonts/joypixels
 media-fonts/liberation-fonts
 media-fonts/libertine
+media-fonts/noto
 media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-fonts/roboto
@@ -166,6 +163,7 @@ sys-firmware/intel-microcode
 sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/exfatprogs
+sys-fs/fuse:0
 sys-fs/ntfs3g
 sys-kernel/cachyos-settings
 sys-kernel/cachyos-sources

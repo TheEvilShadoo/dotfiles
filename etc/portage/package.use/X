@@ -1,0 +1,13 @@
+sys-apps/hwloc X
+gui-libs/gtk X
+media-gfx/fontforge X
+dev-qt/qtwidgets X
+app-crypt/pinentry X
+media-libs/libsdl X
+sys-apps/xdg-desktop-portal-gtk X
+media-fonts/dejavu X
+media-fonts/liberation-fonts X
+media-fonts/noto X
+media-fonts/noto-emoji X
+media-fonts/urw-fonts X
+media-libs/libsdl2 X

@@ -1,15 +1,16 @@
 post_pkg_postinst() {
 	CURRENT_KR=$(uname -r)
+	CURRENT_KR_SHORTHAND=$(${CURRENT_KR} | grep -o "cachyos.*")
 	NEW_KR=$(eselect --brief kernel show | grep -o "cachyos.*")
 	unset ARCH
 	if [[ -f "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" ]] ; then
-		cp "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" "/home/ryan/backups/kernelconfigs/kernelconfig-${CURRENT_KR}" "${EROOT:-/}usr/src/linux/.config" &&
+		cp "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" "/home/ryan/backups/kernelconfigs/kernelconfig-${CURRENT_KR_SHORTHAND}" "${EROOT:-/}usr/src/linux" &&
 		cd "${EROOT:-/}usr/src/linux/" &&
 		make olddefconfig -j16 &&
 		cp "${EROOT:-/}usr/src/linux/.config" "/home/ryan/backups/kernelconfigs/kernelconfig-${NEW_KR}" &&
 		make -j16 && make modules_install -j16 && make install &&
 		grub-mkconfig -o /boot/grub/grub.cfg &&
 		eclean-kernel -n 2 &&
-		find "/home/ryan/backups/kernelconfigs/" -type f -not -name "kernelconfig-${CURRENT_KR}" -not -name "kernelconfig-${NEW_KR}" -delete
+		find "/home/ryan/backups/kernelconfigs/" -type f -not -name "kernelconfig-${CURRENT_KR_SHORTHAND}" -not -name "kernelconfig-${NEW_KR}" -delete
 	fi
 }
