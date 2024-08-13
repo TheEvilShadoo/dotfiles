@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.10.0-cachyos-6.10.0.3 Kernel Configuration
+# Linux/x86 6.10.4-cachyos-6.10.4-r1 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Gentoo 13.3.1_p20240614 p17) 13.3.1 20240614"
 CONFIG_CC_IS_GCC=y
@@ -3772,7 +3772,6 @@ CONFIG_HID_GENERIC=y
 # CONFIG_HID_APPLEIR is not set
 # CONFIG_HID_APPLETB_BL is not set
 # CONFIG_HID_APPLETB_KBD is not set
-# CONFIG_HID_APPLE_MAGIC_BACKLIGHT is not set
 # CONFIG_HID_ASUS is not set
 # CONFIG_HID_AUREAL is not set
 # CONFIG_HID_BELKIN is not set

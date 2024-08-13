@@ -9,7 +9,8 @@ gtk_theme="$(grep 'gtk-theme-name' "$config" | sed 's/.*\s*=\s*//')"
 icon_theme="$(grep 'gtk-icon-theme-name' "$config" | sed 's/.*\s*=\s*//')"
 cursor_theme="$(grep 'gtk-cursor-theme-name' "$config" | sed 's/.*\s*=\s*//')"
 font_name="$(grep 'gtk-font-name' "$config" | sed 's/.*\s*=\s*//')"
-gsettings set "$gnome_schema" gtk-theme "$gtk_theme"
-gsettings set "$gnome_schema" icon-theme "$icon_theme"
+gsettings set "$gnome_schema" gtk-theme Dracula
+gsettings set "$gnome_schema" icon-theme Dracula
+gsettings set org.gnome.desktop.wm.preferences theme Dracula &
 gsettings set "$gnome_schema" cursor-theme "$cursor_theme"
 gsettings set "$gnome_schema" font-name "$font_name"

@@ -38,6 +38,7 @@ app-shells/zsh-completions
 app-text/evince
 app-text/zathura
 app-text/zathura-pdf-poppler
+dev-lang/rust-bin
 dev-libs/libconfig
 dev-libs/libthai
 dev-libs/quazip

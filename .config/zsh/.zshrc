@@ -11,6 +11,10 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 plugins=(dirhistory git)
 
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
 # Source scripts
 source $ZSH/oh-my-zsh.sh
 
@@ -38,6 +42,7 @@ alias ytfzf="ytfzf -t -T sixel --async-thumbnails"
 if [[ $TERM = "foot" ]]; then
   alias ssh='TERM=linux ssh'
 fi
+
 # Define Dracula TTY colorscheme and TTY-specific aliases
 if [ "$TERM" = "linux" ]; then
 	printf %b '\e[40m' '\e[8]' # set default background to color 0 'dracula-bg'
