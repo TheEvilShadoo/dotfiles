@@ -38,4 +38,4 @@ fi
 doas emerge -c
 
 # Completion message
-cowsay Update Complete! | lolcat
+cowsay Update complete! | lolcat

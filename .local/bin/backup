@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Backup documents, pictures, and videos
+rdiff-backup -v5 backup ~/documents /mnt/hdd1/documents; rdiff-backup -v5 backup ~/pictures /mnt/hdd1/pictures; rdiff-backup -v5 backup ~/videos /mnt/hdd1/videos
+
+# Completion message
+cowsay Backup complete! | lolcat
