@@ -10,6 +10,8 @@ app-arch/atool
 app-arch/lz4
 app-arch/p7zip
 app-arch/pigz
+app-arch/xarchiver
+app-backup/rdiff-backup
 app-editors/neovim
 app-emulation/wine-staging
 app-emulation/winetricks
@@ -67,7 +69,6 @@ games-util/esteam
 games-util/game-device-udev-rules
 games-util/steam-launcher
 gnome-extra/nemo
-gnome-extra/nemo-fileroller
 gui-apps/foot
 gui-apps/grim
 gui-apps/hypridle

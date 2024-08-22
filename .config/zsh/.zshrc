@@ -24,6 +24,7 @@ source $ZSH/oh-my-zsh.sh
 # Define aliases
 alias ani-cli="ani-cli -q best"
 alias cat="bat"
+alias cpv='rsync -ah --info=progress2'
 alias doas=$'nocorrect doas\t'
 alias du="du -h"
 alias lf="lf-sixel"
