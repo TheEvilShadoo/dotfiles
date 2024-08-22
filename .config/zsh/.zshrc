@@ -15,6 +15,9 @@ plugins=(dirhistory git)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# PATH
+export PATH="$HOME/.local/bin:$HOME/.local/bin/statusbar:/usr/local/bin:/etc/eselect/wine/bin:${PATH}"
+
 # Source scripts
 source $ZSH/oh-my-zsh.sh
 

@@ -493,7 +493,6 @@
 # required by media-plugins/alsa-plugins-1.2.6::gentoo[pulseaudio]
 # required by media-video/pipewire-0.3.51-r1::mv[-pipewire-alsa,alsa]
 # required by media-video/wireplumber-0.4.10-r2::gentoo
->=media-sound/pulseaudio-daemon-16.0 bluetooth
 # required by media-sound/pulseaudio-daemon-16.0::gentoo
 # required by media-sound/pulseaudio-16.0::gentoo[daemon]
 # required by media-plugins/alsa-plugins-1.2.6::gentoo[pulseaudio]
@@ -718,11 +717,6 @@
 # required by app-admin/pass-1.7.4-r2::gentoo
 # required by pass (argument)
 >=media-gfx/qrencode-4.1.1 png
-# required by www-client/librewolf-103.0.2_p1::librewolf[system-libvpx]
-# required by librewolf (argument)
-# required by www-client/librewolf-103.0.2_p1::librewolf[pgo]
-# required by librewolf (argument)
->=x11-base/xorg-server-21.1.4 xvfb
 # required by net-misc/curl-7.85.0-r2::gentoo[adns]
 # required by media-libs/raptor-2.0.15-r6::gentoo[curl]
 # required by dev-libs/rasqal-0.9.33::gentoo

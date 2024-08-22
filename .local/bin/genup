@@ -17,7 +17,7 @@ if [ $PORTAGE_UP ]; then
 fi
 
 # Update the world set
-doas emerge -uND @world
+doas emerge -auND @world
 
 #if [ $KERN_UP ]; then
 #    doas emerge @module-rebuild
