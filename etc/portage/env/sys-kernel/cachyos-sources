@@ -1,16 +1,82 @@
 post_pkg_postinst() {
-	CURRENT_KR=$(uname -r)
-	CURRENT_KR_SHORTHAND=$(echo ${CURRENT_KR} | grep -o "cachyos.*")
-	NEW_KR=$(eselect --brief kernel show | grep -o "cachyos.*")
-	unset ARCH
-	if [[ -f "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" ]] ; then
-		cp "${EROOT:-/}usr/src/linux-${CURRENT_KR}/.config" "/home/ryan/.dotfiles/kernelconfigs/kernelconfig-${CURRENT_KR_SHORTHAND}" "${EROOT:-/}usr/src/linux" &&
-		cd "${EROOT:-/}usr/src/linux/" &&
-		make olddefconfig -j16 &&
-		cp "${EROOT:-/}usr/src/linux/.config" "/home/ryan/.dotfiles/kernelconfigs/kernelconfig-${NEW_KR}" &&
-		make -j16 && make modules_install -j16 && make install &&
-		grub-mkconfig -o /boot/grub/grub.cfg &&
-		eclean-kernel -n 2 &&
-		find "/home/ryan/.dotfiles/kernelconfigs/" -type f -not -name "kernelconfig-${CURRENT_KR_SHORTHAND}" -not -name "kernelconfig-${NEW_KR}" -delete
-	fi
+    local CURRENT_KR NEW_KR CONFIG_SRC CURRENT_KR_SHORTHAND NEW_KR_SHORTHAND
+    CURRENT_KR=$(uname -r)
+    NEW_KR=$(eselect --brief kernel show | sed 's/^linux-//')   # get version like 7.0.2-cachyos0
+
+    # Short versions for backup filenames (keep full revision)
+    CURRENT_KR_SHORTHAND=$(echo "${CURRENT_KR}" | grep -o "cachyos.*")
+    NEW_KR_SHORTHAND=$(echo "${NEW_KR}" | grep -o "cachyos.*")
+
+    unset ARCH
+
+    # 1. Locate the running kernel's configuration
+    if [[ -f "/proc/config.gz" ]]; then
+        CONFIG_SRC="/proc/config.gz"
+        echo "Using /proc/config.gz for current kernel config"
+    elif [[ -f "/boot/config-${CURRENT_KR}" ]]; then
+        CONFIG_SRC="/boot/config-${CURRENT_KR}"
+        echo "Using /boot/config-${CURRENT_KR} for current kernel config"
+    else
+        # Fallback: try to find the source directory of the running kernel
+        local CLEAN_KR="${CURRENT_KR}"
+        # Try exact match first, then strip any trailing digits after 'cachyos'
+        if [[ ! -d "/usr/src/linux-${CURRENT_KR}" ]]; then
+            CLEAN_KR=$(echo "${CURRENT_KR}" | sed -E 's/(cachyos)[0-9]+$/\1/')
+        fi
+        local CURRENT_SRC_DIR=$(ls -d /usr/src/linux-${CLEAN_KR}* 2>/dev/null | head -n1)
+        if [[ -n "${CURRENT_SRC_DIR}" && -f "${CURRENT_SRC_DIR}/.config" ]]; then
+            CONFIG_SRC="${CURRENT_SRC_DIR}/.config"
+            echo "Using ${CONFIG_SRC} for current kernel config"
+        else
+            echo "Error: Could not find running kernel's configuration (tried /proc/config.gz, /boot/config-${CURRENT_KR}, and source dirs)." >&2
+            return 1
+        fi
+    fi
+
+    # 2. Ensure new kernel source directory exists
+    if [[ ! -d "/usr/src/linux" ]]; then
+        echo "Error: /usr/src/linux symlink is missing or invalid. Run 'eselect kernel set' first." >&2
+        return 1
+    fi
+
+    # 3. Copy the old config to the new source, then prepare it
+    if [[ "${CONFIG_SRC}" == "/proc/config.gz" ]]; then
+        zcat "${CONFIG_SRC}" > "/usr/src/linux/.config"
+    else
+        cp "${CONFIG_SRC}" "/usr/src/linux/.config"
+    fi
+
+    # Backup the old config (using running kernel's version string)
+    local BACKUP_DIR="/home/ryan/.dotfiles/backups/kernelconfigs"
+    mkdir -p "${BACKUP_DIR}"
+    cp "/usr/src/linux/.config" "${BACKUP_DIR}/kernelconfig-${CURRENT_KR_SHORTHAND}"
+
+    cd "/usr/src/linux/" || return 1
+
+    make clean -j16
+    make olddefconfig -j16
+
+    # Add LTO options (idempotent, no duplicate lines)
+    grep -qxF "CONFIG_LTO=y" .config || echo "CONFIG_LTO=y" >> .config
+    grep -qxF "CONFIG_LTO_CLANG=y" .config || echo "CONFIG_LTO_CLANG=y" >> .config
+    grep -qxF "CONFIG_LTO_CLANG_FULL=y" .config || echo "CONFIG_LTO_CLANG_FULL=y" >> .config
+
+    # Backup the new config (after olddefconfig + LTO)
+    cp .config "${BACKUP_DIR}/kernelconfig-${NEW_KR_SHORTHAND}"
+
+    # 4. Build and install
+    . /etc/profile
+    make LLVM=1 KCFLAGS="-march=native -O3 -pipe" -j16 || return 1
+    make LLVM=1 KCFLAGS="-march=native -O3 -pipe" modules_install -j16 || return 1
+    make install -j16 || return 1
+    grub-mkconfig -o /boot/grub/grub.cfg || return 1
+
+    # 5. Cleanup: keep last 2 kernels and old config backups
+    eclean-kernel -n 2
+    find "${BACKUP_DIR}" -type f \
+        -not -name "kernelconfig-${CURRENT_KR_SHORTHAND}" \
+        -not -name "kernelconfig-${NEW_KR_SHORTHAND}" \
+        -delete
+
+    echo "Kernel update completed successfully."
 }
