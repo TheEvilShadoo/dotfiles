@@ -1,5 +1,7 @@
 #!/bin/sh
 
+killall hypridle
+
 # Sync up
 doas emerge --sync --jobs `nproc`
 
@@ -14,28 +16,58 @@ eix -qu dev-lang/perl && export PERL_UP=1
 
 if [ $PORTAGE_UP ]; then
     doas emerge -u1 sys-apps/portage
+
+    # Exit on ctrl + c
+    trap exit SIGINT SIGTERM
 fi
 
 # Update the world set
-doas emerge -auND @world
+doas emerge -uND @world
+EMERGE_STATUS=$?
 
-#if [ $KERN_UP ]; then
-#    doas emerge @module-rebuild
-#fi
+# Check if we have pending configuration files
+CONFIG_FILES_EXIST=$(find /etc -maxdepth 1 -name '._cfg' 2>/dev/null | wc -l)
 
-if [ $GO_UP ]; then
-    doas emerge @golang-rebuild
+# If emerge failed OR we have config files to merge
+if [ $EMERGE_STATUS -ne 0 ] || [ $CONFIG_FILES_EXIST -gt 0 ]; then
+    if [ $CONFIG_FILES_EXIST -gt 0 ]; then
+        echo "Configuration file updates needed. Running dispatch-conf..."
+        doas dispatch-conf
+
+        # After handling configs, check if we need to resume the failed emerge
+        if [ $EMERGE_STATUS -ne 0 ]; then
+            echo "Resuming emerge after configuration file updates..."
+            doas emerge -uND @world
+            EMERGE_STATUS=$?
+        fi
+    else
+        # Emerge failed but no config file - likely a different error
+        echo "Emerge failed for other reasons than configuration files"
+    fi
 fi
 
-if [ $PERL_UP ]; then
-    doas perl-cleaner --all
+# Only proceed with rebuilds if the main emerge was successful
+if [ $EMERGE_STATUS -eq 0 ]; then
+    if [ $KERN_UP ]; then
+        doas emerge @module-rebuild
+    fi
+
+    if [ $GO_UP ]; then
+        doas emerge @golang-rebuild
+    fi
+
+    if [ $PERL_UP ]; then
+        doas perl-cleaner --all
+    fi
+
+    # Update live packages
+    doas emerge @smart-live-rebuild
+
+    # Clean orphaned dependencies
+    doas emerge -c
+
+    # Completion message
+    cowsay Emerge complete! | lolcat
 fi
 
-# Update live packages
-#doas emerge @smart-live-rebuild
-
-# Clean orphaned dependencies
-doas emerge -c
-
-# Completion message
-cowsay Update complete! | lolcat
+hyprctl --quiet dispatch exec hypridle

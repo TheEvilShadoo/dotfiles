@@ -2,8 +2,30 @@
 
 cd ~
 
-export _JAVA_AWT_WM_NONREPARENTING=1
+# Steam
+export WINEFSYNC=1
+export WINE_LARGE_ADDRESS_AWARE=1
+
+# Visual
+export ENABLE_HDR_WSI=1
+export WLR_NO_HARDWARE_CURSOR=1
+
+# Theme
 export XCURSOR_SIZE=24
 export XCURSOR_THEME="gentoo"
+export HYPRCURSOR_SIZE=24
+export HYPRCURSOR_THEME="gentoo"
+export GTK_THEME="Dracula"
+
+# XDG
+export XDG_CURRENT_DESKTOP="Hyprland"
+export XDG_SESSION_TYPE="wayland"
+export XDG_SESSION_DESKTOP="Hyprland"
+
+# Toolkit
+export SDL_VIDEODRIVER="wayland,x11,windows"
+export _JAVA_AWT_WM_NONREPARENTING=1
+export CLUTTER_BACKEND="wayland"
+export GDK_BACKEND="wayland,x11"
 
 exec dbus-run-session Hyprland

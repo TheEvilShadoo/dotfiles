@@ -36,7 +36,7 @@ alias top="btop"
 alias tree="lsd --tree"
 alias updots="cd ~/.dotfiles && git add -A && git commit -m 'Update dotfiles' && git push"
 alias vihypr="vim ~/.config/hypr/hyprland.conf"
-alias vimake="doas nvim /etc/portage/make.conf"
+alias vimake="doas vim /etc/portage/make.conf"
 alias vivim="vim ~/.config/lvim/config.lua"
 alias vizsh="vim ~/.config/zsh/.zshrc"
 alias world="bat /var/lib/portage/world"
@@ -72,4 +72,4 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # THE FUN STUFF...
-neofetch --chafa ~/pictures/misc/gentoo_logo.png --size 300
+fastfetch

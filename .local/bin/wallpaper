@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "preload = $(realpath $1)" > ~/.config/hypr/hyprpaper.conf
+echo "wallpaper = ,$(realpath $1)" >> ~/.config/hypr/hyprpaper.conf
+echo "splash = false" >> ~/.config/hypr/hyprpaper.conf
+
+killall hyprpaper
+hyprpaper &
+disown hyprpaper

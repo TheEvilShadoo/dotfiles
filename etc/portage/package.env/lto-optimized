@@ -1,0 +1,14 @@
+# Aggressive optimizations for select packages
+media-gfx/gimp lto.conf
+media-gfx/imagemagick lto.conf
+media-libs/flac O3.conf
+media-libs/gegl lto.conf
+media-libs/libvpx lto.conf
+media-libs/opus lto.conf
+media-libs/x264 lto.conf
+media-libs/x265 lto.conf
+media-sound/lame lto.conf
+media-video/ffmpeg lto.conf
+media-video/mpv lto.conf
+sys-devel/gcc lto.conf
+sys-libs/glibc O3.conf

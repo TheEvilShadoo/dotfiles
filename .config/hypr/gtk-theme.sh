@@ -12,5 +12,8 @@ font_name="$(grep 'gtk-font-name' "$config" | sed 's/.*\s*=\s*//')"
 gsettings set "$gnome_schema" gtk-theme Dracula
 gsettings set "$gnome_schema" icon-theme Dracula
 gsettings set org.gnome.desktop.wm.preferences theme Dracula &
+gsettings set org.gnome.desktop.interface cursor-size 24
 gsettings set "$gnome_schema" cursor-theme "$cursor_theme"
 gsettings set "$gnome_schema" font-name "$font_name"
+gsettings set org.gtk.Settings.FileChooser window-size '(800,600)'
+gsettings set org.cinnamon.desktop.default-applications.terminal exec footclient

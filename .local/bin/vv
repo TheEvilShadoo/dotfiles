@@ -211,8 +211,8 @@ prerequisites() {
     local -i returncode=0
 
     # Critical dependencies which cause fatal errors
-    if ! command -v convert >/dev/null; then
-	error "Please install ImageMagick for convert and identify"
+    if ! command -v magick >/dev/null; then
+	error "Please install ImageMagick for magick and identify"
 	returncode=1
     fi
 
@@ -436,7 +436,7 @@ hassixelordie() {
 
 	You may test your terminal by viewing a single image, like so:
 
-		convert  foo.jpg  -geometry 800x480  sixel:-
+		magick  foo.jpg  -geometry 800x480  sixel:-
 
 	If your terminal actually does support sixel, please file a bug
 	report at http://github.com/hackerb9/vv/issues
@@ -791,7 +791,7 @@ editproperty() {
 
     e "Writing comment into $file..."
     local t=$(mktemp "/tmp/$(basename $0).XXXXXX") || return 1
-    cp "$file" "$t"  &&  convert "$t" -set "$propname" "$newproperty" "$file"
+    cp "$file" "$t"  &&  magick "$t" -set "$propname" "$newproperty" "$file"
     rm "$t"
 }
 
@@ -831,7 +831,7 @@ yandeximagesearch() {
 	# It's a video, so search only for first frame.
 	echo "searching only first frame of video" >&2
 	file="$tmpdir/frame0.jpg"
-	convert  "file://$1[0]"  "$file"
+	magick  "file://$1[0]"  "$file"
 	deleteme="$file"
     fi
 
@@ -842,7 +842,7 @@ yandeximagesearch() {
 
     # Upload the image and save the output to search through.
     # Note: Curl's "@filename" splits filenames with commas & semicolons.
-    output=$(convert -sample "$scale"  "$file"  jpeg:- |
+    output=$(magick -sample "$scale"  "$file"  jpeg:- |
 		 curl --max-time 30  --cookie "$cookie" \
 		      --form upfile='@-;filename=foo.jpg'  $url)
     if [[ $? -gt 0 ]]; then return; fi
@@ -900,14 +900,14 @@ numframes() {
     # faced with a video. Rely on mediainfo/ffprobe instead.
     case $(mimetype "$file") in
 	video/*)		#  («Radio killed?»)
-	    # MediaInfo is faster than convert, but doesn't handle GIF, APNG.
+	    # MediaInfo is faster than magick, but doesn't handle GIF, APNG.
 	    mediainfo  --Inform='Video;%FrameCount%'  "$file"
 	    ;;
 	*|image/*)		# An image file. (default)
 	    shopt -s nocasematch
 	    if [[ $file == *gif || $file == *png  ]]; then
 		# Note, it is much faster to pipe to 'wc' than to use
-		# `convert "$file[-1]" -format "%[scene]" info:-`
+		# `magick "$file[-1]" -format "%[scene]" info:-`
 		identify "$file" | wc -l
 	    else
 		echo 1
@@ -1213,7 +1213,7 @@ showimage() {
     local gt=""
     if [[ "$zoomin" ]]; then gt=""; else gt=">"; fi
 
-    # Centering an image can slow down convert by <200ms. XXX Worth it?
+    # Centering an image can slow down magick by <200ms. XXX Worth it?
     local centering="-gravity center -extent ${width}x${height}"
 
     # crop gets set in "fit width" mode, below.
@@ -1280,7 +1280,7 @@ showimage() {
 	    echo -n "${aalias:+, antialiased}"
 	    echo -en " view...\r"
 	    output=$( ${DEBUG:+debugdo} ${TIME} \
-		convert -background $background -auto-orient ${dorotate} \
+		magick -background $background -auto-orient ${dorotate} \
 			$extract \
 			-$resize "$geometry"  \
 			$crop \
@@ -1303,7 +1303,7 @@ showimage() {
 	    output=$(
 		echo -en "\e]8;;${osc8uri}\e\\" # Begin OSC 8 URI linking
 		${DEBUG:+debugdo} ${TIME} \
-		convert "file://$1[0]" \
+		magick "file://$1[0]" \
 			-auto-orient \
 			-$resize "$geometry" \
 			+repage -background $background \
@@ -1562,7 +1562,7 @@ doit () {
 		i) id "$f"			# Quick info
 		   ;;
 		I)				# Verbose info.
-		    convert "file://$f[0]" \
+		    magick "file://$f[0]" \
 			    -print "%[option:*]%[artifact:*]%[*]" \
 			    null:- | grep -v '^filename='
 		    echo $(realpath "$f")
@@ -1809,7 +1809,7 @@ dotfordot() {
     # pieces line up with the terminal text so there are no gaps.
     # Needs to be a multiple of the terminal's font height and width in pixels.
 
-    convert "$f" -crop ${wzoom}x${hzoom}@  -set filename:offset "%X %Y %w %h" \
+    magick "$f" -crop ${wzoom}x${hzoom}@  -set filename:offset "%X %Y %w %h" \
 	    +adjoin "$tmpdir/%[filename:offset] crop.ppm"
 
 
@@ -1817,7 +1817,7 @@ dotfordot() {
     local IFS=$'\n'
     for f in $(ls -1v $tmpdir/*crop.ppm); do
 	echo -en "$f\r"
-	convert "$f" "$f.sixel"
+	magick "$f" "$f.sixel"
 	cat "$f.sixel"
     done
 

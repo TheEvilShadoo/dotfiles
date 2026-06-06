@@ -1,2 +1,0 @@
-virtual/wine ABI_X86: 64 32 staging
-app-emulation/wine-staging X ABI_X86: 64 32
