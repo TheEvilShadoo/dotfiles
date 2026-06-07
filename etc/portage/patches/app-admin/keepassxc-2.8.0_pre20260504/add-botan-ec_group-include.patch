@@ -1,5 +1,5 @@
 --- a/src/sshagent/OpenSSHKeyGen.cpp
-+++ b/src/sshagent/OpenSSHKeyGen.cpp
++++ a/src/sshagent/OpenSSHKeyGen.cpp
 @@ -24,4 +24,5 @@
  #include <botan/bigint.h>
  #include <botan/ecdsa.h>

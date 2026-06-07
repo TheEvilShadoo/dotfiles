@@ -1,4 +1,4 @@
-games-util/steam-launcher       trayicon
+games-util/steam-launcher steamvr trayicon
 games-util/game-device-udev-rules acl
 
 app-accessibility/at-spi2-core  abi_x86_32
@@ -20,7 +20,6 @@ dev-libs/libffi                 abi_x86_32
 dev-libs/libgcrypt              abi_x86_32
 dev-libs/libgpg-error           abi_x86_32
 dev-libs/libgudev               abi_x86_32
-dev-libs/libgusb                abi_x86_32
 dev-libs/libpcre2               abi_x86_32
 dev-libs/libtasn1               abi_x86_32
 dev-libs/libunistring           abi_x86_32
@@ -72,7 +71,7 @@ net-misc/curl                   abi_x86_32
 net-misc/networkmanager         abi_x86_32
 net-print/cups                  abi_x86_32
 sys-apps/dbus                   abi_x86_32 X
-sys-apps/systemd-utils  	abi_x86_32
+sys-apps/systemd-utils          abi_x86_32
 sys-apps/util-linux             abi_x86_32
 sys-libs/gdbm                   abi_x86_32
 sys-libs/gpm                    abi_x86_32
