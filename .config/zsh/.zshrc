@@ -11,36 +11,29 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 plugins=(dirhistory git)
 
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# PATH
-export PATH="$HOME/.local/bin:$HOME/.local/bin/statusbar:/usr/local/bin:/etc/eselect/wine/bin:${PATH}"
-
 # Source scripts
 source $ZSH/oh-my-zsh.sh
 
 # Define aliases
 alias ani-cli="ani-cli -q best"
-alias cat="bat"
-alias cpv='rsync -ah --info=progress2'
+alias cpv="rsync -ah --info=progress2"
 alias doas=$'nocorrect doas\t'
 alias du="du -h"
+alias imv="imv-dir"
 alias lf="lf-sixel"
-alias librewolf="librewolf-bin"
-alias ls="lsd"
-alias neofetch="neofetch --chafa ~/pictures/misc/gentoo_logo.png --size 219"
+alias sl="ls"
 alias sudo=$'nocorrect doas\t'
 alias top="btop"
-alias tree="lsd --tree"
 alias updots="cd ~/.dotfiles && git add -A && git commit -m 'Update dotfiles' && git push"
+alias vidoas="doasedit"
+alias vihosts="doasedit /etc/hosts"
 alias vihypr="vim ~/.config/hypr/hyprland.conf"
-alias vimake="doas vim /etc/portage/make.conf"
-alias vivim="vim ~/.config/lvim/config.lua"
+alias vimake="doasedit /etc/portage/make.conf"
+alias vivim="vim ~/.config/nvim/init.lua"
 alias vizsh="vim ~/.config/zsh/.zshrc"
-alias world="bat /var/lib/portage/world"
-alias ytfzf="ytfzf -t -T sixel --async-thumbnails"
+alias world="cat /var/lib/portage/world | less"
+
+export PATH="$HOME/.local/bin:$HOME/.local/bin/statusbar:/usr/local/bin:/etc/eselect/wine/bin:${PATH}"
 
 # Fix foot ssh rendering
 if [[ $TERM = "foot" ]]; then

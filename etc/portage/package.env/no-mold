@@ -1,9 +1,7 @@
-app-admin/grub-customizer no-mold.conf
-app-emulation/wine-staging no-mold.conf
-app-text/ghostscript-gpl no-mold.conf
+app-admin/keepassxc no-mold.conf
 app-shells/bash no-mold.conf
+app-text/ghostscript-gpl no-mold.conf
 dev-cpp/atkmm no-mold.conf
-dev-cpp/libmcpp no-mold.conf
 dev-cpp/pangomm no-mold.conf
 dev-db/sqlite no-mold.conf
 dev-libs/boost no-mold.conf
@@ -25,6 +23,7 @@ dev-qt/qtdeclarative no-mold.conf
 dev-qt/qtmultimedia no-mold.conf
 dev-util/google-perftools no-mold.conf
 dev-util/mingw64-toolchain no-mold.conf
+llvm-core/llvm no-mold.conf
 media-libs/alsa-lib no-mold.conf
 media-libs/flac no-mold.conf
 media-libs/harfbuzz no-mold.conf
@@ -36,11 +35,10 @@ media-video/pipewire no-mold.conf
 net-dns/c-ares no-mold.conf
 net-dns/libidn2 no-mold.conf
 net-ftp/filezilla no-mold.conf
-net-irc/quassel no-mold.conf
-net-irc/weechat no-mold.conf
 net-libs/gnutls no-mold.conf
 net-libs/nodejs no-mold.conf
 net-mail/notmuch no-mold.conf
+sys-apps/fwupd-efi no-mold.conf
 sys-apps/hwinfo no-mold.conf
 sys-apps/iproute2 no-mold.conf
 sys-apps/lm-sensors no-mold.conf

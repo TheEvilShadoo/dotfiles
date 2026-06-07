@@ -1,7 +1,5 @@
 #!/bin/sh
 
-killall hypridle
-
 # Sync up
 doas emerge --sync --jobs `nproc`
 
@@ -67,7 +65,7 @@ if [ $EMERGE_STATUS -eq 0 ]; then
     doas emerge -c
 
     # Completion message
-    cowsay Emerge complete! | lolcat
+    cowsay Emerge Complete! | lolcat
+else
+    cowsay Emerge Failed! | lolcat
 fi
-
-hyprctl --quiet dispatch exec hypridle
