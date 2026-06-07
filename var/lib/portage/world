@@ -23,7 +23,6 @@ app-eselect/eselect-python
 app-eselect/eselect-repository
 app-eselect/eselect-wine
 app-misc/brightnessctl
-app-misc/ckb
 app-misc/cliphist
 app-misc/cmatrix
 app-misc/ddcutil
@@ -233,6 +232,7 @@ sys-kernel/cachyos-sources
 sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-power/acpid
+sys-power/power-profiles-daemon
 sys-power/powertop
 sys-process/btop
 sys-process/cronie
