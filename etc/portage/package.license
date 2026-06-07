@@ -1,0 +1,3 @@
+games-emulation/dolphin FatFs
+games-util/steam-launcher ValveSteamLicense
+sys-kernel/linux-firmware linux-fw-redistributable

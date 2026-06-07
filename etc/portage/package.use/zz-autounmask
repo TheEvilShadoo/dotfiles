@@ -1,0 +1,21 @@
+# required by grub
+sys-boot/grub mount
+# required by zlib
+sys-libs/zlib minizip
+# required by nemo
+dev-libs/libxmlb introspection
+# required by net-libs/gnutls-3.8.12-r1::gentoo[post-quantum]
+# required by media-video/ffmpeg-8.1::gentoo[gnutls,-openssl]
+# required by media-video/mpv-0.41.0-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/leancrypto-1.7.2-r3 abi_x86_32
+# required by games-emulation/dolphin
+dev-qt/qtbase X
+# required by x11-libs/xapp-3.2.2::gentoo[introspection]
+# required by gnome-extra/nemo-6.6.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pygobject-3.56.3 python_targets_python3_13
+# required by fetchcommandwrapper
+net-misc/aria2 metalink xmlrpc

@@ -11,47 +11,39 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 plugins=(dirhistory git)
 
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# PATH
-export PATH="$HOME/.local/bin:$HOME/.local/bin/statusbar:/usr/local/bin:/etc/eselect/wine/bin:${PATH}"
-
 # Source scripts
 source $ZSH/oh-my-zsh.sh
 
 # Define aliases
 alias ani-cli="ani-cli -q best"
-alias cat="bat"
-alias cpv='rsync -ah --info=progress2'
+alias cpv="rsync -ah --info=progress2"
 alias doas=$'nocorrect doas\t'
 alias du="du -h"
+alias imv="imv-dir"
 alias lf="lf-sixel"
-alias librewolf="librewolf-bin"
-alias ls="lsd"
-alias neofetch="neofetch --chafa ~/pictures/misc/gentoo_logo.png --size 219"
+alias sl="ls"
 alias sudo=$'nocorrect doas\t'
 alias top="btop"
-alias tree="lsd --tree"
 alias updots="cd ~/.dotfiles && git add -A && git commit -m 'Update dotfiles' && git push"
+alias vidoas="doasedit"
+alias vihosts="doasedit /etc/hosts"
 alias vihypr="vim ~/.config/hypr/hyprland.conf"
-alias vimake="doas vim /etc/portage/make.conf"
-alias vivim="vim ~/.config/lvim/config.lua"
+alias vimake="doasedit /etc/portage/make.conf"
+alias vivim="vim ~/.config/nvim/init.lua"
 alias vizsh="vim ~/.config/zsh/.zshrc"
-alias world="bat /var/lib/portage/world"
-alias ytfzf="ytfzf -t -T sixel --async-thumbnails"
+alias world="cat /var/lib/portage/world | less"
+
+export PATH="$HOME/.local/bin:$HOME/.local/bin/statusbar:/usr/local/bin:/etc/eselect/wine/bin:${PATH}"
 
 # Fix foot ssh rendering
 if [[ $TERM = "foot" ]]; then
   alias ssh='TERM=linux ssh'
 fi
-
 # Define Dracula TTY colorscheme and TTY-specific aliases
 if [ "$TERM" = "linux" ]; then
 	printf %b '\e[40m' '\e[8]' # set default background to color 0 'dracula-bg'
 	printf %b '\e[37m' '\e[8]' # set default foreground to color 7 'dracula-fg'
-#	printf %b '\e]P0282a36'    # redefine 'black'          as 'dracula-bg'
+# printf %b '\e]P0282a36'    # redefine 'black'          as 'dracula-bg'
 	printf %b '\e]P86272a4'    # redefine 'bright-black'   as 'dracula-comment'
 	printf %b '\e]P1ff5555'    # redefine 'red'            as 'dracula-red'
 	printf %b '\e]P9ff7777'    # redefine 'bright-red'     as '#ff7777'
@@ -72,4 +64,9 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # THE FUN STUFF...
-fastfetch
+CURRENT_MONITOR=$(hyprctl activewindow | grep "monitor" | tail -1 | awk '{print $2}')
+if [[ $CURRENT_MONITOR -eq 1 ]]; then
+    fastfetch --logo-width 30
+else
+    fastfetch
+fi

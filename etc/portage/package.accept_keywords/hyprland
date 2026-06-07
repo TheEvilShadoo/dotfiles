@@ -1,0 +1,2 @@
+gui-wm/hyprland::hyproverlay ~amd64
+dev-cpp/glaze::hyproverlay

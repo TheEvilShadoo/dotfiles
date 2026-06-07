@@ -1,0 +1,9 @@
+--- a/Source/DSPTool/CMakeLists.txt
++++ b/Source/DSPTool/CMakeLists.txt
+@@ -1,5 +1,5 @@
+ add_executable(dsptool DSPTool.cpp StubHost.cpp)
+-target_link_libraries(dsptool core)
++target_link_libraries(dsptool core uicommon)
+ if(NOT APPLE)
+   install(TARGETS dsptool RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+ endif()
