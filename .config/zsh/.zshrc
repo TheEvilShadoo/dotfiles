@@ -64,9 +64,4 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # THE FUN STUFF...
-CURRENT_MONITOR=$(hyprctl activewindow | grep "monitor" | tail -1 | awk '{print $2}')
-if [[ $CURRENT_MONITOR -eq 1 ]]; then
-    fastfetch --logo-width 30
-else
-    fastfetch
-fi
+fastfetch
