@@ -1,13 +1,13 @@
 {
     "layer": "top", // Waybar at top layer
-    "output": "DP-1",
+    "output": ["DP-1", "HDMI-A-1"],
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 35, // Waybar height (to be removed for auto height)
+    "height": 43, // Waybar height (to be removed for auto height)
     // "width": 90%, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces"],
-    "modules-right": ["pulseaudio", "mpd", "network", "cpu", "memory", "temperature", "clock", "tray"],
+    "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
+    "modules-right": ["pulseaudio", "battery", "network", "cpu", "memory", "temperature", "clock", "tray"],
     // Modules configuration
     "hyprland/workspaces": {
          "disable-scroll": false,
@@ -15,7 +15,7 @@
          "on-scroll-down": "hyprctl dispatch workspace e+1",
          "on-scroll-up": "hyprctl dispatch workspace e-1",
          "on-click": "activate",
-         "format": "{icon}",
+         "format": "{name}",
          "format-icons": {
              "1": "",
              "2": "",
@@ -30,6 +30,18 @@
              "focused": "",
              "default": ""
          } 
+    },
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "tooltip-format": "{title}",
+        "icon-size": 20,
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [
+            "footclient",
+            "foot",
+            "vrmonitor"
+        ]
     },
     "keyboard-state": {
         "numlock": true,
@@ -75,14 +87,23 @@
         }
     },
     "tray": {
-        // "icon-size": 21,
+        //"icon-size": 18,
         "spacing": 10
+    },
+    "custom/weather": {
+        "exec": "~/.config/waybar/scripts/wittr.sh",
+        "return-type": "json",
+        "format": "{}",
+        "icon": "",
+        "tooltip": true,
+        "interval": 900
     },
     "clock": {
         "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-	    "format": "{:%a, %d %b, %I:%M %p}",
-        "on-click": "$HOME/.config/waybar/scripts/cal"
+	    "format": "{:%a, %d %b, %H:%M}",
+	    //"format": "{:%a, %d %b, %I:%M %p}",
+        //"on-click": "$HOME/.config/waybar/scripts/cal"
     },
     "cpu": {
         "format": "{usage}% ",
@@ -110,8 +131,8 @@
     "battery": {
         "states": {
             // "good": 95,
-            "warning": 30,
-            "critical": 15
+            "warning": 10,
+            "critical": 5
         },
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% ",
@@ -127,12 +148,12 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "Ethernet ",
+        "format-ethernet": "󰈀",
         "tooltip-format": "{ifname} via {gwaddr}",
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Disconnected ⚠",
         //"format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "on-click": "footclient -e bmon"
+        "on-click": "footclient -e nmtui"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

@@ -1,0 +1,4 @@
+games-emulation/dolphin FatFs
+games-util/steam-launcher ValveSteamLicense
+sys-firmware/intel-microcode intel-ucode
+sys-kernel/linux-firmware linux-fw-redistributable

@@ -1,0 +1,145 @@
+# required by lolcat (argument)
+=games-misc/lolcat-100.0.1-r3 ~amd64
+# required by cliphist (argument)
+=app-misc/cliphist-0.7.0 ~amd64
+# required by lazygit (argument)
+=dev-vcs/lazygit-0.61.1 ~amd64
+# required by openxr-loader (argument)
+=media-libs/openxr-loader-1.1.54 ~amd64
+# required by lact (argument)
+=sys-apps/lact-0.9.0 ~amd64
+# required by xdg-desktop-portal-hyprland (argument)
+=gui-libs/xdg-desktop-portal-hyprland-1.3.12 ~amd64
+# required by ananicy-cpp (argument)
+=app-admin/ananicy-cpp-1.2.0 ~amd64
+# required by rofi-wayland (argument)
+=gui-apps/rofi-wayland-1.7.8_p1 ~amd64
+# required by vesktop-bin (argument)
+=net-im/vesktop-bin-1.6.5 ~amd64
+# required by helvum (argument)
+=media-sound/helvum-0.5.1-r4 ~amd64
+# required by OpenTabletDriver (argument)
+=x11-drivers/OpenTabletDriver-0.6.6.2 ~amd64
+# required by steam-launcher (argument)
+=games-util/steam-launcher-1.0.0.85-r3 ~amd64
+# required by esteam (argument)
+=games-util/esteam-0.20251117 ~amd64
+# required by gamescope (argument)
+=gui-wm/gamescope-3.16.24 ~amd64
+# required by fetchcommandwrapper (argument)
+=app-portage/fetchcommandwrapper-1.0.0-r1 ~amd64
+# required by noise-suppression-for-voice (argument)
+=media-libs/noise-suppression-for-voice-1.10-r2 ~amd64
+# required by gui-libs/xdg-desktop-portal-hyprland-1.3.12::hyproverlay
+# required by @selected
+# required by @world (argument)
+=dev-libs/hyprland-protocols-0.7.0 ~amd64
+# required by sys-apps/lact-0.9.0::guru
+# required by @selected
+# required by @world (argument)
+=dev-util/clinfo-3.0.25.02.14 ~amd64
+# required by gui-libs/xdg-desktop-portal-hyprland-1.3.12::hyproverlay
+# required by @selected
+# required by @world (argument)
+=dev-util/hyprwayland-scanner-0.4.6 ~amd64
+# required by dev-libs/hyprlang-0.6.8::hyproverlay
+# required by gui-libs/xdg-desktop-portal-hyprland-1.3.12::hyproverlay
+# required by @selected
+# required by @world (argument)
+=gui-libs/hyprutils-0.13.1 ~amd64
+# required by gui-libs/xdg-desktop-portal-hyprland-1.3.12::hyproverlay
+# required by @selected
+# required by @world (argument)
+=dev-libs/hyprlang-0.6.8 ~amd64
+# required by @preserved-rebuild (argument)
+=gui-libs/aquamarine-0.12.0 ~amd64
+# required by gui-wm/hyprland-0.55.2-r1::hyproverlay
+# required by app-misc/hyprqt6engine-0.1.0::hyproverlay
+# required by app-misc/hyprqt6engine (argument)
+=dev-libs/hyprgraphics-0.5.1-r1 ~amd64
+# required by gui-libs/hyprland-guiutils-0.2.1::hyproverlay
+# required by gui-wm/hyprland-0.55.2-r1::hyproverlay[guiutils]
+# required by app-misc/hyprqt6engine-0.1.0::hyproverlay
+# required by app-misc/hyprqt6engine (argument)
+=gui-libs/hyprtoolkit-0.5.4 ~amd64
+# required by sys-auth/hyprpolkitagent (argument)
+=sys-auth/hyprpolkitagent-0.1.3-r1 ~amd64
+# required by app-admin/keepassxc (argument)
+>=app-admin/keepassxc-2.8.0_pre20260504 ~amd64
+# required by games-util/protonup (argument)
+=games-util/protonup-0.1.5 ~amd64
+# required by dev-python/materialyoucolor (argument)
+>=dev-python/materialyoucolor-9999 **
+# required by media-fonts/nerd-fonts (argument)
+>=media-fonts/nerd-fonts-3.4.0 ~amd64
+# required by x11-themes/adw-gtk3 (argument)
+>=x11-themes/adw-gtk3-5.10 ~amd64
+# required by app-admin/ananicy-rules-cachyos (argument)
+>=app-admin/ananicy-rules-cachyos-1.1.38 ~amd64
+# required by dev-util/dart-sass (argument)
+>=dev-util/dart-sass-1.100.0 ~amd64
+# required by gui-libs/hyprland-qt-support (argument)
+=gui-libs/hyprland-qt-support-0.1.0-r1 ~amd64
+# required by app-misc/hyprqt6engine (argument)
+=app-misc/hyprqt6engine-0.1.0 ~amd64
+# required by dev-cpp/cpptrace-1.0.4-r1::gentoo
+# required by dev-cpp/cpptrace (argument)
+>=dev-libs/libdwarf-2.3.1 ~amd64
+# required by gui-wm/hyprland-0.55.2-r1::hyproverlay
+# required by app-misc/hyprqt6engine-0.1.0::hyproverlay
+# required by app-misc/hyprqt6engine (argument)
+=gui-libs/hyprwire-0.3.1 ~amd64
+# required by media-sound/libcava (argument)
+>=media-sound/libcava-0.10.7-r1 ~amd64
+# required by x11-misc/ly (argument)
+>=x11-misc/ly-1.4.1 ~amd64
+# required by gui-wm/hyprland-0.55.2-r1::hyproverlay
+# required by app-misc/hyprqt6engine-0.1.0::hyproverlay
+# required by app-misc/hyprqt6engine (argument)
+=gui-libs/hyprcursor-0.1.13-r1 ~amd64
+# required by gui-wm/hyprland-0.55.2-r1::hyproverlay[guiutils]
+# required by app-misc/hyprqt6engine-0.1.0::hyproverlay
+# required by app-misc/hyprqt6engine (argument)
+=gui-libs/hyprland-guiutils-0.2.1 ~amd64
+# required by dev-cpp/cpptrace (argument)
+>=dev-cpp/cpptrace-1.0.4-r1 ~amd64
+# required by app-misc/brightnessctl (argument)
+>=app-misc/brightnessctl-0.5.1 ~amd64
+# required by gui-apps/fuzzel (argument)
+>=gui-apps/fuzzel-1.14.1 ~amd64
+# required by games-util/gamemode (argument)
+=games-util/gamemode-1.8.2 ~amd64
+# required by gui-apps/hyprpicker (argument)
+=gui-apps/hyprpicker-0.4.7 ~amd64
+# required by sys-apps/seedfiles (argument)
+=sys-apps/seedfiles-1.6 ~amd64
+# required by media-video/gpu-screen-recorder (argument)
+=media-video/gpu-screen-recorder-5.13.6 ~amd64
+# required by media-libs/theoraplay (argument)
+>=media-libs/theoraplay-0_pre20180524-r2 ~amd64
+# required by dev-libs/libgcrypt-compat (argument)
+>=dev-libs/libgcrypt-compat-1.5.6 ~amd64
+# required by @esteam
+# required by @selected
+# required by @world (argument)
+>=media-libs/jpeg-compat-2.0.6-r801 ~amd64
+# required by sys-libs/libstdc++-v3 (argument)
+>=sys-libs/libstdc++-v3-3.3.6-r5 ~amd64
+# required by games-misc/lolcat-100.0.1-r3::gentoo[ruby_targets_ruby33]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/paint-2.3.0-r1 ~amd64
+# required by gui-libs/xdg-desktop-portal-hyprland-1.3.12::hyproverlay
+# required by @selected
+# required by @world (argument)
+>=dev-cpp/sdbus-c++-2.3.1 ~amd64
+# required by games-misc/lolcat-100.0.1-r3::gentoo[ruby_targets_ruby33]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/optimist-3.2.1 ~amd64
+# required by @esteam
+# required by @selected
+# required by @world (argument)
+>=net-libs/libcurl-debian-4 ~amd64
+# required by media-libs/vkroots (argument)
+>=media-libs/vkroots-0_p20240430 ~amd64

@@ -1,0 +1,21 @@
+# Remove files that shall not be installed from this list.
+amdgpu/vcn_4_0_0.bin
+amdgpu/smu_13_0_0.bin
+amdgpu/sdma_6_0_0.bin
+amdgpu/psp_13_0_0_ta.bin
+amdgpu/psp_13_0_0_sos.bin
+amdgpu/dcn_3_2_0_dmcub.bin
+amdgpu/gc_11_0_0_rlc.bin
+amdgpu/gc_11_0_0_pfp.bin
+amdgpu/gc_11_0_0_mes_2.bin
+amdgpu/gc_11_0_0_mes.bin
+amdgpu/gc_11_0_0_mes1.bin
+amdgpu/gc_11_0_0_mec.bin
+amdgpu/gc_11_0_0_me.bin
+amdgpu/gc_11_0_0_imu.bin
+intel/ibt-19-32-4.ddc
+intel/ibt-19-32-4.sfi
+intel/ibt-19-0-4.ddc
+intel/ibt-19-0-4.sfi
+intel/iwlwifi/iwlwifi-9000-pu-b0-jf-b0-38.ucode
+iwlwifi-9000-pu-b0-jf-b0-38.ucode

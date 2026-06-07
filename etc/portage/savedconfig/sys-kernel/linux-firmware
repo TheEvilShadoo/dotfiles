@@ -1,0 +1,23 @@
+# Remove files that shall not be installed from this list.
+# AMDGPU
+amdgpu/gc_11_0_0_imu.bin
+amdgpu/gc_11_0_0_pfp.bin
+amdgpu/gc_11_0_0_me.bin
+amdgpu/gc_11_0_0_rlc.bin
+amdgpu/gc_11_0_0_mec.bin
+amdgpu/gc_11_0_0_mes.bin
+amdgpu/gc_11_0_0_mes1.bin
+amdgpu/psp_13_0_0_sos.bin
+amdgpu/psp_13_0_0_ta.bin
+amdgpu/smu_13_0_0.bin
+amdgpu/dcn_3_2_0_dmcub.bin
+amdgpu/sdma_6_0_0.bin
+amdgpu/vcn_4_0_0.bin
+amdgpu/gc_11_0_0_mes_2.bin
+
+# Intel AC-9462 BT/Wi-Fi
+# Note: All FW is needed for BT, but Wi-Fi is disabled in kernel
+# Add CONFIG_IWLMVM If you need Wi-Fi in the future.
+iwlwifi-9000-pu-b0-jf-b0-38.ucode # BT/Wi-Fi Firmware (38 known good. 46 might be bad.)
+intel/ibt-19-32-4.sfi             # BT Firmware
+intel/ibt-19-32-4.ddc             # BT configuration data

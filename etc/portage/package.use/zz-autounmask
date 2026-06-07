@@ -1,0 +1,50 @@
+# required by grub
+sys-boot/grub mount
+# required by zlib
+sys-libs/zlib minizip
+# required by nemo
+dev-libs/libxmlb introspection
+# required by gnutls, ffmpeg, mpv
+>=dev-libs/leancrypto-1.7.2-r3 abi_x86_32
+# required by dolphin
+dev-qt/qtbase X
+# required by xapp, nemo
+>=dev-python/pygobject-3.56.3 python_targets_python_3_13
+# required by net-misc/curl-8.19.0::gentoo[openssl,quic]
+# required by dev-libs/elfutils-0.195::gentoo[debuginfod]
+# required by sys-devel/binutils-2.46.0::gentoo[debuginfod]
+# required by @system
+# required by @world (argument)
+>=net-libs/ngtcp2-1.22.0 abi_x86_32
+# required by net-libs/nghttp2-1.68.0::gentoo[jemalloc]
+# required by net-misc/curl-8.19.0::gentoo[http2]
+# required by dev-libs/elfutils-0.195::gentoo[debuginfod]
+# required by sys-devel/binutils-2.46.0::gentoo[debuginfod]
+# required by @system
+# required by @world (argument)
+>=dev-libs/jemalloc-5.3.0-r2 abi_x86_32
+# required by gnome-extra/nemo-6.6.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xapp-3.2.2 introspection
+# required by app-portage/pfl-3.5.3::gentoo[network-cron]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/util-linux-2.41.4-r1 caps
+# required by mesa
+media-libs/libdisplay-info abi_x86_32
+# required by fetchcommandwrapper
+net-misc/aria2 metalink xmlrpc
+# required by x11-drivers/xf86-video-ati-22.0.0::gentoo
+# required by @preserved-rebuild (argument)
+>=x11-libs/libdrm-2.4.131 video_cards_radeon
+# required by dev-db/redis-8.2.6::gentoo[jemalloc]
+# required by dev-db/redis (argument)
+>=dev-libs/jemalloc-5.3.0-r2 stats
+# required by app-emulation/wine-proton-10.0.4::gentoo[-crossdev-mingw,wow64]
+# required by app-emulation/wine-proton (argument)
+>=dev-util/mingw64-toolchain-14.0.0 abi_x86_32
+# required by libcurl-debian
+net-libs/libcurl-debian abi_x86_32
+# required by libgcrypt-compat
+dev-libs/libgcrypt-compat abi_x86_32

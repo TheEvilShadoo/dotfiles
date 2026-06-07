@@ -39,12 +39,11 @@ export PATH="$HOME/.local/bin:$HOME/.local/bin/statusbar:/usr/local/bin:/etc/ese
 if [[ $TERM = "foot" ]]; then
   alias ssh='TERM=linux ssh'
 fi
-
 # Define Dracula TTY colorscheme and TTY-specific aliases
 if [ "$TERM" = "linux" ]; then
 	printf %b '\e[40m' '\e[8]' # set default background to color 0 'dracula-bg'
 	printf %b '\e[37m' '\e[8]' # set default foreground to color 7 'dracula-fg'
-#	printf %b '\e]P0282a36'    # redefine 'black'          as 'dracula-bg'
+# printf %b '\e]P0282a36'    # redefine 'black'          as 'dracula-bg'
 	printf %b '\e]P86272a4'    # redefine 'bright-black'   as 'dracula-comment'
 	printf %b '\e]P1ff5555'    # redefine 'red'            as 'dracula-red'
 	printf %b '\e]P9ff7777'    # redefine 'bright-red'     as '#ff7777'
@@ -65,4 +64,9 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # THE FUN STUFF...
-fastfetch
+CURRENT_MONITOR=$(hyprctl activewindow | grep "monitor" | tail -1 | awk '{print $2}')
+if [[ $CURRENT_MONITOR -eq 1 ]]; then
+    fastfetch --logo-width 30
+else
+    fastfetch
+fi

@@ -5,7 +5,6 @@ app-admin/eclean-kernel
 app-admin/keepassxc
 app-admin/logrotate
 app-admin/mcelog
-app-admin/stow
 app-admin/sysklogd
 app-arch/atool
 app-arch/lz4
@@ -111,7 +110,6 @@ gui-apps/foot
 gui-apps/fuzzel
 gui-apps/grim
 gui-apps/hyprpicker
-gui-apps/rofi-wayland
 gui-apps/slurp
 gui-apps/swappy
 gui-apps/wl-clipboard
