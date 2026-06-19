@@ -48,6 +48,7 @@ app-text/evince
 app-text/tree
 app-text/zathura
 app-text/zathura-pdf-mupdf
+dev-cpp/cli11
 dev-cpp/cpptrace
 dev-cpp/glaze
 dev-db/redis
@@ -62,6 +63,7 @@ dev-python/materialyoucolor
 dev-python/pip
 dev-python/pynvim
 dev-python/redis
+dev-qt/qtbase
 dev-util/ctags
 dev-util/dart-sass
 dev-util/debugedit
@@ -81,7 +83,6 @@ games-util/protonup
 games-util/steam-launcher
 gnome-extra/nemo
 gnome-extra/nemo-fileroller
-gnome-extra/nm-applet
 gui-apps/foot
 gui-apps/fuzzel
 gui-apps/grim
@@ -153,6 +154,7 @@ sci-libs/libqalculate
 sci-libs/openblas
 sys-apps/fwupd
 sys-apps/gnome-disk-utility
+sys-apps/haveged
 sys-apps/lshw
 sys-apps/plocate
 sys-apps/seedfiles
@@ -181,7 +183,6 @@ sys-power/power-profiles-daemon
 sys-power/powertop
 sys-process/btop
 sys-process/cronie
-virtual/tmpfiles::without-systemd
 www-client/brave-browser
 x11-apps/xrandr
 x11-libs/libnotify

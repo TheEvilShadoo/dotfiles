@@ -15,11 +15,6 @@ location = /var/db/repos/steam-overlay
 sync-type = git
 sync-uri = https://github.com/anyc/steam-overlay.git
 
-[tatsh-overlay]
-location = /var/db/repos/tatsh-overlay
-sync-type = git
-sync-uri = https://github.com/Tatsh/tatsh-overlay.git
-
 [CachyOS-kernels]
 location = /var/db/repos/CachyOS-kernels
 sync-type = git
