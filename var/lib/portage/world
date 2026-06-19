@@ -58,6 +58,7 @@ app-text/tree
 app-text/zathura
 app-text/zathura-pdf-mupdf
 app-text/zathura-pdf-poppler
+dev-cpp/cli11
 dev-cpp/cpptrace
 dev-cpp/eigen
 dev-cpp/glaze
@@ -158,7 +159,6 @@ media-libs/shaderc
 media-libs/theoraplay
 media-sound/alsa-utils
 media-sound/easyeffects
-media-sound/helvum
 media-sound/libcava
 media-sound/mpc
 media-sound/mpd
@@ -188,6 +188,7 @@ net-misc/dhcpcd
 net-misc/netifrc
 net-misc/networkmanager
 net-misc/yt-dlp
+net-news/sfeed
 net-p2p/qbittorrent
 net-print/cups-filters
 net-wireless/blueman
