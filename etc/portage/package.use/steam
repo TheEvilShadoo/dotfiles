@@ -63,12 +63,10 @@ net-dns/c-ares                  abi_x86_32
 net-dns/libidn2                 abi_x86_32
 net-libs/gnutls                 abi_x86_32
 net-libs/libasyncns             abi_x86_32
-net-libs/libndp                 abi_x86_32
 net-libs/libpsl                 abi_x86_32
 net-libs/nghttp2                abi_x86_32
 net-libs/nghttp3                abi_x86_32
 net-misc/curl                   abi_x86_32
-net-misc/networkmanager         abi_x86_32
 net-print/cups                  abi_x86_32
 sys-apps/dbus                   abi_x86_32 X
 sys-apps/systemd-utils          abi_x86_32

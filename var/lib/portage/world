@@ -27,7 +27,6 @@ app-misc/cliphist
 app-misc/cmatrix
 app-misc/ddcutil
 app-misc/fastfetch
-app-misc/hyprqt6engine
 app-misc/openrgb
 app-misc/radeontop
 app-misc/tmux
@@ -154,7 +153,6 @@ media-sound/mpd
 media-sound/mpg123
 media-sound/ncmpcpp
 media-sound/playerctl
-media-sound/pulsemixer
 media-video/ffmpegthumbnailer
 media-video/gpu-screen-recorder
 media-video/mediainfo
@@ -174,12 +172,10 @@ net-misc/aria2
 net-misc/axel
 net-misc/chrony
 net-misc/netifrc
-net-misc/networkmanager
 net-misc/yt-dlp
 net-news/sfeed
 net-p2p/qbittorrent
 net-print/cups-filters
-net-wireless/blueman
 net-wireless/bluez
 net-wireless/wireless-regdb
 sci-libs/libqalculate
@@ -203,7 +199,6 @@ sys-auth/rtkit
 sys-auth/seatd
 sys-block/io-scheduler-udev-rules
 sys-boot/grub
-sys-boot/os-prober
 sys-devel/gcc
 sys-devel/gettext
 sys-devel/mold
@@ -219,7 +214,6 @@ sys-kernel/cachyos-sources
 sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-power/acpid
-sys-power/power-profiles-daemon
 sys-power/powertop
 sys-process/btop
 sys-process/cronie
