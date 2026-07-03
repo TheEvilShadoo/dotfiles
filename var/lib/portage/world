@@ -23,7 +23,6 @@ app-misc/cliphist
 app-misc/cmatrix
 app-misc/ddcutil
 app-misc/fastfetch
-app-misc/hyprqt6engine
 app-misc/jq
 app-misc/radeontop
 app-misc/trash-cli
@@ -187,7 +186,6 @@ www-client/brave-browser
 x11-apps/xrandr
 x11-libs/libnotify
 x11-misc/gammastep
-x11-misc/ly
 x11-misc/sddm
 x11-misc/unclutter-xfixes
 x11-misc/xdg-user-dirs

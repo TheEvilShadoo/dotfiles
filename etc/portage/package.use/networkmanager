@@ -1,1 +1,1 @@
-net-misc/networkmanager -bluetooth -modemmanager
+net-misc/networkmanager -bluetooth -modemmanager -ppp
